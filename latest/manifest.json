@@ -1,0 +1,194 @@
+{
+  "contract_version": "1.0.0",
+  "run_id": "SPX_20260817_125500",
+  "symbol": "SPX",
+  "asset_type": "index",
+  "timestamp": "2026-08-17T12:55:00-04:00",
+  "capture_started_at": "2026-08-17T12:42:57.335989-04:00",
+  "capture_completed_at": "2026-08-17T13:01:10.212322-04:00",
+  "timezone": "America/New_York",
+  "session": "regular",
+  "spot": 7769.0,
+  "previous_close": 7785.76,
+  "expirations": [
+    "2026-08-17",
+    "2026-08-18",
+    "2026-08-19",
+    "2026-08-20",
+    "2026-08-21",
+    "2026-08-24",
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27",
+    "2026-08-28",
+    "2026-08-31",
+    "2026-09-01",
+    "2026-09-02",
+    "2026-09-03",
+    "2026-09-04",
+    "2026-09-08",
+    "2026-09-09",
+    "2026-09-10",
+    "2026-09-11",
+    "2026-09-14",
+    "2026-09-15",
+    "2026-09-16",
+    "2026-09-17",
+    "2026-09-18",
+    "2026-09-21",
+    "2026-09-22",
+    "2026-09-23",
+    "2026-09-25",
+    "2026-09-28",
+    "2026-09-30",
+    "2026-10-02",
+    "2026-10-16",
+    "2026-10-30",
+    "2026-11-03",
+    "2026-11-04",
+    "2026-11-20",
+    "2026-11-30",
+    "2026-12-18",
+    "2026-12-31",
+    "2027-01-15",
+    "2027-01-29",
+    "2027-02-19",
+    "2027-03-19",
+    "2027-03-31",
+    "2027-04-16",
+    "2027-05-21",
+    "2027-06-17",
+    "2027-06-30",
+    "2027-07-16",
+    "2027-08-20",
+    "2027-09-17",
+    "2027-12-17",
+    "2028-06-16",
+    "2028-12-15",
+    "2029-12-21",
+    "2030-12-20",
+    "2031-12-19"
+  ],
+  "data_delay_seconds": 1500,
+  "products": [
+    {
+      "symbol": "SPX",
+      "asset_type": "index",
+      "contract_multiplier": 100.0
+    }
+  ],
+  "sources": [
+    "QuantData",
+    "VolSignals",
+    "MenthorQ"
+  ],
+  "source_definitions": [
+    {
+      "name": "QuantData",
+      "retrieved_at": "2026-08-17T16:55:37.099902+00:00",
+      "data_timestamp": "2026-08-17T12:55:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 0,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "gex_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "vanna_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "delta_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified"
+      },
+      "units": {
+        "exposure": "PER_ONE_DOLLAR_MOVE; exact dollar/contract scaling unverified",
+        "iv": "volatility percentage points",
+        "underlying": "index points",
+        "flow_premium": "USD"
+      },
+      "calculation": {
+        "snapshot_time": "2026-08-17T16:55:00Z",
+        "endpoints": [
+          "stock-price-over-time",
+          "term-structure",
+          "exposure-by-strike",
+          "order-flow/consolidated"
+        ],
+        "flow_coverage": "latest API page, 100 rows requested; rows after run timestamp excluded"
+      }
+    },
+    {
+      "name": "VolSignals",
+      "retrieved_at": "2026-08-17T12:42:58.763113-04:00",
+      "data_timestamp": "2026-08-17T12:30:00-04:00",
+      "feed_type": "realtime",
+      "delay_seconds": 1500,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "status": "unknown; colors and chart direction were not used to infer vendor sign conventions"
+      },
+      "units": {
+        "status": "unknown; screenshots preserved without numeric transcription"
+      },
+      "calculation": {
+        "panel_timestamps": [
+          "2026-08-17T12:40:00-04:00",
+          "2026-08-17T12:30:00-04:00"
+        ],
+        "artifacts": [
+          "screenshots/volsignals_gamma_charm.png",
+          "screenshots/volsignals_vanna_delta.png"
+        ]
+      }
+    },
+    {
+      "name": "MenthorQ",
+      "retrieved_at": "2026-08-17T16:59:43.908Z",
+      "data_timestamp": "2026-08-17T12:45:00-04:00",
+      "feed_type": "realtime",
+      "delay_seconds": 600.0,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "status": "unknown; gateway fields preserved verbatim"
+      },
+      "units": {
+        "levels": "SPX index points",
+        "net_gex": "vendor gateway units, exact scaling unverified",
+        "net_dex": "vendor gateway units, exact scaling unverified"
+      },
+      "calculation": {
+        "frequency": "intraday",
+        "eod_comparison_timestamp": "2026-08-14T16:00:00-04:00",
+        "artifacts": [
+          "source_data/menthorq.json",
+          "screenshots/menthorq_exposure.png",
+          "screenshots/menthorq_matrix.png"
+        ]
+      }
+    }
+  ],
+  "missing_files": [
+    "option_flow_1m.csv",
+    "optiondepth_3d.csv",
+    "short_data.json",
+    "positions.json"
+  ],
+  "notes": "Partial authorized intraday capture at 12:55 ET. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
+  "data_coverage": {
+    "complete": false,
+    "available": {
+      "underlying_1m.csv": "206 SPX regular-session one-minute OHLC rows; no SPX volume/bid/ask",
+      "iv_surface.csv": "7746 fixed-strike IV/delta points",
+      "dealer_exposure.csv": "QuantData GAMMA/VANNA/DELTA by strike and expiration",
+      "option_flow.csv": "98 latest consolidated QuantData flow rows at or before run time",
+      "market_regime.csv": "VIX plus computed SPX front ATM IV and realized volatility",
+      "levels.json": "MenthorQ intraday HVL/resistance/support/1-day range"
+    },
+    "missing_datasets": [
+      "complete option chain with NBBO/OI/full Greeks",
+      "cliff/CDF/PDF levels derived from a complete same-time chain",
+      "full-session option flow and 1-minute flow aggregation",
+      "ES/SPY/NQ/QQQ and full market-regime cross-asset fields",
+      "VolSignals numeric export/sign/unit definitions",
+      "OptionDepth 3D numeric export"
+    ]
+  }
+}

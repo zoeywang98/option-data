@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-08-17T12:55:00-04:00",
+  "symbol": "SPX",
+  "economic_events": [],
+  "earnings": [],
+  "ex_dividend": [],
+  "opex": [
+    {
+      "timestamp": "2026-08-17T16:00:00-04:00",
+      "product": "SPXW",
+      "settlement": "PM",
+      "is_0dte": true,
+      "status": "scheduled",
+      "source": "QuantData expiration list"
+    }
+  ],
+  "monthly_opex": [],
+  "quarterly_opex": [],
+  "index_rebalance": [],
+  "fomc": [],
+  "cpi": [],
+  "nfp": [],
+  "treasury_auction": [],
+  "market_holiday": [],
+  "early_close": []
+}
