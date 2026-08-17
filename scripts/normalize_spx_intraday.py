@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Normalize an authorized SPX intraday capture into the option-data contract."""
+"""Normalize an authorized index/equity intraday capture into the option-data contract."""
 
 from __future__ import annotations
 
@@ -68,7 +68,7 @@ def rolling_realized_vol(closes: list[float], window: int = 30) -> float | None:
 
 
 def normalize_underlying(
-    raw: dict, run_at: datetime, previous_close: float
+    raw: dict, run_at: datetime, previous_close: float, symbol: str
 ) -> tuple[list[dict[str, object]], float, float | None]:
     cutoff_ms = int(run_at.timestamp() * 1000)
     records: list[tuple[datetime, dict]] = []
@@ -78,7 +78,7 @@ def normalize_underlying(
             records.append((stamp, values))
     records.sort(key=lambda item: item[0])
     if not records:
-        raise ValueError("QuantData SPX price response had no regular-session rows before run time")
+        raise ValueError(f"QuantData {symbol} price response had no regular-session rows before run time")
 
     rows: list[dict[str, object]] = []
     day_open = float(records[0][1]["openPrice"])
@@ -107,7 +107,7 @@ def normalize_underlying(
         row = blank_row("underlying_1m.csv")
         row.update({
             "timestamp": stamp.isoformat(),
-            "symbol": "SPX",
+            "symbol": symbol,
             "session": "regular",
             "open": open_price,
             "high": high,
@@ -266,6 +266,33 @@ def normalize_flow(raw: dict, run_at: datetime) -> list[dict[str, object]]:
     return rows
 
 
+def normalize_dark_pool(
+    raw: dict, levels_raw: dict, run_at: datetime, symbol: str
+) -> list[dict[str, object]]:
+    cutoff_ms = int(run_at.timestamp() * 1000)
+    levels = levels_raw.get("data", {})
+    rows: list[dict[str, object]] = []
+    for raw_ms, item in sorted(raw.get("data", {}).items(), key=lambda value: int(value[0])):
+        stamp = datetime.fromtimestamp(int(raw_ms) / 1000, tz=timezone.utc).astimezone(ET)
+        if stamp.date() != run_at.date() or int(raw_ms) > cutoff_ms:
+            continue
+        price = item.get("stockPrice", "")
+        level = levels.get(str(price), {}) if price != "" else {}
+        row = blank_row("dark_pool.csv")
+        row.update({
+            "timestamp": stamp.isoformat(),
+            "symbol": symbol,
+            "price": price,
+            "size": item.get("size", ""),
+            "notional": item.get("notionalValue", ""),
+            "price_level_cumulative_volume": level.get("size", ""),
+            "window": "1m",
+            "source": "QuantData dark-flow; session price levels from dark-pool-levels",
+        })
+        rows.append(row)
+    return rows
+
+
 def last_price(raw: dict, run_at: datetime) -> float | None:
     cutoff = int(run_at.timestamp() * 1000)
     eligible = [(int(key), value) for key, value in raw.get("data", {}).items() if int(key) <= cutoff]
@@ -294,37 +321,49 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("run_dir", type=Path)
     parser.add_argument("--timestamp", required=True)
+    parser.add_argument("--snapshot-time", required=True)
+    parser.add_argument("--symbol", default="SPX")
+    parser.add_argument("--asset-type", choices=("index", "equity", "etf"), default="index")
     parser.add_argument("--previous-close", type=float, required=True)
     parser.add_argument("--menthorq-json", type=Path, required=True)
-    parser.add_argument("--volsignals-gamma-charm", type=Path, required=True)
-    parser.add_argument("--volsignals-vanna-delta", type=Path, required=True)
+    parser.add_argument("--volsignals-gamma-charm", type=Path)
+    parser.add_argument("--volsignals-vanna-delta", type=Path)
     parser.add_argument("--menthorq-exposure", type=Path, required=True)
     parser.add_argument("--menthorq-matrix", type=Path, required=True)
     args = parser.parse_args()
 
     run_dir = args.run_dir.resolve()
     run_at = datetime.fromisoformat(args.timestamp)
+    symbol = args.symbol.upper()
+    symbol_lower = symbol.lower()
+    session_date = run_at.date().isoformat()
     raw_dir = run_dir / "raw" / "quantdata"
-    price_raw = read_json(raw_dir / "quantdata_stock-price-over-time_spx_2026-08-17.json")
-    term_raw = read_json(raw_dir / "quantdata_term-structure_spx.json")
-    flow_raw = read_json(raw_dir / "quantdata_order-flow-consolidated_spx.json")
-    vix_raw = read_json(raw_dir / "quantdata_stock-price-over-time_vix_2026-08-17.json")
+    price_raw = read_json(raw_dir / f"quantdata_stock-price-over-time_{symbol_lower}_{session_date}.json")
+    term_raw = read_json(raw_dir / f"quantdata_term-structure_{symbol_lower}.json")
+    flow_raw = read_json(raw_dir / f"quantdata_order-flow-consolidated_{symbol_lower}.json")
+    vix_raw = read_json(raw_dir / f"quantdata_stock-price-over-time_vix_{session_date}.json")
+    dark_flow_path = raw_dir / f"quantdata_dark-flow_{symbol_lower}.json"
+    dark_levels_path = raw_dir / f"quantdata_dark-pool-levels_{symbol_lower}.json"
+    dark_flow_raw = read_json(dark_flow_path) if dark_flow_path.is_file() else {"data": {}}
+    dark_levels_raw = read_json(dark_levels_path) if dark_levels_path.is_file() else {"data": {}}
     menthorq_raw = read_json(args.menthorq_json)
 
-    underlying_rows, spot, realized_vol = normalize_underlying(price_raw, run_at, args.previous_close)
+    underlying_rows, spot, realized_vol = normalize_underlying(price_raw, run_at, args.previous_close, symbol)
     iv_rows, front_iv = normalize_iv_surface(term_raw, run_at, realized_vol)
     flow_rows = normalize_flow(flow_raw, run_at)
+    dark_pool_rows = normalize_dark_pool(dark_flow_raw, dark_levels_raw, run_at, symbol)
     write_rows(run_dir / "underlying_1m.csv", underlying_rows)
     write_rows(run_dir / "iv_surface.csv", iv_rows)
     write_rows(run_dir / "option_flow.csv", flow_rows)
+    write_rows(run_dir / "dark_pool.csv", dark_pool_rows)
 
     regime = blank_row("market_regime.csv")
     regime.update({
         "timestamp": run_at.isoformat(),
         "VIX": last_price(vix_raw, run_at) or "",
-        "SPX_atm_iv": front_iv if front_iv is not None else "",
-        "SPX_realized_vol": realized_vol if realized_vol is not None else "",
-        "source": "QuantData stock-price-over-time + term-structure",
+        "SPX_atm_iv": front_iv if symbol == "SPX" and front_iv is not None else "",
+        "SPX_realized_vol": realized_vol if symbol == "SPX" and realized_vol is not None else "",
+        "source": "QuantData VIX stock-price-over-time" + (" + SPX term-structure" if symbol == "SPX" else ""),
     })
     write_rows(run_dir / "market_regime.csv", [regime])
 
@@ -332,7 +371,7 @@ def main() -> int:
     intraday_matrix = menthorq_raw.get("options_matrix_intraday") or {}
     levels = {
         "timestamp": run_at.isoformat(),
-        "symbol": "SPX",
+        "symbol": symbol,
         "underlying_price": spot,
         "gamma_flip": None,
         "zero_gamma": None,
@@ -379,11 +418,13 @@ def main() -> int:
     screenshots = run_dir / "screenshots"
     screenshots.mkdir(exist_ok=True)
     assets = {
-        args.volsignals_gamma_charm: screenshots / "volsignals_gamma_charm.png",
-        args.volsignals_vanna_delta: screenshots / "volsignals_vanna_delta.png",
         args.menthorq_exposure: screenshots / "menthorq_exposure.png",
         args.menthorq_matrix: screenshots / "menthorq_matrix.png",
     }
+    if args.volsignals_gamma_charm:
+        assets[args.volsignals_gamma_charm] = screenshots / "volsignals_gamma_charm.png"
+    if args.volsignals_vanna_delta:
+        assets[args.volsignals_vanna_delta] = screenshots / "volsignals_vanna_delta.png"
     for source, destination in assets.items():
         shutil.copy2(source, destination)
 
@@ -393,7 +434,6 @@ def main() -> int:
         (item for item in manifest.get("source_definitions", []) if item.get("name") == "QuantData"),
         {},
     )
-    vs_retrieved = datetime.fromtimestamp(args.volsignals_gamma_charm.stat().st_mtime, tz=ET).isoformat()
     mq_data_timestamp = vendor_timestamp(intraday_levels.get("timestamp")) or run_at.isoformat()
     definitions = [
         source_definition(
@@ -411,31 +451,16 @@ def main() -> int:
             units={
                 "exposure": "PER_ONE_DOLLAR_MOVE; exact dollar/contract scaling unverified",
                 "iv": "volatility percentage points",
-                "underlying": "index points",
+                "underlying": "index points" if args.asset_type == "index" else "USD per share",
                 "flow_premium": "USD",
             },
             calculation={
-                "snapshot_time": "2026-08-17T16:55:00Z",
+                "snapshot_time": args.snapshot_time,
                 "endpoints": [
                     "stock-price-over-time", "term-structure", "exposure-by-strike",
-                    "order-flow/consolidated",
+                    "order-flow/consolidated", "dark-flow", "dark-pool-levels",
                 ],
                 "flow_coverage": "latest API page, 100 rows requested; rows after run timestamp excluded",
-            },
-        ),
-        source_definition(
-            "VolSignals",
-            vs_retrieved,
-            "2026-08-17T12:30:00-04:00",
-            1500,
-            perspective="unknown",
-            sign_convention={
-                "status": "unknown; colors and chart direction were not used to infer vendor sign conventions",
-            },
-            units={"status": "unknown; screenshots preserved without numeric transcription"},
-            calculation={
-                "panel_timestamps": ["2026-08-17T12:40:00-04:00", "2026-08-17T12:30:00-04:00"],
-                "artifacts": ["screenshots/volsignals_gamma_charm.png", "screenshots/volsignals_vanna_delta.png"],
             },
         ),
         source_definition(
@@ -446,7 +471,7 @@ def main() -> int:
             perspective="unknown",
             sign_convention={"status": "unknown; gateway fields preserved verbatim"},
             units={
-                "levels": "SPX index points",
+                "levels": "index points" if args.asset_type == "index" else "USD per share",
                 "net_gex": "vendor gateway units, exact scaling unverified",
                 "net_dex": "vendor gateway units, exact scaling unverified",
             },
@@ -457,6 +482,15 @@ def main() -> int:
             },
         ),
     ]
+    if args.volsignals_gamma_charm and args.volsignals_vanna_delta:
+        vs_retrieved = datetime.fromtimestamp(args.volsignals_gamma_charm.stat().st_mtime, tz=ET).isoformat()
+        definitions.insert(1, source_definition(
+            "VolSignals", vs_retrieved, run_at.isoformat(), 0,
+            perspective="unknown",
+            sign_convention={"status": "unknown; screenshot only"},
+            units={"status": "unknown; screenshot only"},
+            calculation={"artifacts": ["screenshots/volsignals_gamma_charm.png", "screenshots/volsignals_vanna_delta.png"]},
+        ))
     manifest.update({
         "spot": spot,
         "previous_close": args.previous_close,
@@ -468,16 +502,20 @@ def main() -> int:
         "data_delay_seconds": 1500,
         "sources": [item["name"] for item in definitions],
         "source_definitions": definitions,
-        "missing_files": ["option_flow_1m.csv", "optiondepth_3d.csv", "short_data.json", "positions.json"],
+        "missing_files": ["short_data.json", "positions.json"],
         "data_coverage": {
             "complete": False,
             "available": {
-                "underlying_1m.csv": f"{len(underlying_rows)} SPX regular-session one-minute OHLC rows; no SPX volume/bid/ask",
+                "underlying_1m.csv": f"{len(underlying_rows)} {symbol} regular-session one-minute OHLC rows; no volume/bid/ask",
                 "iv_surface.csv": f"{len(iv_rows)} fixed-strike IV/delta points",
                 "dealer_exposure.csv": "QuantData GAMMA/VANNA/DELTA by strike and expiration",
                 "option_flow.csv": f"{len(flow_rows)} latest consolidated QuantData flow rows at or before run time",
-                "market_regime.csv": "VIX plus computed SPX front ATM IV and realized volatility",
+                "market_regime.csv": (
+                    "VIX plus computed SPX front ATM IV and realized volatility"
+                    if symbol == "SPX" else "VIX at the common snapshot cutoff"
+                ),
                 "levels.json": "MenthorQ intraday HVL/resistance/support/1-day range",
+                "dark_pool.csv": f"{len(dark_pool_rows)} QuantData one-minute dark-flow rows plus raw price-level aggregates",
             },
             "missing_datasets": [
                 "complete option chain with NBBO/OI/full Greeks",
@@ -485,23 +523,23 @@ def main() -> int:
                 "full-session option flow and 1-minute flow aggregation",
                 "ES/SPY/NQ/QQQ and full market-regime cross-asset fields",
                 "VolSignals numeric export/sign/unit definitions",
+                f"VolSignals ticker coverage ({symbol} unavailable; subscription UI exposes SPX/VIX only)",
                 "OptionDepth 3D numeric export",
+                "short interest / borrow data",
             ],
         },
-        "notes": "Partial authorized intraday capture at 12:55 ET. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
+        "notes": f"Partial authorized intraday capture for {symbol} at {run_at.strftime('%H:%M')} ET. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
     })
     write_json(manifest_path, manifest)
 
-    events = read_json(run_dir / "events.json")
-    events["opex"] = [{
-        "timestamp": "2026-08-17T16:00:00-04:00",
-        "product": "SPXW",
-        "settlement": "PM",
-        "is_0dte": True,
-        "status": "scheduled",
-        "source": "QuantData expiration list",
-    }]
-    write_json(run_dir / "events.json", events)
+    if symbol == "SPX":
+        events = read_json(run_dir / "events.json")
+        events["opex"] = [{
+            "timestamp": f"{session_date}T16:00:00-04:00",
+            "product": "SPXW", "settlement": "PM", "is_0dte": True,
+            "status": "scheduled", "source": "QuantData expiration list",
+        }]
+        write_json(run_dir / "events.json", events)
 
     write_json(run_dir / "state.json", {
         "previous_regime": "partial_intraday",
@@ -521,6 +559,7 @@ def main() -> int:
         "underlying_rows": len(underlying_rows),
         "iv_rows": len(iv_rows),
         "flow_rows": len(flow_rows),
+        "dark_pool_rows": len(dark_pool_rows),
     }))
     return 0
 

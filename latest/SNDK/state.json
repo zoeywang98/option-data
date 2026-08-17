@@ -1,0 +1,17 @@
+{
+  "previous_regime": "partial_intraday",
+  "previous_short_state": null,
+  "previous_pivot": 1495,
+  "previous_gamma_flip": null,
+  "previous_call_wall": 2000,
+  "previous_put_wall": 1350,
+  "previous_iv_state": {
+    "front_atm_iv": 97.84698486328125,
+    "realized_vol": 27.613372919519954
+  },
+  "previous_flow_state": {
+    "coverage": "latest_100_consolidated_rows",
+    "rows": 97
+  },
+  "previous_invalidation": null
+}

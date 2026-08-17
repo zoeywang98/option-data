@@ -67,7 +67,9 @@ runs/YYYY-MM-DD/SYMBOL/HHMMSS/
     └── menthorq_levels.png
 ```
 
-`latest/manifest.json` 指向最近一次通过校验的 run；`latest/state.json` 保存上一轮 regime、short state、pivot、墙位、IV/flow 状态和 invalidation。
+`latest/manifest.json` 指向最近一次通过校验的主 run；多标的批次可使用
+`latest/SYMBOL/manifest.json` 与 `latest/SYMBOL/state.json` 保存各标的指针、regime、
+short state、pivot、墙位、IV/flow 状态和 invalidation。
 
 ## 数据范围
 

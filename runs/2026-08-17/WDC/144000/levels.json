@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-17T14:40:00-04:00",
+  "symbol": "WDC",
+  "underlying_price": 530.37,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 590,
+  "put_wall": 450,
+  "hvl": 500,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 584.97,
+  "expected_move_lower": 483.35,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-17T14:15:00-04:00",
+    "retrieved_at": "2026-08-17T18:36:45.079Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 590,
+    "put_support_0dte": 500,
+    "matrix_totals": {
+      "net_gex": 3509056.6092518396,
+      "abs_gex": 27312174.569622967,
+      "net_dex": 3350639212.9153256,
+      "abs_dex": 6303063127.700569,
+      "net_oi": -78818,
+      "abs_oi": 447912
+    }
+  }
+}

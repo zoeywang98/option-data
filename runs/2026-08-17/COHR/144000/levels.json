@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-17T14:40:00-04:00",
+  "symbol": "COHR",
+  "underlying_price": 356.08,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 400,
+  "put_wall": 300,
+  "hvl": 340,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 373.63,
+  "expected_move_lower": 303.91,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-17T14:15:00-04:00",
+    "retrieved_at": "2026-08-17T18:36:45.121Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 380,
+    "put_support_0dte": 350,
+    "matrix_totals": {
+      "net_gex": 2126382.4634422,
+      "abs_gex": 20998190.63749559,
+      "net_dex": 1126926891.3879251,
+      "abs_dex": 2723661508.938569,
+      "net_oi": -31352,
+      "abs_oi": 246310
+    }
+  }
+}

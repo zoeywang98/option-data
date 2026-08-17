@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-17T14:40:00-04:00",
+  "symbol": "SNDK",
+  "underlying_price": 1785.46,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 2000,
+  "put_wall": 1350,
+  "hvl": 1495,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 1929.18,
+  "expected_move_lower": 1544.12,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-17T14:15:00-04:00",
+    "retrieved_at": "2026-08-17T18:36:44.697Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 2000,
+    "put_support_0dte": 1750,
+    "matrix_totals": {
+      "net_gex": 11698607.684251998,
+      "abs_gex": 46016745.241708875,
+      "net_dex": 37898888651.87514,
+      "abs_dex": 59714873483.95632,
+      "net_oi": -78662,
+      "abs_oi": 936408
+    }
+  }
+}
