@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "option-data-contract"
+version = "0.1.0"
+description = "Versioned data contract and run validator for option-structure research"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "option-data contributors"}]
+dependencies = []
+
+[project.scripts]
+option-data = "option_data.cli:main"
+
+[tool.setuptools]
+packages = ["option_data"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

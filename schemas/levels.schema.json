@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/levels.schema.json",
+  "title": "Dealer and volatility levels",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["timestamp", "symbol", "underlying_price", "gamma_flip", "zero_gamma", "call_wall", "put_wall", "metadata"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "symbol": {"type": "string"},
+    "underlying_price": {"type": "number"},
+    "gamma_flip": {"type": ["number", "null"]},
+    "zero_gamma": {"type": ["number", "null"]},
+    "call_wall": {"type": ["number", "null"]},
+    "put_wall": {"type": ["number", "null"]},
+    "hvl": {"type": ["number", "null"]},
+    "volatility_trigger": {"type": ["number", "null"]},
+    "blind_spots": {"type": "array", "items": {"type": "number"}},
+    "positive_gamma_zones": {"type": "array"},
+    "negative_gamma_zones": {"type": "array"},
+    "liquidity_vacuums": {"type": "array"},
+    "expected_move_upper": {"type": ["number", "null"]},
+    "expected_move_lower": {"type": ["number", "null"]},
+    "metadata": {"type": "object"}
+  }
+}

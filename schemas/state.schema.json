@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/state.schema.json",
+  "title": "Previous analysis state",
+  "type": "object",
+  "required": ["previous_regime", "previous_short_state", "previous_pivot", "previous_gamma_flip", "previous_call_wall", "previous_put_wall", "previous_iv_state", "previous_flow_state", "previous_invalidation"],
+  "properties": {
+    "previous_regime": {},
+    "previous_short_state": {},
+    "previous_pivot": {},
+    "previous_gamma_flip": {},
+    "previous_call_wall": {},
+    "previous_put_wall": {},
+    "previous_iv_state": {},
+    "previous_flow_state": {},
+    "previous_invalidation": {}
+  }
+}

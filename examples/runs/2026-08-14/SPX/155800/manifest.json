@@ -1,0 +1,76 @@
+{
+  "contract_version": "1.0.0",
+  "run_id": "SPX_20260814_155800",
+  "symbol": "SPX",
+  "asset_type": "index",
+  "timestamp": "2026-08-14T15:58:00-04:00",
+  "capture_started_at": "2026-08-14T15:57:58-04:00",
+  "capture_completed_at": "2026-08-14T15:58:08-04:00",
+  "timezone": "America/New_York",
+  "session": "regular",
+  "spot": 7776.55,
+  "previous_close": 7799.19,
+  "expirations": ["2026-08-14", "2026-08-17", "2026-08-21"],
+  "data_delay_seconds": 0,
+  "products": [
+    {"symbol": "SPX", "asset_type": "index", "contract_multiplier": 100},
+    {"symbol": "SPXW", "asset_type": "option", "contract_multiplier": 100},
+    {"symbol": "ES", "asset_type": "future", "contract_multiplier": 50},
+    {"symbol": "SPY", "asset_type": "etf", "contract_multiplier": 1},
+    {"symbol": "NQ", "asset_type": "future", "contract_multiplier": 20},
+    {"symbol": "QQQ", "asset_type": "etf", "contract_multiplier": 1}
+  ],
+  "sources": ["QuantData", "VolSignals", "UW", "MenthorQ"],
+  "source_definitions": [
+    {
+      "name": "QuantData",
+      "retrieved_at": "2026-08-14T15:58:03-04:00",
+      "data_timestamp": "2026-08-14T15:58:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 3,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {"gex_positive": "unknown", "vex_positive": "unknown"},
+      "units": {"gex": "unknown", "vex": "unknown"},
+      "example_only": true
+    },
+    {
+      "name": "VolSignals",
+      "retrieved_at": "2026-08-14T15:58:04-04:00",
+      "data_timestamp": "2026-08-14T15:58:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 4,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {"gex_positive": "unknown", "vanna_positive": "unknown", "charm_positive": "unknown"},
+      "units": {"gex": "unknown", "vanna": "unknown", "charm": "unknown"},
+      "example_only": true
+    },
+    {
+      "name": "UW",
+      "retrieved_at": "2026-08-14T15:58:05-04:00",
+      "data_timestamp": "2026-08-14T15:58:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 5,
+      "perspective": "market",
+      "contract_multiplier": 100,
+      "sign_convention": {"aggressor": "ask/bid inference from contemporaneous NBBO"},
+      "units": {"premium": "USD", "iv": "unknown"},
+      "example_only": true
+    },
+    {
+      "name": "MenthorQ",
+      "retrieved_at": "2026-08-14T15:58:08-04:00",
+      "data_timestamp": "2026-08-14T15:58:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 8,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {"levels": "unknown"},
+      "units": {"levels": "index_points"},
+      "example_only": true
+    }
+  ],
+  "missing_files": ["option_flow_1m.csv", "optiondepth_3d.csv", "dark_pool.csv", "short_data.json", "positions.json"],
+  "notes": "STRUCTURE EXAMPLE ONLY. Header-only files contain no market observations; replace all unknown vendor definitions before strict publication."
+}

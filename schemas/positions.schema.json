@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/positions.schema.json",
+  "title": "User positions",
+  "type": "object",
+  "required": ["timestamp", "positions"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "positions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["symbol", "underlying_or_option", "quantity", "long_short", "entry_price", "current_price", "max_loss", "current_pnl", "intended_holding_period", "stop_level"],
+        "properties": {
+          "symbol": {"type": "string"},
+          "underlying_or_option": {"enum": ["underlying", "option"]},
+          "quantity": {"type": "number"},
+          "long_short": {"enum": ["long", "short"]},
+          "entry_price": {"type": "number"},
+          "current_price": {"type": "number"},
+          "expiration": {"type": ["string", "null"], "format": "date"},
+          "strike": {"type": ["number", "null"]},
+          "call_put": {"enum": ["call", "put", null]},
+          "delta": {"type": ["number", "null"]},
+          "gamma": {"type": ["number", "null"]},
+          "vega": {"type": ["number", "null"]},
+          "theta": {"type": ["number", "null"]},
+          "max_loss": {"type": ["number", "null"]},
+          "current_pnl": {"type": "number"},
+          "intended_holding_period": {"type": "string"},
+          "stop_level": {"type": ["number", "null"]}
+        }
+      }
+    }
+  }
+}

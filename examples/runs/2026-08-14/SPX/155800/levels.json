@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-08-14T15:58:00-04:00",
+  "symbol": "SPX",
+  "underlying_price": 7776.55,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": null,
+  "put_wall": null,
+  "hvl": null,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": null,
+  "expected_move_lower": null,
+  "metadata": {},
+  "example_only": true
+}

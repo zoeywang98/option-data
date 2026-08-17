@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+dist/
+build/
+*.egg-info/
+.env
+
+# Real market data can be licensed, large, or account-specific. Commit it only
+# deliberately. The tracked example and templates remain available.
+runs/**
+!runs/.gitkeep

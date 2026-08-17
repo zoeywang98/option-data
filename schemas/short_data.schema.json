@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/short_data.schema.json",
+  "title": "Equity short-interest snapshot",
+  "type": "object",
+  "required": ["timestamp", "symbol", "short_interest", "short_float_pct", "days_to_cover", "shares_available_to_short", "borrow_fee", "utilization", "failures_to_deliver", "next_short_interest_date", "history", "source"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "symbol": {"type": "string"},
+    "short_interest": {"type": ["number", "null"]},
+    "short_float_pct": {"type": ["number", "null"]},
+    "days_to_cover": {"type": ["number", "null"]},
+    "shares_available_to_short": {"type": ["number", "null"]},
+    "borrow_fee": {"type": ["number", "null"]},
+    "utilization": {"type": ["number", "null"]},
+    "failures_to_deliver": {"type": ["number", "null"]},
+    "next_short_interest_date": {"type": ["string", "null"], "format": "date"},
+    "history": {"type": "array"},
+    "source": {"type": "string"}
+  }
+}

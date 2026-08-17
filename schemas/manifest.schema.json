@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/manifest.schema.json",
+  "title": "Option data run manifest",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "contract_version", "run_id", "symbol", "asset_type", "timestamp", "timezone",
+    "session", "spot", "previous_close", "expirations", "data_delay_seconds", "sources",
+    "source_definitions", "missing_files"
+  ],
+  "properties": {
+    "contract_version": {"const": "1.0.0"},
+    "run_id": {"type": "string", "pattern": "^[A-Z0-9._-]+_[0-9]{8}_[0-9]{6}$"},
+    "symbol": {"type": "string", "minLength": 1},
+    "asset_type": {"enum": ["index", "future", "etf", "equity"]},
+    "timestamp": {"type": "string", "format": "date-time"},
+    "capture_started_at": {"type": "string", "format": "date-time"},
+    "capture_completed_at": {"type": "string", "format": "date-time"},
+    "timezone": {"type": "string", "minLength": 1},
+    "session": {"enum": ["premarket", "overnight", "regular", "postmarket", "closed"]},
+    "spot": {"type": "number", "exclusiveMinimum": 0},
+    "previous_close": {"type": "number", "exclusiveMinimum": 0},
+    "expirations": {"type": "array", "items": {"type": "string", "format": "date"}},
+    "data_delay_seconds": {"type": "number", "minimum": 0},
+    "sources": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "source_definitions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/source"}
+    },
+    "missing_files": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "products": {"type": "array", "items": {"$ref": "#/$defs/product"}}
+  },
+  "$defs": {
+    "product": {
+      "type": "object",
+      "required": ["symbol", "asset_type", "contract_multiplier"],
+      "properties": {
+        "symbol": {"type": "string"},
+        "asset_type": {"enum": ["index", "future", "etf", "equity", "option"]},
+        "contract_multiplier": {"type": "number", "exclusiveMinimum": 0}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "name", "retrieved_at", "data_timestamp", "feed_type", "delay_seconds",
+        "perspective", "contract_multiplier", "sign_convention", "units"
+      ],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "retrieved_at": {"type": "string", "format": "date-time"},
+        "data_timestamp": {"type": "string", "format": "date-time"},
+        "feed_type": {"enum": ["realtime", "delayed", "end_of_day", "historical", "unknown"]},
+        "delay_seconds": {"type": ["number", "null"], "minimum": 0},
+        "perspective": {"enum": ["dealer", "customer", "market", "unknown"]},
+        "contract_multiplier": {"type": ["number", "null"], "exclusiveMinimum": 0},
+        "sign_convention": {"type": "object"},
+        "units": {"type": "object"}
+      }
+    }
+  }
+}

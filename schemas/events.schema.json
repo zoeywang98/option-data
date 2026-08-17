@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/zoeywang98/option-data/schemas/events.schema.json",
+  "title": "Market events",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["timestamp", "symbol", "economic_events", "opex", "fomc", "cpi", "nfp", "market_holiday", "early_close"],
+  "properties": {
+    "timestamp": {"type": "string", "format": "date-time"},
+    "symbol": {"type": "string"},
+    "economic_events": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "earnings": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "ex_dividend": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "opex": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "monthly_opex": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "quarterly_opex": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "index_rebalance": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "fomc": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "cpi": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "nfp": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "treasury_auction": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "market_holiday": {"type": "array", "items": {"$ref": "#/$defs/event"}},
+    "early_close": {"type": "array", "items": {"$ref": "#/$defs/event"}}
+  },
+  "$defs": {
+    "event": {
+      "type": "object",
+      "required": ["name", "timestamp", "released", "settlement", "is_0dte", "is_mopex"],
+      "properties": {
+        "name": {"type": "string"},
+        "timestamp": {"type": "string", "format": "date-time"},
+        "expected": {},
+        "actual": {},
+        "released": {"type": "boolean"},
+        "minutes_from_run": {"type": "number"},
+        "settlement": {"enum": ["AM", "PM", "none", "unknown"]},
+        "is_0dte": {"type": "boolean"},
+        "is_mopex": {"type": "boolean"},
+        "source": {"type": "string"}
+      }
+    }
+  }
+}
