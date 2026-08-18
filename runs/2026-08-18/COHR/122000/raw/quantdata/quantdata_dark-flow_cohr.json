@@ -1,0 +1,2998 @@
+{
+  "data": {
+    "1787040000000": {
+      "notionalValue": 1448200.21,
+      "size": 4252,
+      "stockPrice": 339.3,
+      "tradeCount": 245
+    },
+    "1787040060000": {
+      "notionalValue": 4576165.83,
+      "size": 13401,
+      "stockPrice": 339.0,
+      "tradeCount": 520
+    },
+    "1787040120000": {
+      "notionalValue": 33755.0,
+      "size": 100,
+      "stockPrice": 337.62,
+      "tradeCount": 3
+    },
+    "1787040180000": {
+      "notionalValue": 16326.13,
+      "size": 48,
+      "stockPrice": 336.8,
+      "tradeCount": 22
+    },
+    "1787040240000": {
+      "notionalValue": 44367.35,
+      "size": 132,
+      "stockPrice": 335.85,
+      "tradeCount": 14
+    },
+    "1787040300000": {
+      "notionalValue": 363840.61,
+      "size": 1069,
+      "stockPrice": 342.55,
+      "tradeCount": 63
+    },
+    "1787040360000": {
+      "notionalValue": 38583.63,
+      "size": 115,
+      "stockPrice": 335.97,
+      "tradeCount": 7
+    },
+    "1787040420000": {
+      "notionalValue": 189301.69,
+      "size": 565,
+      "stockPrice": 334.71,
+      "tradeCount": 40
+    },
+    "1787040480000": {
+      "notionalValue": 10388.72,
+      "size": 31,
+      "stockPrice": 335.04,
+      "tradeCount": 4
+    },
+    "1787040540000": {
+      "notionalValue": 30498.19,
+      "size": 91,
+      "stockPrice": 335.08,
+      "tradeCount": 6
+    },
+    "1787040600000": {
+      "notionalValue": 136840.37,
+      "size": 409,
+      "stockPrice": 334.58,
+      "tradeCount": 5
+    },
+    "1787040660000": {
+      "notionalValue": 23742.9,
+      "size": 71,
+      "stockPrice": 334.98,
+      "tradeCount": 6
+    },
+    "1787040720000": {
+      "notionalValue": 24759.16,
+      "size": 74,
+      "stockPrice": 335.0,
+      "tradeCount": 4
+    },
+    "1787040780000": {
+      "notionalValue": 67495.73,
+      "size": 201,
+      "stockPrice": 335.73,
+      "tradeCount": 2
+    },
+    "1787040840000": {
+      "notionalValue": 2012.5,
+      "size": 6,
+      "stockPrice": 335.5,
+      "tradeCount": 3
+    },
+    "1787040900000": {
+      "notionalValue": 8377.35,
+      "size": 25,
+      "stockPrice": 335.15,
+      "tradeCount": 3
+    },
+    "1787040960000": {
+      "notionalValue": 9060.91,
+      "size": 27,
+      "stockPrice": 335.75,
+      "tradeCount": 6
+    },
+    "1787041020000": {
+      "notionalValue": 17115.65,
+      "size": 51,
+      "stockPrice": 335.6,
+      "tradeCount": 4
+    },
+    "1787041080000": {
+      "notionalValue": 16083.4,
+      "size": 48,
+      "stockPrice": 334.66,
+      "tradeCount": 22
+    },
+    "1787041140000": {
+      "notionalValue": 3360.0,
+      "size": 10,
+      "stockPrice": 336.0,
+      "tradeCount": 1
+    },
+    "1787041200000": {
+      "notionalValue": 6697.86,
+      "size": 20,
+      "stockPrice": 334.9,
+      "tradeCount": 5
+    },
+    "1787041260000": {
+      "notionalValue": 38301.21,
+      "size": 115,
+      "stockPrice": 333.09,
+      "tradeCount": 27
+    },
+    "1787041320000": {
+      "notionalValue": 74948.35,
+      "size": 225,
+      "stockPrice": 333.01,
+      "tradeCount": 54
+    },
+    "1787041380000": {
+      "notionalValue": 20646.86,
+      "size": 62,
+      "stockPrice": 332.75,
+      "tradeCount": 6
+    },
+    "1787041440000": {
+      "notionalValue": 55595.62,
+      "size": 167,
+      "stockPrice": 332.76,
+      "tradeCount": 14
+    },
+    "1787041500000": {
+      "notionalValue": 12982.48,
+      "size": 39,
+      "stockPrice": 332.17,
+      "tradeCount": 4
+    },
+    "1787041560000": {
+      "notionalValue": 33517.35,
+      "size": 101,
+      "stockPrice": 331.93,
+      "tradeCount": 9
+    },
+    "1787041620000": {
+      "notionalValue": 8670.84,
+      "size": 26,
+      "stockPrice": 333.88,
+      "tradeCount": 8
+    },
+    "1787041680000": {
+      "notionalValue": 2331.93,
+      "size": 7,
+      "stockPrice": 332.44,
+      "tradeCount": 2
+    },
+    "1787041740000": {
+      "notionalValue": 2660.55,
+      "size": 8,
+      "stockPrice": 332.6,
+      "tradeCount": 2
+    },
+    "1787041800000": {
+      "notionalValue": 22959.98,
+      "size": 69,
+      "stockPrice": 332.87,
+      "tradeCount": 4
+    },
+    "1787041860000": {
+      "notionalValue": 250113.68,
+      "size": 753,
+      "stockPrice": 333.0,
+      "tradeCount": 5
+    },
+    "1787041920000": {
+      "notionalValue": 10330.13,
+      "size": 31,
+      "stockPrice": 333.0,
+      "tradeCount": 5
+    },
+    "1787041980000": {
+      "notionalValue": 14334.12,
+      "size": 43,
+      "stockPrice": 333.2,
+      "tradeCount": 6
+    },
+    "1787042040000": {
+      "notionalValue": 126746.9,
+      "size": 381,
+      "stockPrice": 332.2,
+      "tradeCount": 10
+    },
+    "1787042100000": {
+      "notionalValue": 36358.6,
+      "size": 109,
+      "stockPrice": 334.15,
+      "tradeCount": 5
+    },
+    "1787042160000": {
+      "notionalValue": 1665.15,
+      "size": 5,
+      "stockPrice": 333.03,
+      "tradeCount": 1
+    },
+    "1787042220000": {
+      "notionalValue": 668.74,
+      "size": 2,
+      "stockPrice": 335.03,
+      "tradeCount": 2
+    },
+    "1787042280000": {
+      "notionalValue": 14068.21,
+      "size": 42,
+      "stockPrice": 334.95,
+      "tradeCount": 10
+    },
+    "1787042340000": {
+      "notionalValue": 334.79,
+      "size": 1,
+      "stockPrice": 334.79,
+      "tradeCount": 1
+    },
+    "1787042400000": {
+      "notionalValue": 1674.41,
+      "size": 5,
+      "stockPrice": 334.9,
+      "tradeCount": 2
+    },
+    "1787042460000": {
+      "notionalValue": 3010.5,
+      "size": 9,
+      "stockPrice": 334.5,
+      "tradeCount": 2
+    },
+    "1787042520000": {
+      "notionalValue": 334.3,
+      "size": 1,
+      "stockPrice": 334.3,
+      "tradeCount": 3
+    },
+    "1787042580000": {
+      "notionalValue": 36713.6,
+      "size": 110,
+      "stockPrice": 333.6,
+      "tradeCount": 2
+    },
+    "1787042640000": {
+      "notionalValue": 42386.5,
+      "size": 127,
+      "stockPrice": 333.75,
+      "tradeCount": 4
+    },
+    "1787042700000": {
+      "notionalValue": 515369.3,
+      "size": 1543,
+      "stockPrice": 333.72,
+      "tradeCount": 5
+    },
+    "1787042760000": {
+      "notionalValue": 3002.73,
+      "size": 9,
+      "stockPrice": 333.6,
+      "tradeCount": 3
+    },
+    "1787042820000": {
+      "notionalValue": 998.55,
+      "size": 3,
+      "stockPrice": 333.58,
+      "tradeCount": 2
+    },
+    "1787042880000": {
+      "notionalValue": 1000.0,
+      "size": 3,
+      "stockPrice": 334.0,
+      "tradeCount": 2
+    },
+    "1787042940000": {
+      "notionalValue": 47138.44,
+      "size": 142,
+      "stockPrice": 332.18,
+      "tradeCount": 14
+    },
+    "1787043000000": {
+      "notionalValue": 25490.12,
+      "size": 77,
+      "stockPrice": 331.39,
+      "tradeCount": 4
+    },
+    "1787043060000": {
+      "notionalValue": 9931.8,
+      "size": 30,
+      "stockPrice": 331.16,
+      "tradeCount": 2
+    },
+    "1787043120000": {
+      "notionalValue": 390464.02,
+      "size": 1181,
+      "stockPrice": 332.03,
+      "tradeCount": 14
+    },
+    "1787043180000": {
+      "notionalValue": 28799.68,
+      "size": 87,
+      "stockPrice": 331.01,
+      "tradeCount": 3
+    },
+    "1787043240000": {
+      "notionalValue": 664.3,
+      "size": 2,
+      "stockPrice": 332.15,
+      "tradeCount": 1
+    },
+    "1787043300000": {
+      "notionalValue": 996.0,
+      "size": 3,
+      "stockPrice": 332.0,
+      "tradeCount": 1
+    },
+    "1787043360000": {
+      "notionalValue": 8313.76,
+      "size": 25,
+      "stockPrice": 331.6,
+      "tradeCount": 13
+    },
+    "1787043420000": {
+      "notionalValue": 7292.11,
+      "size": 22,
+      "stockPrice": 331.06,
+      "tradeCount": 3
+    },
+    "1787043480000": {
+      "notionalValue": 3972.15,
+      "size": 12,
+      "stockPrice": 331.0,
+      "tradeCount": 3
+    },
+    "1787043540000": {
+      "notionalValue": 25156.92,
+      "size": 76,
+      "stockPrice": 331.0,
+      "tradeCount": 2
+    },
+    "1787043600000": {
+      "notionalValue": 6290.39,
+      "size": 19,
+      "stockPrice": 330.85,
+      "tradeCount": 5
+    },
+    "1787043660000": {
+      "notionalValue": 13241.14,
+      "size": 40,
+      "stockPrice": 330.62,
+      "tradeCount": 10
+    },
+    "1787043720000": {
+      "notionalValue": 6607.17,
+      "size": 20,
+      "stockPrice": 330.24,
+      "tradeCount": 6
+    },
+    "1787043780000": {
+      "notionalValue": 101626.72,
+      "size": 307,
+      "stockPrice": 331.0,
+      "tradeCount": 4
+    },
+    "1787043840000": {
+      "notionalValue": 20193.44,
+      "size": 61,
+      "stockPrice": 331.04,
+      "tradeCount": 2
+    },
+    "1787043900000": {
+      "notionalValue": 661.3,
+      "size": 2,
+      "stockPrice": 331.0,
+      "tradeCount": 2
+    },
+    "1787043960000": {
+      "notionalValue": 10582.83,
+      "size": 32,
+      "stockPrice": 330.01,
+      "tradeCount": 7
+    },
+    "1787044020000": {
+      "notionalValue": 92470.77,
+      "size": 280,
+      "stockPrice": 330.06,
+      "tradeCount": 8
+    },
+    "1787044080000": {
+      "notionalValue": 6612.25,
+      "size": 20,
+      "stockPrice": 330.7,
+      "tradeCount": 6
+    },
+    "1787044140000": {
+      "notionalValue": 17852.84,
+      "size": 54,
+      "stockPrice": 331.47,
+      "tradeCount": 17
+    },
+    "1787044200000": {
+      "notionalValue": 8263.02,
+      "size": 25,
+      "stockPrice": 331.02,
+      "tradeCount": 2
+    },
+    "1787044260000": {
+      "notionalValue": 662.0,
+      "size": 2,
+      "stockPrice": 331.0,
+      "tradeCount": 2
+    },
+    "1787044320000": {
+      "notionalValue": 8607.83,
+      "size": 26,
+      "stockPrice": 330.53,
+      "tradeCount": 6
+    },
+    "1787044380000": {
+      "notionalValue": 10935.76,
+      "size": 33,
+      "stockPrice": 331.38,
+      "tradeCount": 8
+    },
+    "1787044440000": {
+      "notionalValue": 331.5,
+      "size": 1,
+      "stockPrice": 331.5,
+      "tradeCount": 1
+    },
+    "1787044500000": {
+      "notionalValue": 5957.06,
+      "size": 18,
+      "stockPrice": 331.0,
+      "tradeCount": 4
+    },
+    "1787044560000": {
+      "notionalValue": 1324.9,
+      "size": 4,
+      "stockPrice": 330.7,
+      "tradeCount": 2
+    },
+    "1787044620000": {
+      "notionalValue": 3968.43,
+      "size": 12,
+      "stockPrice": 331.0,
+      "tradeCount": 3
+    },
+    "1787044680000": {
+      "notionalValue": 32438.71,
+      "size": 98,
+      "stockPrice": 330.98,
+      "tradeCount": 8
+    },
+    "1787044740000": {
+      "notionalValue": 69401.81,
+      "size": 210,
+      "stockPrice": 329.99,
+      "tradeCount": 18
+    },
+    "1787044800000": {
+      "notionalValue": 1980.0,
+      "size": 6,
+      "stockPrice": 330.0,
+      "tradeCount": 2
+    },
+    "1787044860000": {
+      "notionalValue": 77519.24,
+      "size": 235,
+      "stockPrice": 329.02,
+      "tradeCount": 7
+    },
+    "1787044920000": {
+      "notionalValue": 20072.58,
+      "size": 61,
+      "stockPrice": 329.6,
+      "tradeCount": 7
+    },
+    "1787044980000": {
+      "notionalValue": 1973.55,
+      "size": 6,
+      "stockPrice": 330.11,
+      "tradeCount": 3
+    },
+    "1787045040000": {
+      "notionalValue": 42774.11,
+      "size": 130,
+      "stockPrice": 328.9,
+      "tradeCount": 19
+    },
+    "1787045100000": {
+      "notionalValue": 19406.3,
+      "size": 59,
+      "stockPrice": 328.88,
+      "tradeCount": 7
+    },
+    "1787045160000": {
+      "notionalValue": 37268.2,
+      "size": 113,
+      "stockPrice": 329.11,
+      "tradeCount": 20
+    },
+    "1787045220000": {
+      "notionalValue": 60194.63,
+      "size": 183,
+      "stockPrice": 328.99,
+      "tradeCount": 24
+    },
+    "1787045280000": {
+      "notionalValue": 39574.0,
+      "size": 120,
+      "stockPrice": 329.0,
+      "tradeCount": 2
+    },
+    "1787045340000": {
+      "notionalValue": 14150.66,
+      "size": 43,
+      "stockPrice": 328.97,
+      "tradeCount": 3
+    },
+    "1787045400000": {
+      "notionalValue": 183082.83,
+      "size": 558,
+      "stockPrice": 328.18,
+      "tradeCount": 11
+    },
+    "1787045460000": {
+      "notionalValue": 4265.64,
+      "size": 13,
+      "stockPrice": 328.48,
+      "tradeCount": 7
+    },
+    "1787045520000": {
+      "notionalValue": 267733.19,
+      "size": 816,
+      "stockPrice": 328.07,
+      "tradeCount": 10
+    },
+    "1787045580000": {
+      "notionalValue": 5924.98,
+      "size": 18,
+      "stockPrice": 329.0,
+      "tradeCount": 4
+    },
+    "1787045640000": {
+      "notionalValue": 1315.17,
+      "size": 4,
+      "stockPrice": 328.02,
+      "tradeCount": 4
+    },
+    "1787045700000": {
+      "notionalValue": 47488.32,
+      "size": 145,
+      "stockPrice": 327.93,
+      "tradeCount": 31
+    },
+    "1787045760000": {
+      "notionalValue": 9498.42,
+      "size": 29,
+      "stockPrice": 327.01,
+      "tradeCount": 20
+    },
+    "1787045820000": {
+      "notionalValue": 7200.76,
+      "size": 22,
+      "stockPrice": 327.22,
+      "tradeCount": 2
+    },
+    "1787045880000": {
+      "notionalValue": 115210.4,
+      "size": 352,
+      "stockPrice": 327.8,
+      "tradeCount": 4
+    },
+    "1787045940000": {
+      "notionalValue": 6886.0,
+      "size": 21,
+      "stockPrice": 327.97,
+      "tradeCount": 4
+    },
+    "1787046000000": {
+      "notionalValue": 8825.25,
+      "size": 27,
+      "stockPrice": 326.85,
+      "tradeCount": 3
+    },
+    "1787046060000": {
+      "notionalValue": 264273.16,
+      "size": 810,
+      "stockPrice": 326.1,
+      "tradeCount": 11
+    },
+    "1787046120000": {
+      "notionalValue": 10133.98,
+      "size": 31,
+      "stockPrice": 327.23,
+      "tradeCount": 22
+    },
+    "1787046180000": {
+      "notionalValue": 22269.61,
+      "size": 68,
+      "stockPrice": 327.5,
+      "tradeCount": 3
+    },
+    "1787046300000": {
+      "notionalValue": 30076.1,
+      "size": 92,
+      "stockPrice": 326.77,
+      "tradeCount": 3
+    },
+    "1787046360000": {
+      "notionalValue": 5234.95,
+      "size": 16,
+      "stockPrice": 327.57,
+      "tradeCount": 3
+    },
+    "1787046420000": {
+      "notionalValue": 12458.3,
+      "size": 38,
+      "stockPrice": 326.91,
+      "tradeCount": 4
+    },
+    "1787046480000": {
+      "notionalValue": 22321.94,
+      "size": 68,
+      "stockPrice": 328.12,
+      "tradeCount": 6
+    },
+    "1787046540000": {
+      "notionalValue": 327.43,
+      "size": 1,
+      "stockPrice": 327.43,
+      "tradeCount": 1
+    },
+    "1787046600000": {
+      "notionalValue": 48956.9,
+      "size": 150,
+      "stockPrice": 326.3,
+      "tradeCount": 5
+    },
+    "1787046660000": {
+      "notionalValue": 4244.0,
+      "size": 13,
+      "stockPrice": 326.3,
+      "tradeCount": 2
+    },
+    "1787046720000": {
+      "notionalValue": 217136.84,
+      "size": 664,
+      "stockPrice": 327.0,
+      "tradeCount": 4
+    },
+    "1787046780000": {
+      "notionalValue": 49190.59,
+      "size": 150,
+      "stockPrice": 328.12,
+      "tradeCount": 4
+    },
+    "1787046840000": {
+      "notionalValue": 199842.94,
+      "size": 609,
+      "stockPrice": 328.01,
+      "tradeCount": 8
+    },
+    "1787046900000": {
+      "notionalValue": 12474.03,
+      "size": 38,
+      "stockPrice": 328.99,
+      "tradeCount": 7
+    },
+    "1787046960000": {
+      "notionalValue": 21706.44,
+      "size": 66,
+      "stockPrice": 328.85,
+      "tradeCount": 4
+    },
+    "1787047020000": {
+      "notionalValue": 30937.69,
+      "size": 94,
+      "stockPrice": 328.7,
+      "tradeCount": 6
+    },
+    "1787047140000": {
+      "notionalValue": 16756.56,
+      "size": 51,
+      "stockPrice": 328.8,
+      "tradeCount": 6
+    },
+    "1787047200000": {
+      "notionalValue": 42166.75,
+      "size": 128,
+      "stockPrice": 329.33,
+      "tradeCount": 6
+    },
+    "1787047260000": {
+      "notionalValue": 329.0,
+      "size": 1,
+      "stockPrice": 329.0,
+      "tradeCount": 1
+    },
+    "1787047320000": {
+      "notionalValue": 985.78,
+      "size": 3,
+      "stockPrice": 328.89,
+      "tradeCount": 2
+    },
+    "1787047380000": {
+      "notionalValue": 7562.06,
+      "size": 23,
+      "stockPrice": 328.5,
+      "tradeCount": 4
+    },
+    "1787047440000": {
+      "notionalValue": 9858.0,
+      "size": 30,
+      "stockPrice": 328.6,
+      "tradeCount": 1
+    },
+    "1787047560000": {
+      "notionalValue": 1972.9,
+      "size": 6,
+      "stockPrice": 328.5,
+      "tradeCount": 2
+    },
+    "1787047620000": {
+      "notionalValue": 328.3,
+      "size": 1,
+      "stockPrice": 328.3,
+      "tradeCount": 1
+    },
+    "1787047680000": {
+      "notionalValue": 7549.25,
+      "size": 23,
+      "stockPrice": 328.45,
+      "tradeCount": 4
+    },
+    "1787047740000": {
+      "notionalValue": 39130.6,
+      "size": 119,
+      "stockPrice": 329.0,
+      "tradeCount": 6
+    },
+    "1787047800000": {
+      "notionalValue": 17082.0,
+      "size": 52,
+      "stockPrice": 328.5,
+      "tradeCount": 2
+    },
+    "1787047860000": {
+      "notionalValue": 3282.3,
+      "size": 10,
+      "stockPrice": 328.23,
+      "tradeCount": 1
+    },
+    "1787047920000": {
+      "notionalValue": 81161.83,
+      "size": 247,
+      "stockPrice": 328.93,
+      "tradeCount": 5
+    },
+    "1787047980000": {
+      "notionalValue": 1644.65,
+      "size": 5,
+      "stockPrice": 328.93,
+      "tradeCount": 1
+    },
+    "1787048040000": {
+      "notionalValue": 7555.41,
+      "size": 23,
+      "stockPrice": 328.59,
+      "tradeCount": 4
+    },
+    "1787048100000": {
+      "notionalValue": 656.28,
+      "size": 2,
+      "stockPrice": 328.14,
+      "tradeCount": 1
+    },
+    "1787048160000": {
+      "notionalValue": 2297.33,
+      "size": 7,
+      "stockPrice": 328.49,
+      "tradeCount": 3
+    },
+    "1787048220000": {
+      "notionalValue": 9826.95,
+      "size": 30,
+      "stockPrice": 327.55,
+      "tradeCount": 3
+    },
+    "1787048280000": {
+      "notionalValue": 33406.14,
+      "size": 102,
+      "stockPrice": 328.59,
+      "tradeCount": 5
+    },
+    "1787048340000": {
+      "notionalValue": 2298.61,
+      "size": 7,
+      "stockPrice": 328.11,
+      "tradeCount": 4
+    },
+    "1787048400000": {
+      "notionalValue": 65440.24,
+      "size": 200,
+      "stockPrice": 327.28,
+      "tradeCount": 2
+    },
+    "1787048460000": {
+      "notionalValue": 18324.77,
+      "size": 56,
+      "stockPrice": 327.2,
+      "tradeCount": 5
+    },
+    "1787048520000": {
+      "notionalValue": 5895.3,
+      "size": 18,
+      "stockPrice": 328.39,
+      "tradeCount": 4
+    },
+    "1787048580000": {
+      "notionalValue": 1311.36,
+      "size": 4,
+      "stockPrice": 328.33,
+      "tradeCount": 2
+    },
+    "1787048640000": {
+      "notionalValue": 983.02,
+      "size": 3,
+      "stockPrice": 327.45,
+      "tradeCount": 4
+    },
+    "1787048700000": {
+      "notionalValue": 7203.0,
+      "size": 22,
+      "stockPrice": 327.0,
+      "tradeCount": 2
+    },
+    "1787048760000": {
+      "notionalValue": 6541.45,
+      "size": 20,
+      "stockPrice": 327.12,
+      "tradeCount": 4
+    },
+    "1787048820000": {
+      "notionalValue": 39254.8,
+      "size": 120,
+      "stockPrice": 327.44,
+      "tradeCount": 2
+    },
+    "1787048880000": {
+      "notionalValue": 2623.59,
+      "size": 8,
+      "stockPrice": 328.12,
+      "tradeCount": 3
+    },
+    "1787048940000": {
+      "notionalValue": 3282.66,
+      "size": 10,
+      "stockPrice": 328.44,
+      "tradeCount": 4
+    },
+    "1787049060000": {
+      "notionalValue": 1641.75,
+      "size": 5,
+      "stockPrice": 328.35,
+      "tradeCount": 1
+    },
+    "1787049120000": {
+      "notionalValue": 25074.29,
+      "size": 76,
+      "stockPrice": 329.97,
+      "tradeCount": 6
+    },
+    "1787049240000": {
+      "notionalValue": 13523.45,
+      "size": 41,
+      "stockPrice": 329.91,
+      "tradeCount": 3
+    },
+    "1787049300000": {
+      "notionalValue": 206997.98,
+      "size": 627,
+      "stockPrice": 330.6,
+      "tradeCount": 6
+    },
+    "1787049360000": {
+      "notionalValue": 660.51,
+      "size": 2,
+      "stockPrice": 330.61,
+      "tradeCount": 2
+    },
+    "1787049420000": {
+      "notionalValue": 989.82,
+      "size": 3,
+      "stockPrice": 329.94,
+      "tradeCount": 1
+    },
+    "1787049480000": {
+      "notionalValue": 660.82,
+      "size": 2,
+      "stockPrice": 330.41,
+      "tradeCount": 1
+    },
+    "1787049540000": {
+      "notionalValue": 3302.83,
+      "size": 10,
+      "stockPrice": 329.13,
+      "tradeCount": 5
+    },
+    "1787049600000": {
+      "notionalValue": 658.2,
+      "size": 2,
+      "stockPrice": 329.1,
+      "tradeCount": 1
+    },
+    "1787049660000": {
+      "notionalValue": 3298.4,
+      "size": 10,
+      "stockPrice": 329.84,
+      "tradeCount": 1
+    },
+    "1787049720000": {
+      "notionalValue": 107250.98,
+      "size": 325,
+      "stockPrice": 330.0,
+      "tradeCount": 6
+    },
+    "1787049780000": {
+      "notionalValue": 1319.95,
+      "size": 4,
+      "stockPrice": 329.85,
+      "tradeCount": 3
+    },
+    "1787049840000": {
+      "notionalValue": 1319.4,
+      "size": 4,
+      "stockPrice": 329.85,
+      "tradeCount": 2
+    },
+    "1787049900000": {
+      "notionalValue": 1979.4,
+      "size": 6,
+      "stockPrice": 329.9,
+      "tradeCount": 1
+    },
+    "1787049960000": {
+      "notionalValue": 25068.22,
+      "size": 76,
+      "stockPrice": 329.9,
+      "tradeCount": 3
+    },
+    "1787050020000": {
+      "notionalValue": 4947.0,
+      "size": 15,
+      "stockPrice": 329.75,
+      "tradeCount": 2
+    },
+    "1787050080000": {
+      "notionalValue": 32990.0,
+      "size": 100,
+      "stockPrice": 329.9,
+      "tradeCount": 1
+    },
+    "1787050140000": {
+      "notionalValue": 0.0,
+      "size": 0,
+      "stockPrice": 330.9,
+      "tradeCount": 1
+    },
+    "1787050200000": {
+      "notionalValue": 2976.06,
+      "size": 9,
+      "stockPrice": 330.79,
+      "tradeCount": 6
+    },
+    "1787050260000": {
+      "notionalValue": 0.0,
+      "size": 0,
+      "stockPrice": 330.87,
+      "tradeCount": 1
+    },
+    "1787050320000": {
+      "notionalValue": 176565.45,
+      "size": 535,
+      "stockPrice": 330.48,
+      "tradeCount": 5
+    },
+    "1787050380000": {
+      "notionalValue": 45891.18,
+      "size": 139,
+      "stockPrice": 330.63,
+      "tradeCount": 5
+    },
+    "1787050440000": {
+      "notionalValue": 3637.63,
+      "size": 11,
+      "stockPrice": 330.58,
+      "tradeCount": 7
+    },
+    "1787050500000": {
+      "notionalValue": 330.44,
+      "size": 1,
+      "stockPrice": 330.44,
+      "tradeCount": 1
+    },
+    "1787050560000": {
+      "notionalValue": 3310.0,
+      "size": 10,
+      "stockPrice": 331.0,
+      "tradeCount": 2
+    },
+    "1787050620000": {
+      "notionalValue": 23493.9,
+      "size": 71,
+      "stockPrice": 330.9,
+      "tradeCount": 1
+    },
+    "1787050680000": {
+      "notionalValue": 34092.86,
+      "size": 103,
+      "stockPrice": 331.0,
+      "tradeCount": 4
+    },
+    "1787050740000": {
+      "notionalValue": 7280.78,
+      "size": 22,
+      "stockPrice": 330.92,
+      "tradeCount": 5
+    },
+    "1787050800000": {
+      "notionalValue": 973749.91,
+      "size": 2937,
+      "stockPrice": 331.88,
+      "tradeCount": 85
+    },
+    "1787050860000": {
+      "notionalValue": 104580.19,
+      "size": 315,
+      "stockPrice": 331.81,
+      "tradeCount": 16
+    },
+    "1787050920000": {
+      "notionalValue": 449378.86,
+      "size": 1353,
+      "stockPrice": 331.81,
+      "tradeCount": 20
+    },
+    "1787050980000": {
+      "notionalValue": 514667.68,
+      "size": 1550,
+      "stockPrice": 332.28,
+      "tradeCount": 24
+    },
+    "1787051040000": {
+      "notionalValue": 372376.43,
+      "size": 1120,
+      "stockPrice": 332.67,
+      "tradeCount": 30
+    },
+    "1787051100000": {
+      "notionalValue": 146789.14,
+      "size": 442,
+      "stockPrice": 331.97,
+      "tradeCount": 16
+    },
+    "1787051160000": {
+      "notionalValue": 75704.7,
+      "size": 228,
+      "stockPrice": 332.2,
+      "tradeCount": 12
+    },
+    "1787051220000": {
+      "notionalValue": 182658.99,
+      "size": 549,
+      "stockPrice": 333.12,
+      "tradeCount": 18
+    },
+    "1787051280000": {
+      "notionalValue": 334137.07,
+      "size": 1004,
+      "stockPrice": 333.0,
+      "tradeCount": 15
+    },
+    "1787051340000": {
+      "notionalValue": 49894.02,
+      "size": 150,
+      "stockPrice": 333.11,
+      "tradeCount": 8
+    },
+    "1787051400000": {
+      "notionalValue": 60720.49,
+      "size": 182,
+      "stockPrice": 333.22,
+      "tradeCount": 12
+    },
+    "1787051460000": {
+      "notionalValue": 72407.15,
+      "size": 217,
+      "stockPrice": 333.39,
+      "tradeCount": 16
+    },
+    "1787051520000": {
+      "notionalValue": 127563.54,
+      "size": 383,
+      "stockPrice": 333.3,
+      "tradeCount": 14
+    },
+    "1787051580000": {
+      "notionalValue": 8656.87,
+      "size": 26,
+      "stockPrice": 332.8,
+      "tradeCount": 6
+    },
+    "1787051640000": {
+      "notionalValue": 3408162.82,
+      "size": 10205,
+      "stockPrice": 333.78,
+      "tradeCount": 16
+    },
+    "1787051700000": {
+      "notionalValue": 16996.11,
+      "size": 51,
+      "stockPrice": 333.99,
+      "tradeCount": 11
+    },
+    "1787051760000": {
+      "notionalValue": 92905.71,
+      "size": 279,
+      "stockPrice": 333.27,
+      "tradeCount": 11
+    },
+    "1787051820000": {
+      "notionalValue": 299602.3,
+      "size": 901,
+      "stockPrice": 332.79,
+      "tradeCount": 12
+    },
+    "1787051880000": {
+      "notionalValue": 681094.65,
+      "size": 2046,
+      "stockPrice": 332.01,
+      "tradeCount": 4
+    },
+    "1787051940000": {
+      "notionalValue": 61888.05,
+      "size": 186,
+      "stockPrice": 333.28,
+      "tradeCount": 7
+    },
+    "1787052000000": {
+      "notionalValue": 22934.34,
+      "size": 69,
+      "stockPrice": 332.02,
+      "tradeCount": 8
+    },
+    "1787052060000": {
+      "notionalValue": 196000.19,
+      "size": 590,
+      "stockPrice": 332.2,
+      "tradeCount": 10
+    },
+    "1787052120000": {
+      "notionalValue": 218922.67,
+      "size": 659,
+      "stockPrice": 332.48,
+      "tradeCount": 8
+    },
+    "1787052180000": {
+      "notionalValue": 12300.1,
+      "size": 37,
+      "stockPrice": 332.46,
+      "tradeCount": 4
+    },
+    "1787052240000": {
+      "notionalValue": 80105.37,
+      "size": 241,
+      "stockPrice": 331.99,
+      "tradeCount": 11
+    },
+    "1787052300000": {
+      "notionalValue": 108236.79,
+      "size": 326,
+      "stockPrice": 332.2,
+      "tradeCount": 10
+    },
+    "1787052360000": {
+      "notionalValue": 31900.9,
+      "size": 96,
+      "stockPrice": 333.0,
+      "tradeCount": 10
+    },
+    "1787052420000": {
+      "notionalValue": 58571.67,
+      "size": 176,
+      "stockPrice": 332.0,
+      "tradeCount": 11
+    },
+    "1787052480000": {
+      "notionalValue": 27922.15,
+      "size": 84,
+      "stockPrice": 332.0,
+      "tradeCount": 7
+    },
+    "1787052540000": {
+      "notionalValue": 101069.39,
+      "size": 304,
+      "stockPrice": 332.8,
+      "tradeCount": 5
+    },
+    "1787052600000": {
+      "notionalValue": 2991.32,
+      "size": 9,
+      "stockPrice": 331.98,
+      "tradeCount": 4
+    },
+    "1787052660000": {
+      "notionalValue": 103108.77,
+      "size": 311,
+      "stockPrice": 331.3,
+      "tradeCount": 13
+    },
+    "1787052720000": {
+      "notionalValue": 46025.39,
+      "size": 139,
+      "stockPrice": 330.89,
+      "tradeCount": 6
+    },
+    "1787052780000": {
+      "notionalValue": 102310.25,
+      "size": 309,
+      "stockPrice": 331.74,
+      "tradeCount": 5
+    },
+    "1787052840000": {
+      "notionalValue": 204155.65,
+      "size": 617,
+      "stockPrice": 331.67,
+      "tradeCount": 14
+    },
+    "1787052900000": {
+      "notionalValue": 49008.89,
+      "size": 148,
+      "stockPrice": 330.85,
+      "tradeCount": 11
+    },
+    "1787052960000": {
+      "notionalValue": 119435.21,
+      "size": 361,
+      "stockPrice": 330.6,
+      "tradeCount": 14
+    },
+    "1787053020000": {
+      "notionalValue": 7616.27,
+      "size": 23,
+      "stockPrice": 331.55,
+      "tradeCount": 4
+    },
+    "1787053080000": {
+      "notionalValue": 48336.0,
+      "size": 146,
+      "stockPrice": 331.0,
+      "tradeCount": 10
+    },
+    "1787053140000": {
+      "notionalValue": 18231.22,
+      "size": 55,
+      "stockPrice": 330.69,
+      "tradeCount": 6
+    },
+    "1787053200000": {
+      "notionalValue": 993.06,
+      "size": 3,
+      "stockPrice": 331.02,
+      "tradeCount": 1
+    },
+    "1787053260000": {
+      "notionalValue": 46604.97,
+      "size": 141,
+      "stockPrice": 330.69,
+      "tradeCount": 7
+    },
+    "1787053320000": {
+      "notionalValue": 14233.72,
+      "size": 43,
+      "stockPrice": 330.87,
+      "tradeCount": 5
+    },
+    "1787053380000": {
+      "notionalValue": 31146.2,
+      "size": 94,
+      "stockPrice": 331.6,
+      "tradeCount": 5
+    },
+    "1787053440000": {
+      "notionalValue": 4307.53,
+      "size": 13,
+      "stockPrice": 331.24,
+      "tradeCount": 4
+    },
+    "1787053500000": {
+      "notionalValue": 253802.33,
+      "size": 727,
+      "stockPrice": 351.22,
+      "tradeCount": 10
+    },
+    "1787053560000": {
+      "notionalValue": 827971.44,
+      "size": 2494,
+      "stockPrice": 331.95,
+      "tradeCount": 8
+    },
+    "1787053620000": {
+      "notionalValue": 17585.0,
+      "size": 53,
+      "stockPrice": 332.0,
+      "tradeCount": 5
+    },
+    "1787053680000": {
+      "notionalValue": 89653.35,
+      "size": 270,
+      "stockPrice": 332.0,
+      "tradeCount": 8
+    },
+    "1787053740000": {
+      "notionalValue": 928652.74,
+      "size": 2793,
+      "stockPrice": 331.93,
+      "tradeCount": 10
+    },
+    "1787053800000": {
+      "notionalValue": 12607.18,
+      "size": 38,
+      "stockPrice": 332.0,
+      "tradeCount": 8
+    },
+    "1787053860000": {
+      "notionalValue": 13610.0,
+      "size": 41,
+      "stockPrice": 331.9,
+      "tradeCount": 4
+    },
+    "1787053920000": {
+      "notionalValue": 115220.46,
+      "size": 347,
+      "stockPrice": 332.23,
+      "tradeCount": 5
+    },
+    "1787053980000": {
+      "notionalValue": 43795.96,
+      "size": 132,
+      "stockPrice": 331.76,
+      "tradeCount": 11
+    },
+    "1787054040000": {
+      "notionalValue": 199971.16,
+      "size": 603,
+      "stockPrice": 331.5,
+      "tradeCount": 7
+    },
+    "1787054100000": {
+      "notionalValue": 12920.76,
+      "size": 39,
+      "stockPrice": 331.28,
+      "tradeCount": 3
+    },
+    "1787054160000": {
+      "notionalValue": 46051.88,
+      "size": 139,
+      "stockPrice": 331.3,
+      "tradeCount": 5
+    },
+    "1787054220000": {
+      "notionalValue": 192588.18,
+      "size": 581,
+      "stockPrice": 331.48,
+      "tradeCount": 12
+    },
+    "1787054280000": {
+      "notionalValue": 99276.0,
+      "size": 300,
+      "stockPrice": 330.92,
+      "tradeCount": 1
+    },
+    "1787054340000": {
+      "notionalValue": 24818.59,
+      "size": 75,
+      "stockPrice": 330.84,
+      "tradeCount": 6
+    },
+    "1787054400000": {
+      "notionalValue": 27464.59,
+      "size": 83,
+      "stockPrice": 330.83,
+      "tradeCount": 12
+    },
+    "1787054460000": {
+      "notionalValue": 28446.19,
+      "size": 86,
+      "stockPrice": 331.0,
+      "tradeCount": 7
+    },
+    "1787054520000": {
+      "notionalValue": 33757.02,
+      "size": 102,
+      "stockPrice": 330.97,
+      "tradeCount": 6
+    },
+    "1787054580000": {
+      "notionalValue": 22175.5,
+      "size": 67,
+      "stockPrice": 330.88,
+      "tradeCount": 7
+    },
+    "1787054640000": {
+      "notionalValue": 136732.39,
+      "size": 413,
+      "stockPrice": 332.15,
+      "tradeCount": 5
+    },
+    "1787054700000": {
+      "notionalValue": 32237.61,
+      "size": 97,
+      "stockPrice": 332.5,
+      "tradeCount": 10
+    },
+    "1787054760000": {
+      "notionalValue": 3984.96,
+      "size": 12,
+      "stockPrice": 331.5,
+      "tradeCount": 7
+    },
+    "1787054820000": {
+      "notionalValue": 32896.49,
+      "size": 99,
+      "stockPrice": 331.98,
+      "tradeCount": 6
+    },
+    "1787054880000": {
+      "notionalValue": 183574.81,
+      "size": 554,
+      "stockPrice": 331.32,
+      "tradeCount": 8
+    },
+    "1787054940000": {
+      "notionalValue": 397919.94,
+      "size": 1203,
+      "stockPrice": 330.6,
+      "tradeCount": 8
+    },
+    "1787055000000": {
+      "notionalValue": 8590.94,
+      "size": 26,
+      "stockPrice": 330.87,
+      "tradeCount": 11
+    },
+    "1787055060000": {
+      "notionalValue": 31360.89,
+      "size": 95,
+      "stockPrice": 329.5,
+      "tradeCount": 11
+    },
+    "1787055120000": {
+      "notionalValue": 266263.97,
+      "size": 807,
+      "stockPrice": 330.0,
+      "tradeCount": 12
+    },
+    "1787055180000": {
+      "notionalValue": 9238.8,
+      "size": 28,
+      "stockPrice": 330.0,
+      "tradeCount": 6
+    },
+    "1787055240000": {
+      "notionalValue": 16171.28,
+      "size": 49,
+      "stockPrice": 330.82,
+      "tradeCount": 10
+    },
+    "1787055300000": {
+      "notionalValue": 187366.73,
+      "size": 567,
+      "stockPrice": 329.3,
+      "tradeCount": 6
+    },
+    "1787055360000": {
+      "notionalValue": 34939.18,
+      "size": 106,
+      "stockPrice": 329.8,
+      "tradeCount": 9
+    },
+    "1787055420000": {
+      "notionalValue": 11563.37,
+      "size": 35,
+      "stockPrice": 330.43,
+      "tradeCount": 4
+    },
+    "1787055480000": {
+      "notionalValue": 174065.72,
+      "size": 528,
+      "stockPrice": 329.99,
+      "tradeCount": 22
+    },
+    "1787055540000": {
+      "notionalValue": 217329.7,
+      "size": 659,
+      "stockPrice": 329.95,
+      "tradeCount": 11
+    },
+    "1787055600000": {
+      "notionalValue": 196268.24,
+      "size": 595,
+      "stockPrice": 329.5,
+      "tradeCount": 9
+    },
+    "1787055660000": {
+      "notionalValue": 28071.04,
+      "size": 85,
+      "stockPrice": 329.5,
+      "tradeCount": 5
+    },
+    "1787055720000": {
+      "notionalValue": 505432.07,
+      "size": 1531,
+      "stockPrice": 329.65,
+      "tradeCount": 28
+    },
+    "1787055780000": {
+      "notionalValue": 147180.27,
+      "size": 447,
+      "stockPrice": 329.07,
+      "tradeCount": 18
+    },
+    "1787055840000": {
+      "notionalValue": 32193.1,
+      "size": 98,
+      "stockPrice": 328.44,
+      "tradeCount": 10
+    },
+    "1787055900000": {
+      "notionalValue": 288290.65,
+      "size": 877,
+      "stockPrice": 328.25,
+      "tradeCount": 15
+    },
+    "1787055960000": {
+      "notionalValue": 51255.25,
+      "size": 156,
+      "stockPrice": 328.43,
+      "tradeCount": 8
+    },
+    "1787056020000": {
+      "notionalValue": 278243.57,
+      "size": 847,
+      "stockPrice": 328.25,
+      "tradeCount": 12
+    },
+    "1787056080000": {
+      "notionalValue": 16750.92,
+      "size": 51,
+      "stockPrice": 328.29,
+      "tradeCount": 6
+    },
+    "1787056140000": {
+      "notionalValue": 12809.26,
+      "size": 39,
+      "stockPrice": 328.4,
+      "tradeCount": 4
+    },
+    "1787056200000": {
+      "notionalValue": 136518.68,
+      "size": 416,
+      "stockPrice": 328.1,
+      "tradeCount": 13
+    },
+    "1787056260000": {
+      "notionalValue": 163068.82,
+      "size": 497,
+      "stockPrice": 328.11,
+      "tradeCount": 9
+    },
+    "1787056320000": {
+      "notionalValue": 111270.85,
+      "size": 339,
+      "stockPrice": 328.01,
+      "tradeCount": 8
+    },
+    "1787056380000": {
+      "notionalValue": 59495.25,
+      "size": 181,
+      "stockPrice": 328.95,
+      "tradeCount": 10
+    },
+    "1787056440000": {
+      "notionalValue": 44621.61,
+      "size": 136,
+      "stockPrice": 328.0,
+      "tradeCount": 17
+    },
+    "1787056500000": {
+      "notionalValue": 4269.32,
+      "size": 13,
+      "stockPrice": 328.42,
+      "tradeCount": 6
+    },
+    "1787056560000": {
+      "notionalValue": 225195.48,
+      "size": 686,
+      "stockPrice": 328.0,
+      "tradeCount": 9
+    },
+    "1787056620000": {
+      "notionalValue": 317331.72,
+      "size": 968,
+      "stockPrice": 328.3,
+      "tradeCount": 10
+    },
+    "1787056680000": {
+      "notionalValue": 315219.15,
+      "size": 961,
+      "stockPrice": 328.0,
+      "tradeCount": 10
+    },
+    "1787056740000": {
+      "notionalValue": 135298.79,
+      "size": 412,
+      "stockPrice": 328.43,
+      "tradeCount": 3
+    },
+    "1787056800000": {
+      "notionalValue": 275264.0,
+      "size": 839,
+      "stockPrice": 328.23,
+      "tradeCount": 11
+    },
+    "1787056860000": {
+      "notionalValue": 14762.0,
+      "size": 45,
+      "stockPrice": 328.09,
+      "tradeCount": 11
+    },
+    "1787056920000": {
+      "notionalValue": 332301.44,
+      "size": 958,
+      "stockPrice": 328.2,
+      "tradeCount": 14
+    },
+    "1787056980000": {
+      "notionalValue": 33472.23,
+      "size": 102,
+      "stockPrice": 328.0,
+      "tradeCount": 13
+    },
+    "1787057040000": {
+      "notionalValue": 161998.86,
+      "size": 494,
+      "stockPrice": 328.45,
+      "tradeCount": 13
+    },
+    "1787057100000": {
+      "notionalValue": 181938.95,
+      "size": 554,
+      "stockPrice": 328.1,
+      "tradeCount": 4
+    },
+    "1787057160000": {
+      "notionalValue": 212774.41,
+      "size": 648,
+      "stockPrice": 328.45,
+      "tradeCount": 8
+    },
+    "1787057220000": {
+      "notionalValue": 56135.13,
+      "size": 171,
+      "stockPrice": 328.1,
+      "tradeCount": 13
+    },
+    "1787057280000": {
+      "notionalValue": 309707.94,
+      "size": 943,
+      "stockPrice": 328.09,
+      "tradeCount": 11
+    },
+    "1787057340000": {
+      "notionalValue": 147524.7,
+      "size": 449,
+      "stockPrice": 328.8,
+      "tradeCount": 13
+    },
+    "1787057400000": {
+      "notionalValue": 241730.75,
+      "size": 735,
+      "stockPrice": 329.0,
+      "tradeCount": 11
+    },
+    "1787057460000": {
+      "notionalValue": 37483.33,
+      "size": 114,
+      "stockPrice": 328.78,
+      "tradeCount": 8
+    },
+    "1787057520000": {
+      "notionalValue": 110688.51,
+      "size": 337,
+      "stockPrice": 328.21,
+      "tradeCount": 13
+    },
+    "1787057580000": {
+      "notionalValue": 82677.8,
+      "size": 252,
+      "stockPrice": 328.21,
+      "tradeCount": 14
+    },
+    "1787057640000": {
+      "notionalValue": 50538.84,
+      "size": 154,
+      "stockPrice": 327.9,
+      "tradeCount": 18
+    },
+    "1787057700000": {
+      "notionalValue": 148539.27,
+      "size": 453,
+      "stockPrice": 327.84,
+      "tradeCount": 7
+    },
+    "1787057760000": {
+      "notionalValue": 48523.9,
+      "size": 148,
+      "stockPrice": 328.0,
+      "tradeCount": 10
+    },
+    "1787057820000": {
+      "notionalValue": 49499.5,
+      "size": 151,
+      "stockPrice": 327.95,
+      "tradeCount": 7
+    },
+    "1787057880000": {
+      "notionalValue": 176999.88,
+      "size": 540,
+      "stockPrice": 327.99,
+      "tradeCount": 19
+    },
+    "1787057940000": {
+      "notionalValue": 360766.55,
+      "size": 1101,
+      "stockPrice": 327.9,
+      "tradeCount": 12
+    },
+    "1787058000000": {
+      "notionalValue": 138341.06,
+      "size": 422,
+      "stockPrice": 327.98,
+      "tradeCount": 10
+    },
+    "1787058060000": {
+      "notionalValue": 59315.66,
+      "size": 181,
+      "stockPrice": 327.8,
+      "tradeCount": 10
+    },
+    "1787058120000": {
+      "notionalValue": 324053.27,
+      "size": 989,
+      "stockPrice": 327.63,
+      "tradeCount": 13
+    },
+    "1787058180000": {
+      "notionalValue": 301857.47,
+      "size": 921,
+      "stockPrice": 327.86,
+      "tradeCount": 14
+    },
+    "1787058240000": {
+      "notionalValue": 103589.27,
+      "size": 316,
+      "stockPrice": 327.5,
+      "tradeCount": 10
+    },
+    "1787058300000": {
+      "notionalValue": 387423.38,
+      "size": 1184,
+      "stockPrice": 327.25,
+      "tradeCount": 12
+    },
+    "1787058360000": {
+      "notionalValue": 828510.62,
+      "size": 2532,
+      "stockPrice": 327.39,
+      "tradeCount": 14
+    },
+    "1787058420000": {
+      "notionalValue": 134403.96,
+      "size": 411,
+      "stockPrice": 327.17,
+      "tradeCount": 37
+    },
+    "1787058480000": {
+      "notionalValue": 33671.7,
+      "size": 103,
+      "stockPrice": 327.1,
+      "tradeCount": 7
+    },
+    "1787058540000": {
+      "notionalValue": 403489.54,
+      "size": 1235,
+      "stockPrice": 326.64,
+      "tradeCount": 33
+    },
+    "1787058600000": {
+      "notionalValue": 271161.36,
+      "size": 830,
+      "stockPrice": 326.65,
+      "tradeCount": 13
+    },
+    "1787058660000": {
+      "notionalValue": 160480.9,
+      "size": 492,
+      "stockPrice": 326.39,
+      "tradeCount": 13
+    },
+    "1787058720000": {
+      "notionalValue": 197959.59,
+      "size": 607,
+      "stockPrice": 326.47,
+      "tradeCount": 19
+    },
+    "1787058780000": {
+      "notionalValue": 79431.91,
+      "size": 243,
+      "stockPrice": 326.92,
+      "tradeCount": 13
+    },
+    "1787058840000": {
+      "notionalValue": 51002.95,
+      "size": 156,
+      "stockPrice": 326.5,
+      "tradeCount": 9
+    },
+    "1787058900000": {
+      "notionalValue": 14403.16,
+      "size": 44,
+      "stockPrice": 326.98,
+      "tradeCount": 6
+    },
+    "1787058960000": {
+      "notionalValue": 32108.45,
+      "size": 98,
+      "stockPrice": 326.89,
+      "tradeCount": 6
+    },
+    "1787059020000": {
+      "notionalValue": 111401.48,
+      "size": 341,
+      "stockPrice": 326.89,
+      "tradeCount": 16
+    },
+    "1787059080000": {
+      "notionalValue": 340562.23,
+      "size": 1044,
+      "stockPrice": 326.7,
+      "tradeCount": 13
+    },
+    "1787059140000": {
+      "notionalValue": 77154.67,
+      "size": 236,
+      "stockPrice": 327.45,
+      "tradeCount": 12
+    },
+    "1787059200000": {
+      "notionalValue": 28182.52,
+      "size": 86,
+      "stockPrice": 327.51,
+      "tradeCount": 16
+    },
+    "1787059260000": {
+      "notionalValue": 90780.18,
+      "size": 277,
+      "stockPrice": 327.52,
+      "tradeCount": 16
+    },
+    "1787059320000": {
+      "notionalValue": 56978.38,
+      "size": 174,
+      "stockPrice": 327.73,
+      "tradeCount": 12
+    },
+    "1787059380000": {
+      "notionalValue": 82812.61,
+      "size": 253,
+      "stockPrice": 327.54,
+      "tradeCount": 17
+    },
+    "1787059440000": {
+      "notionalValue": 371946.12,
+      "size": 1137,
+      "stockPrice": 326.63,
+      "tradeCount": 19
+    },
+    "1787059500000": {
+      "notionalValue": 266560.52,
+      "size": 818,
+      "stockPrice": 325.1,
+      "tradeCount": 29
+    },
+    "1787059560000": {
+      "notionalValue": 226970.61,
+      "size": 699,
+      "stockPrice": 324.39,
+      "tradeCount": 50
+    },
+    "1787059620000": {
+      "notionalValue": 45755.46,
+      "size": 141,
+      "stockPrice": 325.0,
+      "tradeCount": 17
+    },
+    "1787059680000": {
+      "notionalValue": 37360.48,
+      "size": 115,
+      "stockPrice": 324.81,
+      "tradeCount": 6
+    },
+    "1787059740000": {
+      "notionalValue": 53318.35,
+      "size": 164,
+      "stockPrice": 325.0,
+      "tradeCount": 12
+    },
+    "1787059800000": {
+      "notionalValue": 18472150.33,
+      "size": 56664,
+      "stockPrice": 327.2,
+      "tradeCount": 1476
+    },
+    "1787059860000": {
+      "notionalValue": 15069543.83,
+      "size": 46133,
+      "stockPrice": 327.49,
+      "tradeCount": 704
+    },
+    "1787059920000": {
+      "notionalValue": 14079543.02,
+      "size": 43215,
+      "stockPrice": 324.17,
+      "tradeCount": 945
+    },
+    "1787059980000": {
+      "notionalValue": 13869369.29,
+      "size": 42671,
+      "stockPrice": 323.77,
+      "tradeCount": 795
+    },
+    "1787060040000": {
+      "notionalValue": 8163297.17,
+      "size": 25206,
+      "stockPrice": 324.75,
+      "tradeCount": 720
+    },
+    "1787060100000": {
+      "notionalValue": 14410896.79,
+      "size": 44303,
+      "stockPrice": 325.1,
+      "tradeCount": 783
+    },
+    "1787060160000": {
+      "notionalValue": 11721042.56,
+      "size": 36262,
+      "stockPrice": 321.87,
+      "tradeCount": 773
+    },
+    "1787060220000": {
+      "notionalValue": 10208874.9,
+      "size": 31643,
+      "stockPrice": 323.33,
+      "tradeCount": 622
+    },
+    "1787060280000": {
+      "notionalValue": 8814712.0,
+      "size": 27132,
+      "stockPrice": 325.39,
+      "tradeCount": 638
+    },
+    "1787060340000": {
+      "notionalValue": 7415220.56,
+      "size": 22810,
+      "stockPrice": 325.33,
+      "tradeCount": 570
+    },
+    "1787060400000": {
+      "notionalValue": 12214862.63,
+      "size": 37491,
+      "stockPrice": 328.45,
+      "tradeCount": 526
+    },
+    "1787060460000": {
+      "notionalValue": 7512011.85,
+      "size": 22909,
+      "stockPrice": 327.27,
+      "tradeCount": 595
+    },
+    "1787060520000": {
+      "notionalValue": 6554265.6,
+      "size": 20051,
+      "stockPrice": 325.44,
+      "tradeCount": 559
+    },
+    "1787060580000": {
+      "notionalValue": 5696980.37,
+      "size": 17499,
+      "stockPrice": 324.95,
+      "tradeCount": 471
+    },
+    "1787060640000": {
+      "notionalValue": 4055367.59,
+      "size": 12503,
+      "stockPrice": 323.31,
+      "tradeCount": 436
+    },
+    "1787060700000": {
+      "notionalValue": 5383882.45,
+      "size": 16703,
+      "stockPrice": 322.27,
+      "tradeCount": 592
+    },
+    "1787060760000": {
+      "notionalValue": 8438683.58,
+      "size": 26162,
+      "stockPrice": 320.97,
+      "tradeCount": 675
+    },
+    "1787060820000": {
+      "notionalValue": 5405517.86,
+      "size": 16842,
+      "stockPrice": 320.36,
+      "tradeCount": 548
+    },
+    "1787060880000": {
+      "notionalValue": 6622588.9,
+      "size": 20689,
+      "stockPrice": 319.98,
+      "tradeCount": 732
+    },
+    "1787060940000": {
+      "notionalValue": 4788498.27,
+      "size": 14986,
+      "stockPrice": 319.3,
+      "tradeCount": 485
+    },
+    "1787061000000": {
+      "notionalValue": 6217206.03,
+      "size": 19463,
+      "stockPrice": 318.79,
+      "tradeCount": 589
+    },
+    "1787061060000": {
+      "notionalValue": 6975095.91,
+      "size": 21952,
+      "stockPrice": 317.12,
+      "tradeCount": 802
+    },
+    "1787061120000": {
+      "notionalValue": 8074115.4,
+      "size": 25469,
+      "stockPrice": 316.72,
+      "tradeCount": 697
+    },
+    "1787061180000": {
+      "notionalValue": 9617726.45,
+      "size": 30415,
+      "stockPrice": 315.5,
+      "tradeCount": 785
+    },
+    "1787061240000": {
+      "notionalValue": 8466182.98,
+      "size": 26869,
+      "stockPrice": 314.56,
+      "tradeCount": 940
+    },
+    "1787061300000": {
+      "notionalValue": 14430517.44,
+      "size": 46045,
+      "stockPrice": 312.93,
+      "tradeCount": 1019
+    },
+    "1787061360000": {
+      "notionalValue": 14494181.86,
+      "size": 46303,
+      "stockPrice": 314.06,
+      "tradeCount": 785
+    },
+    "1787061420000": {
+      "notionalValue": 11665171.62,
+      "size": 37083,
+      "stockPrice": 314.32,
+      "tradeCount": 710
+    },
+    "1787061480000": {
+      "notionalValue": 6788982.51,
+      "size": 21580,
+      "stockPrice": 314.9,
+      "tradeCount": 630
+    },
+    "1787061540000": {
+      "notionalValue": 3282033.09,
+      "size": 10432,
+      "stockPrice": 314.86,
+      "tradeCount": 501
+    },
+    "1787061600000": {
+      "notionalValue": 6161029.44,
+      "size": 19567,
+      "stockPrice": 315.82,
+      "tradeCount": 559
+    },
+    "1787061660000": {
+      "notionalValue": 4676669.6,
+      "size": 14852,
+      "stockPrice": 315.14,
+      "tradeCount": 527
+    },
+    "1787061720000": {
+      "notionalValue": 6148202.4,
+      "size": 19454,
+      "stockPrice": 316.36,
+      "tradeCount": 530
+    },
+    "1787061780000": {
+      "notionalValue": 6884880.19,
+      "size": 21752,
+      "stockPrice": 315.76,
+      "tradeCount": 544
+    },
+    "1787061840000": {
+      "notionalValue": 4906658.4,
+      "size": 15514,
+      "stockPrice": 316.54,
+      "tradeCount": 496
+    },
+    "1787061900000": {
+      "notionalValue": 5234518.86,
+      "size": 16575,
+      "stockPrice": 315.82,
+      "tradeCount": 493
+    },
+    "1787061960000": {
+      "notionalValue": 4284315.16,
+      "size": 13595,
+      "stockPrice": 315.5,
+      "tradeCount": 484
+    },
+    "1787062020000": {
+      "notionalValue": 3661508.65,
+      "size": 11580,
+      "stockPrice": 316.89,
+      "tradeCount": 370
+    },
+    "1787062080000": {
+      "notionalValue": 2980977.68,
+      "size": 9445,
+      "stockPrice": 315.33,
+      "tradeCount": 417
+    },
+    "1787062140000": {
+      "notionalValue": 6192266.38,
+      "size": 19685,
+      "stockPrice": 313.9,
+      "tradeCount": 545
+    },
+    "1787062200000": {
+      "notionalValue": 10965404.27,
+      "size": 35012,
+      "stockPrice": 312.22,
+      "tradeCount": 778
+    },
+    "1787062260000": {
+      "notionalValue": 7411425.99,
+      "size": 23780,
+      "stockPrice": 311.39,
+      "tradeCount": 706
+    },
+    "1787062320000": {
+      "notionalValue": 8543165.13,
+      "size": 27361,
+      "stockPrice": 312.57,
+      "tradeCount": 555
+    },
+    "1787062380000": {
+      "notionalValue": 11418268.62,
+      "size": 36560,
+      "stockPrice": 312.4,
+      "tradeCount": 522
+    },
+    "1787062440000": {
+      "notionalValue": 3721720.69,
+      "size": 11937,
+      "stockPrice": 311.81,
+      "tradeCount": 399
+    },
+    "1787062500000": {
+      "notionalValue": 4383416.32,
+      "size": 14044,
+      "stockPrice": 313.04,
+      "tradeCount": 428
+    },
+    "1787062560000": {
+      "notionalValue": 3021803.24,
+      "size": 9648,
+      "stockPrice": 313.1,
+      "tradeCount": 339
+    },
+    "1787062620000": {
+      "notionalValue": 4412276.64,
+      "size": 14093,
+      "stockPrice": 312.82,
+      "tradeCount": 399
+    },
+    "1787062680000": {
+      "notionalValue": 3162358.9,
+      "size": 10076,
+      "stockPrice": 314.81,
+      "tradeCount": 329
+    },
+    "1787062740000": {
+      "notionalValue": 5138676.0,
+      "size": 16320,
+      "stockPrice": 314.95,
+      "tradeCount": 357
+    },
+    "1787062800000": {
+      "notionalValue": 4038627.05,
+      "size": 12823,
+      "stockPrice": 315.76,
+      "tradeCount": 333
+    },
+    "1787062860000": {
+      "notionalValue": 2052273.16,
+      "size": 6517,
+      "stockPrice": 314.19,
+      "tradeCount": 287
+    },
+    "1787062920000": {
+      "notionalValue": 3272272.69,
+      "size": 10387,
+      "stockPrice": 314.32,
+      "tradeCount": 276
+    },
+    "1787062980000": {
+      "notionalValue": 2247444.87,
+      "size": 7143,
+      "stockPrice": 314.87,
+      "tradeCount": 226
+    },
+    "1787063040000": {
+      "notionalValue": 3069583.26,
+      "size": 9755,
+      "stockPrice": 314.57,
+      "tradeCount": 263
+    },
+    "1787063100000": {
+      "notionalValue": 1842745.96,
+      "size": 5856,
+      "stockPrice": 315.14,
+      "tradeCount": 211
+    },
+    "1787063160000": {
+      "notionalValue": 4442371.27,
+      "size": 14073,
+      "stockPrice": 316.44,
+      "tradeCount": 344
+    },
+    "1787063220000": {
+      "notionalValue": 2978924.6,
+      "size": 9413,
+      "stockPrice": 316.45,
+      "tradeCount": 349
+    },
+    "1787063280000": {
+      "notionalValue": 3532557.41,
+      "size": 11148,
+      "stockPrice": 317.38,
+      "tradeCount": 331
+    },
+    "1787063340000": {
+      "notionalValue": 3108363.53,
+      "size": 9795,
+      "stockPrice": 317.79,
+      "tradeCount": 295
+    },
+    "1787063400000": {
+      "notionalValue": 4778988.84,
+      "size": 15057,
+      "stockPrice": 317.6,
+      "tradeCount": 383
+    },
+    "1787063460000": {
+      "notionalValue": 2109039.03,
+      "size": 6645,
+      "stockPrice": 317.36,
+      "tradeCount": 259
+    },
+    "1787063520000": {
+      "notionalValue": 3193528.63,
+      "size": 10062,
+      "stockPrice": 317.08,
+      "tradeCount": 272
+    },
+    "1787063580000": {
+      "notionalValue": 3704269.77,
+      "size": 11700,
+      "stockPrice": 316.21,
+      "tradeCount": 339
+    },
+    "1787063640000": {
+      "notionalValue": 2694126.33,
+      "size": 8523,
+      "stockPrice": 315.83,
+      "tradeCount": 263
+    },
+    "1787063700000": {
+      "notionalValue": 3189881.14,
+      "size": 10095,
+      "stockPrice": 315.91,
+      "tradeCount": 249
+    },
+    "1787063760000": {
+      "notionalValue": 1235438.87,
+      "size": 3911,
+      "stockPrice": 315.82,
+      "tradeCount": 223
+    },
+    "1787063820000": {
+      "notionalValue": 3487414.89,
+      "size": 11036,
+      "stockPrice": 315.85,
+      "tradeCount": 312
+    },
+    "1787063880000": {
+      "notionalValue": 2074817.53,
+      "size": 6576,
+      "stockPrice": 315.17,
+      "tradeCount": 262
+    },
+    "1787063940000": {
+      "notionalValue": 2139935.4,
+      "size": 6798,
+      "stockPrice": 314.73,
+      "tradeCount": 311
+    },
+    "1787064000000": {
+      "notionalValue": 2055292.32,
+      "size": 6536,
+      "stockPrice": 315.25,
+      "tradeCount": 288
+    },
+    "1787064060000": {
+      "notionalValue": 1704587.59,
+      "size": 5427,
+      "stockPrice": 314.03,
+      "tradeCount": 250
+    },
+    "1787064120000": {
+      "notionalValue": 2075363.97,
+      "size": 6619,
+      "stockPrice": 313.25,
+      "tradeCount": 326
+    },
+    "1787064180000": {
+      "notionalValue": 2866130.58,
+      "size": 9166,
+      "stockPrice": 312.25,
+      "tradeCount": 386
+    },
+    "1787064240000": {
+      "notionalValue": 6837332.75,
+      "size": 21935,
+      "stockPrice": 311.24,
+      "tradeCount": 540
+    },
+    "1787064300000": {
+      "notionalValue": 4430373.61,
+      "size": 14233,
+      "stockPrice": 311.0,
+      "tradeCount": 793
+    },
+    "1787064360000": {
+      "notionalValue": 6349758.76,
+      "size": 20448,
+      "stockPrice": 311.11,
+      "tradeCount": 929
+    },
+    "1787064420000": {
+      "notionalValue": 2455052.86,
+      "size": 7901,
+      "stockPrice": 310.63,
+      "tradeCount": 363
+    },
+    "1787064480000": {
+      "notionalValue": 3179542.45,
+      "size": 10241,
+      "stockPrice": 310.37,
+      "tradeCount": 394
+    },
+    "1787064540000": {
+      "notionalValue": 3358063.98,
+      "size": 10827,
+      "stockPrice": 310.14,
+      "tradeCount": 536
+    },
+    "1787064600000": {
+      "notionalValue": 7661608.34,
+      "size": 24704,
+      "stockPrice": 310.74,
+      "tradeCount": 924
+    },
+    "1787064660000": {
+      "notionalValue": 3898626.36,
+      "size": 12552,
+      "stockPrice": 310.36,
+      "tradeCount": 394
+    },
+    "1787064720000": {
+      "notionalValue": 2126319.41,
+      "size": 6852,
+      "stockPrice": 310.46,
+      "tradeCount": 353
+    },
+    "1787064780000": {
+      "notionalValue": 3160204.04,
+      "size": 10194,
+      "stockPrice": 310.05,
+      "tradeCount": 383
+    },
+    "1787064840000": {
+      "notionalValue": 1661039.78,
+      "size": 5354,
+      "stockPrice": 310.15,
+      "tradeCount": 321
+    },
+    "1787064900000": {
+      "notionalValue": 1640558.29,
+      "size": 5286,
+      "stockPrice": 310.37,
+      "tradeCount": 288
+    },
+    "1787064960000": {
+      "notionalValue": 2739997.64,
+      "size": 8838,
+      "stockPrice": 310.1,
+      "tradeCount": 320
+    },
+    "1787065020000": {
+      "notionalValue": 3437704.19,
+      "size": 11099,
+      "stockPrice": 309.37,
+      "tradeCount": 353
+    },
+    "1787065080000": {
+      "notionalValue": 3877175.87,
+      "size": 12540,
+      "stockPrice": 308.89,
+      "tradeCount": 542
+    },
+    "1787065140000": {
+      "notionalValue": 4536159.42,
+      "size": 14689,
+      "stockPrice": 308.68,
+      "tradeCount": 496
+    },
+    "1787065200000": {
+      "notionalValue": 4976254.43,
+      "size": 16122,
+      "stockPrice": 308.76,
+      "tradeCount": 329
+    },
+    "1787065260000": {
+      "notionalValue": 5299922.53,
+      "size": 17201,
+      "stockPrice": 308.54,
+      "tradeCount": 522
+    },
+    "1787065320000": {
+      "notionalValue": 6766114.14,
+      "size": 21927,
+      "stockPrice": 308.91,
+      "tradeCount": 350
+    },
+    "1787065380000": {
+      "notionalValue": 4616364.07,
+      "size": 14932,
+      "stockPrice": 309.75,
+      "tradeCount": 328
+    },
+    "1787065440000": {
+      "notionalValue": 2972221.36,
+      "size": 9590,
+      "stockPrice": 310.44,
+      "tradeCount": 298
+    },
+    "1787065500000": {
+      "notionalValue": 3571991.28,
+      "size": 11513,
+      "stockPrice": 309.8,
+      "tradeCount": 314
+    },
+    "1787065560000": {
+      "notionalValue": 1577881.82,
+      "size": 5083,
+      "stockPrice": 310.39,
+      "tradeCount": 226
+    },
+    "1787065620000": {
+      "notionalValue": 1450215.73,
+      "size": 4683,
+      "stockPrice": 309.84,
+      "tradeCount": 267
+    },
+    "1787065680000": {
+      "notionalValue": 2072077.6,
+      "size": 6707,
+      "stockPrice": 308.77,
+      "tradeCount": 324
+    },
+    "1787065740000": {
+      "notionalValue": 1856538.65,
+      "size": 6022,
+      "stockPrice": 308.1,
+      "tradeCount": 303
+    },
+    "1787065800000": {
+      "notionalValue": 13623375.55,
+      "size": 44228,
+      "stockPrice": 308.0,
+      "tradeCount": 623
+    },
+    "1787065860000": {
+      "notionalValue": 2112017.9,
+      "size": 6860,
+      "stockPrice": 307.86,
+      "tradeCount": 287
+    },
+    "1787065920000": {
+      "notionalValue": 7648055.55,
+      "size": 24829,
+      "stockPrice": 308.26,
+      "tradeCount": 345
+    },
+    "1787065980000": {
+      "notionalValue": 2395244.0,
+      "size": 7771,
+      "stockPrice": 308.76,
+      "tradeCount": 283
+    },
+    "1787066040000": {
+      "notionalValue": 1421554.62,
+      "size": 4608,
+      "stockPrice": 308.98,
+      "tradeCount": 253
+    },
+    "1787066100000": {
+      "notionalValue": 1810331.23,
+      "size": 5860,
+      "stockPrice": 309.18,
+      "tradeCount": 318
+    },
+    "1787066160000": {
+      "notionalValue": 1790147.87,
+      "size": 5789,
+      "stockPrice": 309.18,
+      "tradeCount": 294
+    },
+    "1787066220000": {
+      "notionalValue": 1950137.7,
+      "size": 6311,
+      "stockPrice": 308.79,
+      "tradeCount": 245
+    },
+    "1787066280000": {
+      "notionalValue": 1317323.43,
+      "size": 4267,
+      "stockPrice": 308.37,
+      "tradeCount": 256
+    },
+    "1787066340000": {
+      "notionalValue": 2309149.09,
+      "size": 7500,
+      "stockPrice": 307.67,
+      "tradeCount": 348
+    },
+    "1787066400000": {
+      "notionalValue": 1659506.67,
+      "size": 5395,
+      "stockPrice": 307.54,
+      "tradeCount": 266
+    },
+    "1787066460000": {
+      "notionalValue": 2048817.2,
+      "size": 6659,
+      "stockPrice": 307.76,
+      "tradeCount": 258
+    },
+    "1787066520000": {
+      "notionalValue": 2820239.09,
+      "size": 9143,
+      "stockPrice": 308.93,
+      "tradeCount": 312
+    },
+    "1787066580000": {
+      "notionalValue": 1934624.23,
+      "size": 6256,
+      "stockPrice": 309.29,
+      "tradeCount": 235
+    },
+    "1787066640000": {
+      "notionalValue": 2037648.92,
+      "size": 6585,
+      "stockPrice": 309.23,
+      "tradeCount": 244
+    },
+    "1787066700000": {
+      "notionalValue": 2748248.05,
+      "size": 8882,
+      "stockPrice": 309.44,
+      "tradeCount": 259
+    },
+    "1787066760000": {
+      "notionalValue": 1660431.55,
+      "size": 5365,
+      "stockPrice": 309.63,
+      "tradeCount": 236
+    },
+    "1787066820000": {
+      "notionalValue": 1830729.87,
+      "size": 5921,
+      "stockPrice": 308.93,
+      "tradeCount": 242
+    },
+    "1787066880000": {
+      "notionalValue": 1158538.31,
+      "size": 3746,
+      "stockPrice": 309.51,
+      "tradeCount": 222
+    },
+    "1787066940000": {
+      "notionalValue": 2620495.34,
+      "size": 8459,
+      "stockPrice": 309.68,
+      "tradeCount": 326
+    },
+    "1787067000000": {
+      "notionalValue": 1623385.89,
+      "size": 5234,
+      "stockPrice": 310.27,
+      "tradeCount": 257
+    },
+    "1787067060000": {
+      "notionalValue": 1777903.99,
+      "size": 5726,
+      "stockPrice": 310.47,
+      "tradeCount": 233
+    },
+    "1787067120000": {
+      "notionalValue": 2289959.36,
+      "size": 7374,
+      "stockPrice": 310.3,
+      "tradeCount": 277
+    },
+    "1787067180000": {
+      "notionalValue": 2068208.17,
+      "size": 6663,
+      "stockPrice": 310.62,
+      "tradeCount": 200
+    },
+    "1787067240000": {
+      "notionalValue": 2532547.81,
+      "size": 8147,
+      "stockPrice": 310.93,
+      "tradeCount": 238
+    },
+    "1787067300000": {
+      "notionalValue": 1822456.13,
+      "size": 5880,
+      "stockPrice": 310.04,
+      "tradeCount": 268
+    },
+    "1787067360000": {
+      "notionalValue": 2292506.1,
+      "size": 7413,
+      "stockPrice": 309.19,
+      "tradeCount": 206
+    },
+    "1787067420000": {
+      "notionalValue": 6478589.84,
+      "size": 20969,
+      "stockPrice": 308.69,
+      "tradeCount": 208
+    },
+    "1787067480000": {
+      "notionalValue": 1261911.47,
+      "size": 4089,
+      "stockPrice": 308.52,
+      "tradeCount": 233
+    },
+    "1787067540000": {
+      "notionalValue": 804427.55,
+      "size": 2608,
+      "stockPrice": 308.36,
+      "tradeCount": 181
+    },
+    "1787067600000": {
+      "notionalValue": 2542471.8,
+      "size": 8250,
+      "stockPrice": 308.58,
+      "tradeCount": 284
+    },
+    "1787067660000": {
+      "notionalValue": 1983168.78,
+      "size": 6424,
+      "stockPrice": 309.23,
+      "tradeCount": 204
+    },
+    "1787067720000": {
+      "notionalValue": 1757540.25,
+      "size": 5680,
+      "stockPrice": 308.68,
+      "tradeCount": 210
+    },
+    "1787067780000": {
+      "notionalValue": 1516053.53,
+      "size": 4907,
+      "stockPrice": 308.99,
+      "tradeCount": 187
+    },
+    "1787067840000": {
+      "notionalValue": 3105576.32,
+      "size": 10052,
+      "stockPrice": 308.81,
+      "tradeCount": 238
+    },
+    "1787067900000": {
+      "notionalValue": 1584619.53,
+      "size": 5129,
+      "stockPrice": 309.02,
+      "tradeCount": 205
+    },
+    "1787067960000": {
+      "notionalValue": 732564.9,
+      "size": 2371,
+      "stockPrice": 309.14,
+      "tradeCount": 157
+    },
+    "1787068020000": {
+      "notionalValue": 981254.49,
+      "size": 3173,
+      "stockPrice": 309.23,
+      "tradeCount": 164
+    },
+    "1787068080000": {
+      "notionalValue": 1426375.58,
+      "size": 4610,
+      "stockPrice": 309.17,
+      "tradeCount": 196
+    },
+    "1787068140000": {
+      "notionalValue": 2515268.99,
+      "size": 8117,
+      "stockPrice": 309.88,
+      "tradeCount": 238
+    },
+    "1787068200000": {
+      "notionalValue": 1541314.6,
+      "size": 4979,
+      "stockPrice": 309.3,
+      "tradeCount": 199
+    },
+    "1787068260000": {
+      "notionalValue": 1147078.74,
+      "size": 3709,
+      "stockPrice": 309.32,
+      "tradeCount": 162
+    },
+    "1787068320000": {
+      "notionalValue": 1860415.03,
+      "size": 6002,
+      "stockPrice": 310.81,
+      "tradeCount": 269
+    },
+    "1787068380000": {
+      "notionalValue": 1018910.0,
+      "size": 3281,
+      "stockPrice": 310.13,
+      "tradeCount": 182
+    },
+    "1787068440000": {
+      "notionalValue": 9740655.62,
+      "size": 31334,
+      "stockPrice": 310.93,
+      "tradeCount": 254
+    },
+    "1787068500000": {
+      "notionalValue": 1566281.39,
+      "size": 5031,
+      "stockPrice": 311.38,
+      "tradeCount": 188
+    },
+    "1787068560000": {
+      "notionalValue": 1789591.0,
+      "size": 5751,
+      "stockPrice": 310.99,
+      "tradeCount": 211
+    },
+    "1787068620000": {
+      "notionalValue": 1583772.76,
+      "size": 5102,
+      "stockPrice": 310.24,
+      "tradeCount": 179
+    },
+    "1787068680000": {
+      "notionalValue": 2840749.23,
+      "size": 9175,
+      "stockPrice": 309.0,
+      "tradeCount": 320
+    },
+    "1787068740000": {
+      "notionalValue": 2983720.06,
+      "size": 9641,
+      "stockPrice": 310.07,
+      "tradeCount": 269
+    },
+    "1787068800000": {
+      "notionalValue": 1558016.85,
+      "size": 5025,
+      "stockPrice": 310.16,
+      "tradeCount": 201
+    },
+    "1787068860000": {
+      "notionalValue": 1643354.77,
+      "size": 5290,
+      "stockPrice": 309.87,
+      "tradeCount": 194
+    },
+    "1787068920000": {
+      "notionalValue": 2922184.48,
+      "size": 9389,
+      "stockPrice": 311.11,
+      "tradeCount": 221
+    },
+    "1787068980000": {
+      "notionalValue": 1872817.11,
+      "size": 6024,
+      "stockPrice": 310.64,
+      "tradeCount": 229
+    },
+    "1787069040000": {
+      "notionalValue": 1783707.96,
+      "size": 5746,
+      "stockPrice": 310.54,
+      "tradeCount": 163
+    },
+    "1787069100000": {
+      "notionalValue": 1191566.56,
+      "size": 3836,
+      "stockPrice": 310.76,
+      "tradeCount": 149
+    },
+    "1787069160000": {
+      "notionalValue": 1376882.95,
+      "size": 4430,
+      "stockPrice": 310.91,
+      "tradeCount": 135
+    },
+    "1787069220000": {
+      "notionalValue": 3525727.9,
+      "size": 11366,
+      "stockPrice": 310.58,
+      "tradeCount": 201
+    },
+    "1787069280000": {
+      "notionalValue": 1817816.44,
+      "size": 5859,
+      "stockPrice": 310.27,
+      "tradeCount": 163
+    },
+    "1787069340000": {
+      "notionalValue": 660157.99,
+      "size": 2129,
+      "stockPrice": 310.09,
+      "tradeCount": 108
+    },
+    "1787069400000": {
+      "notionalValue": 530981.24,
+      "size": 1712,
+      "stockPrice": 310.18,
+      "tradeCount": 147
+    },
+    "1787069460000": {
+      "notionalValue": 1638385.42,
+      "size": 5285,
+      "stockPrice": 309.85,
+      "tradeCount": 167
+    },
+    "1787069520000": {
+      "notionalValue": 957097.97,
+      "size": 3090,
+      "stockPrice": 309.57,
+      "tradeCount": 149
+    },
+    "1787069580000": {
+      "notionalValue": 3470314.17,
+      "size": 11213,
+      "stockPrice": 309.57,
+      "tradeCount": 242
+    },
+    "1787069640000": {
+      "notionalValue": 794432.26,
+      "size": 2568,
+      "stockPrice": 309.16,
+      "tradeCount": 137
+    },
+    "1787069700000": {
+      "notionalValue": 1944773.04,
+      "size": 6290,
+      "stockPrice": 309.0,
+      "tradeCount": 229
+    },
+    "1787069760000": {
+      "notionalValue": 1546297.46,
+      "size": 5001,
+      "stockPrice": 309.31,
+      "tradeCount": 158
+    },
+    "1787069820000": {
+      "notionalValue": 586423.82,
+      "size": 1897,
+      "stockPrice": 309.06,
+      "tradeCount": 196
+    },
+    "1787069880000": {
+      "notionalValue": 11046047.39,
+      "size": 35801,
+      "stockPrice": 308.27,
+      "tradeCount": 290
+    },
+    "1787069940000": {
+      "notionalValue": 2509963.24,
+      "size": 8144,
+      "stockPrice": 308.31,
+      "tradeCount": 204
+    },
+    "1787070000000": {
+      "notionalValue": 1216282.53,
+      "size": 3943,
+      "stockPrice": 308.8,
+      "tradeCount": 195
+    },
+    "1787070060000": {
+      "notionalValue": 1044939.46,
+      "size": 3384,
+      "stockPrice": 308.95,
+      "tradeCount": 151
+    },
+    "1787070120000": {
+      "notionalValue": 1338977.66,
+      "size": 4330,
+      "stockPrice": 309.56,
+      "tradeCount": 204
+    },
+    "1787070180000": {
+      "notionalValue": 787837.49,
+      "size": 2547,
+      "stockPrice": 308.83,
+      "tradeCount": 118
+    }
+  }
+}
