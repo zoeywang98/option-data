@@ -1,0 +1,3969 @@
+{
+  "data": {
+    "LITE": {
+      "exposureMap": {
+        "2026-08-21": {
+          "300.0": {
+            "callExposure": 0,
+            "putExposure": -328
+          },
+          "320.0": {
+            "callExposure": -32
+          },
+          "400.0": {
+            "callExposure": 0
+          },
+          "410.0": {
+            "callExposure": 0,
+            "putExposure": -92
+          },
+          "420.0": {
+            "putExposure": -236
+          },
+          "450.0": {
+            "callExposure": -378,
+            "putExposure": -1476
+          },
+          "460.0": {
+            "callExposure": -202
+          },
+          "470.0": {
+            "callExposure": 0
+          },
+          "490.0": {
+            "putExposure": -277
+          },
+          "500.0": {
+            "callExposure": 0,
+            "putExposure": -2274
+          },
+          "520.0": {
+            "putExposure": -583
+          },
+          "530.0": {
+            "putExposure": -1004
+          },
+          "550.0": {
+            "putExposure": -2383
+          },
+          "560.0": {
+            "callExposure": -613
+          },
+          "570.0": {
+            "putExposure": -1856
+          },
+          "600.0": {
+            "callExposure": 0,
+            "putExposure": -6539
+          },
+          "620.0": {
+            "callExposure": -2819,
+            "putExposure": -4445
+          },
+          "630.0": {
+            "putExposure": -2784
+          },
+          "640.0": {
+            "putExposure": -5177
+          },
+          "650.0": {
+            "putExposure": -8121
+          },
+          "655.0": {
+            "putExposure": -236
+          },
+          "660.0": {
+            "putExposure": -9901
+          },
+          "665.0": {
+            "putExposure": -836
+          },
+          "670.0": {
+            "putExposure": -4402
+          },
+          "675.0": {
+            "putExposure": -174
+          },
+          "680.0": {
+            "putExposure": -8736
+          },
+          "685.0": {
+            "callExposure": 0,
+            "putExposure": -799
+          },
+          "690.0": {
+            "putExposure": -3757
+          },
+          "695.0": {
+            "putExposure": -1351
+          },
+          "697.5": {
+            "putExposure": -1302
+          },
+          "700.0": {
+            "putExposure": -17531
+          },
+          "702.5": {
+            "putExposure": -3292
+          },
+          "705.0": {
+            "putExposure": -739
+          },
+          "707.5": {
+            "putExposure": -4472
+          },
+          "710.0": {
+            "putExposure": -4862
+          },
+          "712.5": {
+            "putExposure": -1138
+          },
+          "715.0": {
+            "callExposure": -893,
+            "putExposure": -2756
+          },
+          "717.5": {
+            "callExposure": -979,
+            "putExposure": -3280
+          },
+          "720.0": {
+            "callExposure": -25284,
+            "putExposure": -19207
+          },
+          "722.5": {
+            "putExposure": -1817
+          },
+          "725.0": {
+            "putExposure": -2552
+          },
+          "727.5": {
+            "putExposure": -1435
+          },
+          "730.0": {
+            "callExposure": -6496,
+            "putExposure": -17190
+          },
+          "735.0": {
+            "putExposure": -1882
+          },
+          "737.5": {
+            "putExposure": -842
+          },
+          "740.0": {
+            "putExposure": -20514
+          },
+          "745.0": {
+            "putExposure": -3501
+          },
+          "750.0": {
+            "callExposure": -5199,
+            "putExposure": -19116
+          },
+          "755.0": {
+            "putExposure": -3308
+          },
+          "760.0": {
+            "callExposure": 0,
+            "putExposure": -62047
+          },
+          "765.0": {
+            "putExposure": -7310
+          },
+          "770.0": {
+            "callExposure": 0,
+            "putExposure": -35407
+          },
+          "775.0": {
+            "callExposure": -263,
+            "putExposure": -6425
+          },
+          "780.0": {
+            "putExposure": -76931
+          },
+          "785.0": {
+            "putExposure": -2698
+          },
+          "790.0": {
+            "callExposure": -9666,
+            "putExposure": -28814
+          },
+          "795.0": {
+            "callExposure": 0,
+            "putExposure": -13101
+          },
+          "800.0": {
+            "callExposure": -124647,
+            "putExposure": -197484
+          },
+          "805.0": {
+            "putExposure": -9181
+          },
+          "810.0": {
+            "callExposure": 0,
+            "putExposure": -26491
+          },
+          "815.0": {
+            "putExposure": -7630
+          },
+          "820.0": {
+            "callExposure": 0,
+            "putExposure": -53674
+          },
+          "825.0": {
+            "callExposure": -2793,
+            "putExposure": -39789
+          },
+          "830.0": {
+            "callExposure": -11717,
+            "putExposure": -35209
+          },
+          "835.0": {
+            "putExposure": -21527
+          },
+          "840.0": {
+            "callExposure": 0,
+            "putExposure": -135661
+          },
+          "845.0": {
+            "putExposure": -14420
+          },
+          "847.5": {
+            "callExposure": -2669,
+            "putExposure": -25466
+          },
+          "850.0": {
+            "callExposure": -66698,
+            "putExposure": -193627
+          },
+          "852.5": {
+            "putExposure": -1739
+          },
+          "855.0": {
+            "putExposure": -30476
+          },
+          "857.5": {
+            "putExposure": -9414
+          },
+          "860.0": {
+            "callExposure": -102522,
+            "putExposure": -198888
+          },
+          "862.5": {
+            "putExposure": -1295
+          },
+          "865.0": {
+            "putExposure": -29725
+          },
+          "870.0": {
+            "callExposure": -432412,
+            "putExposure": -124790
+          },
+          "875.0": {
+            "callExposure": -5577,
+            "putExposure": -21074
+          },
+          "880.0": {
+            "callExposure": -43302,
+            "putExposure": -381503
+          },
+          "885.0": {
+            "callExposure": -4101,
+            "putExposure": -11440
+          },
+          "890.0": {
+            "callExposure": -471800,
+            "putExposure": -40156
+          },
+          "895.0": {
+            "callExposure": -6309,
+            "putExposure": -448
+          },
+          "900.0": {
+            "callExposure": -151037,
+            "putExposure": -4212
+          },
+          "905.0": {
+            "callExposure": -5219,
+            "putExposure": -4490
+          },
+          "910.0": {
+            "callExposure": -18851,
+            "putExposure": 0
+          },
+          "915.0": {
+            "callExposure": -15023,
+            "putExposure": 0
+          },
+          "920.0": {
+            "callExposure": -132403,
+            "putExposure": 0
+          },
+          "925.0": {
+            "callExposure": -7295,
+            "putExposure": -5730
+          },
+          "930.0": {
+            "callExposure": -34482,
+            "putExposure": 0
+          },
+          "935.0": {
+            "callExposure": -6549,
+            "putExposure": -6658
+          },
+          "940.0": {
+            "callExposure": -18254,
+            "putExposure": 0
+          },
+          "945.0": {
+            "callExposure": -43628,
+            "putExposure": -4883
+          },
+          "950.0": {
+            "callExposure": -61074,
+            "putExposure": 0
+          },
+          "955.0": {
+            "callExposure": 0,
+            "putExposure": -3619
+          },
+          "960.0": {
+            "callExposure": -16075,
+            "putExposure": -2430
+          },
+          "970.0": {
+            "callExposure": 6724,
+            "putExposure": 0
+          },
+          "980.0": {
+            "callExposure": 22877,
+            "putExposure": 3180
+          },
+          "990.0": {
+            "callExposure": 30243,
+            "putExposure": 10333
+          },
+          "1000.0": {
+            "callExposure": 468653,
+            "putExposure": 7965
+          },
+          "1010.0": {
+            "callExposure": 83224,
+            "putExposure": 6041
+          },
+          "1020.0": {
+            "callExposure": 54896,
+            "putExposure": 8236
+          },
+          "1030.0": {
+            "callExposure": 35948,
+            "putExposure": 71103
+          },
+          "1040.0": {
+            "callExposure": 24483,
+            "putExposure": 1677
+          },
+          "1050.0": {
+            "callExposure": 230668,
+            "putExposure": 6335
+          },
+          "1060.0": {
+            "callExposure": 57760,
+            "putExposure": 9035
+          },
+          "1070.0": {
+            "callExposure": 0,
+            "putExposure": 2612
+          },
+          "1080.0": {
+            "callExposure": 0
+          },
+          "1090.0": {
+            "callExposure": 34887
+          },
+          "1100.0": {
+            "callExposure": 78053,
+            "putExposure": 8459
+          },
+          "1110.0": {
+            "callExposure": 54914,
+            "putExposure": 3153
+          },
+          "1120.0": {
+            "callExposure": 38688
+          },
+          "1130.0": {
+            "callExposure": 10229
+          },
+          "1140.0": {
+            "callExposure": 13772,
+            "putExposure": 0
+          },
+          "1150.0": {
+            "callExposure": 61748
+          },
+          "1160.0": {
+            "callExposure": 8432
+          },
+          "1170.0": {
+            "callExposure": 8635
+          },
+          "1180.0": {
+            "callExposure": 0
+          },
+          "1190.0": {
+            "callExposure": 9547
+          },
+          "1200.0": {
+            "callExposure": 128315,
+            "putExposure": 1381
+          },
+          "1210.0": {
+            "callExposure": 25830
+          },
+          "1220.0": {
+            "callExposure": 1060
+          },
+          "1230.0": {
+            "callExposure": 4799,
+            "putExposure": 0
+          },
+          "1240.0": {
+            "callExposure": 9695
+          },
+          "1250.0": {
+            "callExposure": 10713
+          },
+          "1260.0": {
+            "callExposure": 7100
+          },
+          "1270.0": {
+            "callExposure": 5313
+          },
+          "1280.0": {
+            "callExposure": 4537
+          },
+          "1290.0": {
+            "callExposure": 3898,
+            "putExposure": 0
+          },
+          "1300.0": {
+            "callExposure": 6473,
+            "putExposure": 0
+          },
+          "1310.0": {
+            "callExposure": 10567
+          },
+          "1320.0": {
+            "callExposure": 1409
+          },
+          "1330.0": {
+            "callExposure": 4205
+          },
+          "1380.0": {
+            "callExposure": 2648
+          },
+          "1400.0": {
+            "callExposure": 5542
+          },
+          "1410.0": {
+            "callExposure": 3300
+          },
+          "1420.0": {
+            "callExposure": 320
+          },
+          "1600.0": {
+            "callExposure": 1552,
+            "putExposure": 0
+          }
+        },
+        "2026-08-28": {
+          "380.0": {
+            "putExposure": -632
+          },
+          "440.0": {
+            "callExposure": -25
+          },
+          "460.0": {
+            "callExposure": 0
+          },
+          "500.0": {
+            "putExposure": -193
+          },
+          "535.0": {
+            "putExposure": -832
+          },
+          "545.0": {
+            "putExposure": -668
+          },
+          "550.0": {
+            "callExposure": 0,
+            "putExposure": -1116
+          },
+          "555.0": {
+            "callExposure": 0
+          },
+          "570.0": {
+            "putExposure": -1169
+          },
+          "600.0": {
+            "callExposure": -106,
+            "putExposure": -4895
+          },
+          "625.0": {
+            "putExposure": -4561
+          },
+          "630.0": {
+            "putExposure": -6145
+          },
+          "640.0": {
+            "putExposure": -1428
+          },
+          "650.0": {
+            "putExposure": -6742
+          },
+          "670.0": {
+            "putExposure": -1416
+          },
+          "680.0": {
+            "callExposure": -806,
+            "putExposure": -3176
+          },
+          "685.0": {
+            "putExposure": -3576
+          },
+          "690.0": {
+            "putExposure": -4353
+          },
+          "695.0": {
+            "putExposure": -2839
+          },
+          "700.0": {
+            "callExposure": -11708,
+            "putExposure": -17724
+          },
+          "710.0": {
+            "putExposure": -969
+          },
+          "720.0": {
+            "putExposure": -4034
+          },
+          "725.0": {
+            "putExposure": -4302
+          },
+          "730.0": {
+            "callExposure": -1104,
+            "putExposure": -5051
+          },
+          "735.0": {
+            "putExposure": -2871
+          },
+          "740.0": {
+            "putExposure": -4711
+          },
+          "745.0": {
+            "putExposure": -5337
+          },
+          "750.0": {
+            "putExposure": -40928
+          },
+          "755.0": {
+            "putExposure": -9027
+          },
+          "760.0": {
+            "putExposure": -11451
+          },
+          "765.0": {
+            "putExposure": -3203
+          },
+          "770.0": {
+            "callExposure": -2520,
+            "putExposure": -9882
+          },
+          "775.0": {
+            "putExposure": -7729
+          },
+          "780.0": {
+            "putExposure": -12513
+          },
+          "785.0": {
+            "putExposure": -4752
+          },
+          "790.0": {
+            "putExposure": -6223
+          },
+          "795.0": {
+            "putExposure": -8761
+          },
+          "800.0": {
+            "callExposure": -5543,
+            "putExposure": -38098
+          },
+          "805.0": {
+            "callExposure": -4966,
+            "putExposure": -17295
+          },
+          "810.0": {
+            "callExposure": -1110,
+            "putExposure": -9826
+          },
+          "815.0": {
+            "callExposure": -2117,
+            "putExposure": -7531
+          },
+          "820.0": {
+            "putExposure": -24545
+          },
+          "825.0": {
+            "putExposure": -8489
+          },
+          "830.0": {
+            "callExposure": -5709,
+            "putExposure": -11112
+          },
+          "835.0": {
+            "putExposure": -10174
+          },
+          "840.0": {
+            "callExposure": -2167,
+            "putExposure": -9038
+          },
+          "845.0": {
+            "callExposure": -13684,
+            "putExposure": -41006
+          },
+          "847.5": {
+            "putExposure": -228
+          },
+          "850.0": {
+            "callExposure": -15704,
+            "putExposure": -20423
+          },
+          "852.5": {
+            "putExposure": -922
+          },
+          "855.0": {
+            "putExposure": -6402
+          },
+          "857.5": {
+            "putExposure": 0
+          },
+          "860.0": {
+            "callExposure": -16594,
+            "putExposure": -5415
+          },
+          "862.5": {
+            "putExposure": -452
+          },
+          "865.0": {
+            "putExposure": -4266
+          },
+          "870.0": {
+            "callExposure": -5149,
+            "putExposure": -16039
+          },
+          "875.0": {
+            "callExposure": -4209,
+            "putExposure": -8350
+          },
+          "880.0": {
+            "callExposure": -8716,
+            "putExposure": -31592
+          },
+          "890.0": {
+            "callExposure": -5480,
+            "putExposure": -9047
+          },
+          "895.0": {
+            "callExposure": -1177,
+            "putExposure": -2064
+          },
+          "900.0": {
+            "callExposure": -20319,
+            "putExposure": -27345
+          },
+          "905.0": {
+            "putExposure": 0
+          },
+          "910.0": {
+            "putExposure": -3224
+          },
+          "915.0": {
+            "callExposure": -1732,
+            "putExposure": -11022
+          },
+          "920.0": {
+            "callExposure": -1148,
+            "putExposure": -10091
+          },
+          "925.0": {
+            "callExposure": -13450,
+            "putExposure": -2673
+          },
+          "930.0": {
+            "callExposure": -700,
+            "putExposure": -5749
+          },
+          "935.0": {
+            "callExposure": -906,
+            "putExposure": -4161
+          },
+          "940.0": {
+            "callExposure": -7824,
+            "putExposure": -2283
+          },
+          "942.5": {
+            "callExposure": -1252
+          },
+          "945.0": {
+            "callExposure": -3303,
+            "putExposure": -1149
+          },
+          "947.5": {
+            "callExposure": -12415,
+            "putExposure": -198
+          },
+          "950.0": {
+            "callExposure": -28574,
+            "putExposure": 0
+          },
+          "952.5": {
+            "putExposure": 0
+          },
+          "955.0": {
+            "callExposure": -309,
+            "putExposure": 0
+          },
+          "957.5": {
+            "callExposure": -434,
+            "putExposure": 0
+          },
+          "960.0": {
+            "callExposure": -2964,
+            "putExposure": 82
+          },
+          "962.5": {
+            "callExposure": -63
+          },
+          "965.0": {
+            "callExposure": 2,
+            "putExposure": -141
+          },
+          "967.5": {
+            "callExposure": 203,
+            "putExposure": 0
+          },
+          "970.0": {
+            "callExposure": 265,
+            "putExposure": -10
+          },
+          "975.0": {
+            "callExposure": 0,
+            "putExposure": 69
+          },
+          "980.0": {
+            "callExposure": 233,
+            "putExposure": -7
+          },
+          "985.0": {
+            "callExposure": 135,
+            "putExposure": 0
+          },
+          "990.0": {
+            "callExposure": 719,
+            "putExposure": 0
+          },
+          "995.0": {
+            "callExposure": 3059
+          },
+          "1000.0": {
+            "callExposure": 25029,
+            "putExposure": 0
+          },
+          "1005.0": {
+            "callExposure": 1168
+          },
+          "1010.0": {
+            "callExposure": 2998,
+            "putExposure": 314
+          },
+          "1015.0": {
+            "callExposure": 1160
+          },
+          "1020.0": {
+            "callExposure": 1815
+          },
+          "1025.0": {
+            "callExposure": 1827
+          },
+          "1030.0": {
+            "callExposure": 5819
+          },
+          "1040.0": {
+            "callExposure": 1225
+          },
+          "1045.0": {
+            "callExposure": 3100
+          },
+          "1050.0": {
+            "callExposure": 54450
+          },
+          "1060.0": {
+            "callExposure": 5866
+          },
+          "1065.0": {
+            "putExposure": 0
+          },
+          "1070.0": {
+            "callExposure": 3016
+          },
+          "1075.0": {
+            "callExposure": 740
+          },
+          "1080.0": {
+            "callExposure": 11825
+          },
+          "1090.0": {
+            "callExposure": 0
+          },
+          "1095.0": {
+            "callExposure": 3397
+          },
+          "1100.0": {
+            "callExposure": 440869
+          },
+          "1105.0": {
+            "callExposure": 4443
+          },
+          "1110.0": {
+            "callExposure": 91534
+          },
+          "1115.0": {
+            "callExposure": 2906
+          },
+          "1120.0": {
+            "callExposure": 5882,
+            "putExposure": 0
+          },
+          "1130.0": {
+            "callExposure": 3092
+          },
+          "1150.0": {
+            "callExposure": 46320
+          },
+          "1160.0": {
+            "callExposure": 3724
+          },
+          "1170.0": {
+            "callExposure": 1776
+          },
+          "1180.0": {
+            "callExposure": 4338
+          },
+          "1190.0": {
+            "callExposure": 40081
+          },
+          "1200.0": {
+            "callExposure": 35222,
+            "putExposure": 0
+          },
+          "1250.0": {
+            "callExposure": 1300
+          },
+          "1270.0": {
+            "callExposure": 1049
+          },
+          "1280.0": {
+            "callExposure": 2323
+          },
+          "1300.0": {
+            "callExposure": 5316
+          },
+          "1310.0": {
+            "callExposure": 201
+          },
+          "1320.0": {
+            "callExposure": 193
+          },
+          "1380.0": {
+            "putExposure": 0
+          },
+          "1400.0": {
+            "callExposure": 3569,
+            "putExposure": 0
+          }
+        },
+        "2026-09-04": {
+          "420.0": {
+            "putExposure": -169
+          },
+          "430.0": {
+            "putExposure": -246
+          },
+          "460.0": {
+            "callExposure": 0
+          },
+          "465.0": {
+            "callExposure": 0
+          },
+          "545.0": {
+            "putExposure": -186
+          },
+          "550.0": {
+            "putExposure": -1256
+          },
+          "590.0": {
+            "putExposure": -309
+          },
+          "595.0": {
+            "putExposure": -278
+          },
+          "600.0": {
+            "putExposure": -3170
+          },
+          "610.0": {
+            "putExposure": -254
+          },
+          "615.0": {
+            "putExposure": -2404
+          },
+          "620.0": {
+            "putExposure": -4028
+          },
+          "635.0": {
+            "putExposure": -1244
+          },
+          "645.0": {
+            "putExposure": -2432
+          },
+          "650.0": {
+            "putExposure": -3993
+          },
+          "660.0": {
+            "putExposure": 0
+          },
+          "670.0": {
+            "putExposure": -5703
+          },
+          "680.0": {
+            "putExposure": -6508
+          },
+          "690.0": {
+            "callExposure": -259,
+            "putExposure": 0
+          },
+          "700.0": {
+            "putExposure": -21853
+          },
+          "710.0": {
+            "callExposure": -747
+          },
+          "715.0": {
+            "putExposure": -4074
+          },
+          "730.0": {
+            "callExposure": -331
+          },
+          "735.0": {
+            "putExposure": -3083
+          },
+          "740.0": {
+            "putExposure": -1505
+          },
+          "745.0": {
+            "putExposure": -363
+          },
+          "750.0": {
+            "putExposure": -18307
+          },
+          "755.0": {
+            "putExposure": -8798
+          },
+          "760.0": {
+            "callExposure": -974,
+            "putExposure": -4926
+          },
+          "765.0": {
+            "putExposure": -7471
+          },
+          "770.0": {
+            "putExposure": -17670
+          },
+          "775.0": {
+            "putExposure": -2140
+          },
+          "780.0": {
+            "putExposure": -7176
+          },
+          "785.0": {
+            "putExposure": -9893
+          },
+          "790.0": {
+            "putExposure": -22479
+          },
+          "795.0": {
+            "putExposure": -19072
+          },
+          "800.0": {
+            "callExposure": -3497,
+            "putExposure": -112859
+          },
+          "805.0": {
+            "callExposure": -3534,
+            "putExposure": -21406
+          },
+          "810.0": {
+            "putExposure": -40023
+          },
+          "820.0": {
+            "putExposure": -76103
+          },
+          "825.0": {
+            "putExposure": -7092
+          },
+          "830.0": {
+            "callExposure": -20944,
+            "putExposure": -20118
+          },
+          "835.0": {
+            "putExposure": -12619
+          },
+          "840.0": {
+            "putExposure": -27782
+          },
+          "850.0": {
+            "putExposure": -19786
+          },
+          "855.0": {
+            "putExposure": -26311
+          },
+          "860.0": {
+            "putExposure": -39106
+          },
+          "870.0": {
+            "putExposure": -8618
+          },
+          "875.0": {
+            "callExposure": -1155,
+            "putExposure": -16831
+          },
+          "880.0": {
+            "callExposure": -26783,
+            "putExposure": -21892
+          },
+          "885.0": {
+            "putExposure": -2985
+          },
+          "890.0": {
+            "callExposure": -22529,
+            "putExposure": -3244
+          },
+          "900.0": {
+            "callExposure": -3205,
+            "putExposure": -5792
+          },
+          "905.0": {
+            "callExposure": -1253,
+            "putExposure": -4021
+          },
+          "910.0": {
+            "callExposure": -726,
+            "putExposure": -3620
+          },
+          "915.0": {
+            "callExposure": -4016
+          },
+          "920.0": {
+            "callExposure": -975
+          },
+          "930.0": {
+            "callExposure": -123,
+            "putExposure": -5363
+          },
+          "940.0": {
+            "putExposure": -1083
+          },
+          "942.5": {
+            "putExposure": 0
+          },
+          "945.0": {
+            "putExposure": 0
+          },
+          "950.0": {
+            "callExposure": -1582,
+            "putExposure": -1176
+          },
+          "955.0": {
+            "callExposure": 2411,
+            "putExposure": 16
+          },
+          "960.0": {
+            "callExposure": -326,
+            "putExposure": 10
+          },
+          "965.0": {
+            "callExposure": -182
+          },
+          "970.0": {
+            "callExposure": 117,
+            "putExposure": -30
+          },
+          "975.0": {
+            "callExposure": 559,
+            "putExposure": 50
+          },
+          "980.0": {
+            "callExposure": 1578,
+            "putExposure": 98
+          },
+          "985.0": {
+            "callExposure": 255,
+            "putExposure": 0
+          },
+          "990.0": {
+            "callExposure": 114,
+            "putExposure": 180
+          },
+          "995.0": {
+            "callExposure": 399,
+            "putExposure": 0
+          },
+          "1000.0": {
+            "callExposure": 6011,
+            "putExposure": 386
+          },
+          "1005.0": {
+            "callExposure": 2239
+          },
+          "1010.0": {
+            "callExposure": 776
+          },
+          "1020.0": {
+            "callExposure": 1534
+          },
+          "1025.0": {
+            "callExposure": 2126,
+            "putExposure": 773
+          },
+          "1030.0": {
+            "callExposure": 785
+          },
+          "1040.0": {
+            "callExposure": 2508
+          },
+          "1050.0": {
+            "callExposure": 4710
+          },
+          "1055.0": {
+            "callExposure": 2109
+          },
+          "1060.0": {
+            "callExposure": 1566
+          },
+          "1075.0": {
+            "callExposure": 0
+          },
+          "1080.0": {
+            "callExposure": 436
+          },
+          "1100.0": {
+            "callExposure": 41337
+          },
+          "1110.0": {
+            "callExposure": 0,
+            "putExposure": 0
+          },
+          "1120.0": {
+            "callExposure": 1323
+          },
+          "1150.0": {
+            "callExposure": 27087
+          },
+          "1170.0": {
+            "callExposure": 5590
+          },
+          "1180.0": {
+            "callExposure": 6818
+          },
+          "1190.0": {
+            "callExposure": 6150
+          },
+          "1200.0": {
+            "callExposure": 3846
+          },
+          "1210.0": {
+            "callExposure": 9998
+          },
+          "1220.0": {
+            "putExposure": 292
+          },
+          "1230.0": {
+            "callExposure": 0
+          },
+          "1240.0": {
+            "callExposure": 0
+          },
+          "1250.0": {
+            "callExposure": 1400
+          },
+          "1280.0": {
+            "callExposure": 2110
+          },
+          "1290.0": {
+            "callExposure": 0
+          },
+          "1300.0": {
+            "callExposure": 243
+          },
+          "1350.0": {
+            "callExposure": 0
+          },
+          "1360.0": {
+            "callExposure": 1033
+          },
+          "1390.0": {
+            "callExposure": 216
+          },
+          "1400.0": {
+            "callExposure": 0
+          }
+        },
+        "2026-09-11": {
+          "460.0": {
+            "callExposure": -98
+          },
+          "505.0": {
+            "putExposure": -5430
+          },
+          "520.0": {
+            "putExposure": -299
+          },
+          "570.0": {
+            "putExposure": -144
+          },
+          "595.0": {
+            "putExposure": -247
+          },
+          "635.0": {
+            "putExposure": -2970
+          },
+          "640.0": {
+            "putExposure": -2392
+          },
+          "650.0": {
+            "putExposure": -10924
+          },
+          "655.0": {
+            "putExposure": -253
+          },
+          "680.0": {
+            "callExposure": -703,
+            "putExposure": -2669
+          },
+          "690.0": {
+            "putExposure": -689
+          },
+          "700.0": {
+            "putExposure": -4187
+          },
+          "705.0": {
+            "putExposure": -1034
+          },
+          "720.0": {
+            "putExposure": -13535
+          },
+          "735.0": {
+            "putExposure": -583
+          },
+          "740.0": {
+            "putExposure": -1219
+          },
+          "745.0": {
+            "putExposure": -2878
+          },
+          "750.0": {
+            "putExposure": -6014
+          },
+          "755.0": {
+            "putExposure": -5275
+          },
+          "770.0": {
+            "putExposure": -10809
+          },
+          "775.0": {
+            "callExposure": -434,
+            "putExposure": -7901
+          },
+          "780.0": {
+            "putExposure": -17544
+          },
+          "795.0": {
+            "callExposure": -224
+          },
+          "800.0": {
+            "callExposure": -7183,
+            "putExposure": -89692
+          },
+          "820.0": {
+            "putExposure": -66037
+          },
+          "825.0": {
+            "putExposure": -1667
+          },
+          "830.0": {
+            "putExposure": -16020
+          },
+          "835.0": {
+            "putExposure": -3452
+          },
+          "840.0": {
+            "callExposure": -5965,
+            "putExposure": -26178
+          },
+          "845.0": {
+            "callExposure": -4019,
+            "putExposure": -7235
+          },
+          "850.0": {
+            "callExposure": -4038,
+            "putExposure": -26669
+          },
+          "870.0": {
+            "putExposure": -7475
+          },
+          "875.0": {
+            "callExposure": -1551,
+            "putExposure": -8477
+          },
+          "880.0": {
+            "putExposure": -3353
+          },
+          "890.0": {
+            "putExposure": -5525
+          },
+          "900.0": {
+            "callExposure": -4511,
+            "putExposure": -11841
+          },
+          "920.0": {
+            "callExposure": 37,
+            "putExposure": -1156
+          },
+          "925.0": {
+            "putExposure": -1466
+          },
+          "930.0": {
+            "putExposure": -1469
+          },
+          "940.0": {
+            "putExposure": 452
+          },
+          "945.0": {
+            "callExposure": 50,
+            "putExposure": -2822
+          },
+          "950.0": {
+            "callExposure": -873,
+            "putExposure": -154
+          },
+          "960.0": {
+            "putExposure": 238
+          },
+          "965.0": {
+            "putExposure": -36
+          },
+          "970.0": {
+            "putExposure": 154
+          },
+          "975.0": {
+            "callExposure": 91,
+            "putExposure": 0
+          },
+          "980.0": {
+            "callExposure": 551,
+            "putExposure": 613
+          },
+          "985.0": {
+            "callExposure": 376,
+            "putExposure": 129
+          },
+          "990.0": {
+            "callExposure": 225,
+            "putExposure": 0
+          },
+          "995.0": {
+            "callExposure": 245
+          },
+          "1000.0": {
+            "callExposure": 5141
+          },
+          "1005.0": {
+            "callExposure": 145
+          },
+          "1010.0": {
+            "callExposure": 973,
+            "putExposure": 153
+          },
+          "1040.0": {
+            "callExposure": 2791
+          },
+          "1045.0": {
+            "callExposure": 0
+          },
+          "1050.0": {
+            "callExposure": 954
+          },
+          "1080.0": {
+            "callExposure": 1920
+          },
+          "1100.0": {
+            "callExposure": 8548
+          },
+          "1150.0": {
+            "callExposure": 931
+          },
+          "1155.0": {
+            "callExposure": 950
+          },
+          "1160.0": {
+            "callExposure": 0
+          },
+          "1180.0": {
+            "callExposure": 328
+          },
+          "1200.0": {
+            "callExposure": 1015
+          },
+          "1350.0": {
+            "callExposure": 0
+          }
+        },
+        "2026-09-18": {
+          "310.0": {
+            "callExposure": -242
+          },
+          "320.0": {
+            "callExposure": -399
+          },
+          "350.0": {
+            "putExposure": -1307
+          },
+          "390.0": {
+            "putExposure": -3266
+          },
+          "400.0": {
+            "putExposure": -3692
+          },
+          "420.0": {
+            "putExposure": -3206
+          },
+          "450.0": {
+            "putExposure": -9770
+          },
+          "460.0": {
+            "putExposure": -2565
+          },
+          "490.0": {
+            "putExposure": -6439
+          },
+          "500.0": {
+            "callExposure": -20444,
+            "putExposure": -48039
+          },
+          "510.0": {
+            "putExposure": -4784
+          },
+          "520.0": {
+            "putExposure": -41045
+          },
+          "530.0": {
+            "putExposure": -1644
+          },
+          "540.0": {
+            "callExposure": -15934,
+            "putExposure": -102597
+          },
+          "550.0": {
+            "putExposure": -49718
+          },
+          "560.0": {
+            "putExposure": -17602
+          },
+          "570.0": {
+            "putExposure": -16082
+          },
+          "580.0": {
+            "putExposure": -56518
+          },
+          "590.0": {
+            "putExposure": -24899
+          },
+          "600.0": {
+            "callExposure": -9829,
+            "putExposure": -145062
+          },
+          "620.0": {
+            "putExposure": -38210
+          },
+          "630.0": {
+            "putExposure": -33743
+          },
+          "640.0": {
+            "putExposure": -65897
+          },
+          "650.0": {
+            "callExposure": -21896,
+            "putExposure": -130304
+          },
+          "660.0": {
+            "putExposure": -103420
+          },
+          "670.0": {
+            "putExposure": -144598
+          },
+          "680.0": {
+            "putExposure": -52288
+          },
+          "690.0": {
+            "putExposure": -97272
+          },
+          "700.0": {
+            "callExposure": -19772,
+            "putExposure": -228354
+          },
+          "710.0": {
+            "putExposure": -51483
+          },
+          "720.0": {
+            "putExposure": -59340
+          },
+          "730.0": {
+            "putExposure": -42250
+          },
+          "740.0": {
+            "callExposure": -28907,
+            "putExposure": -123806
+          },
+          "750.0": {
+            "putExposure": -177018
+          },
+          "760.0": {
+            "putExposure": -121707
+          },
+          "770.0": {
+            "callExposure": -13169,
+            "putExposure": -37109
+          },
+          "780.0": {
+            "callExposure": -11116,
+            "putExposure": -61771
+          },
+          "790.0": {
+            "callExposure": -10663,
+            "putExposure": -18091
+          },
+          "800.0": {
+            "callExposure": -106583,
+            "putExposure": -191126
+          },
+          "810.0": {
+            "callExposure": -23956,
+            "putExposure": -42697
+          },
+          "820.0": {
+            "putExposure": -118022
+          },
+          "830.0": {
+            "callExposure": -38648,
+            "putExposure": -59445
+          },
+          "840.0": {
+            "callExposure": -24167,
+            "putExposure": -13097
+          },
+          "850.0": {
+            "callExposure": -42459,
+            "putExposure": -28752
+          },
+          "860.0": {
+            "callExposure": -12721,
+            "putExposure": -35937
+          },
+          "870.0": {
+            "callExposure": -11315,
+            "putExposure": -7764
+          },
+          "880.0": {
+            "putExposure": -9070
+          },
+          "890.0": {
+            "putExposure": -46773
+          },
+          "900.0": {
+            "callExposure": -72964,
+            "putExposure": -36362
+          },
+          "910.0": {
+            "putExposure": -4216
+          },
+          "920.0": {
+            "callExposure": -19195,
+            "putExposure": -5073
+          },
+          "930.0": {
+            "callExposure": -3582,
+            "putExposure": -7709
+          },
+          "940.0": {
+            "callExposure": -4659,
+            "putExposure": -6989
+          },
+          "950.0": {
+            "callExposure": 4405,
+            "putExposure": -2134
+          },
+          "960.0": {
+            "callExposure": 2003,
+            "putExposure": 458
+          },
+          "970.0": {
+            "callExposure": 2301,
+            "putExposure": 342
+          },
+          "980.0": {
+            "callExposure": 10603,
+            "putExposure": 3810
+          },
+          "990.0": {
+            "callExposure": 28086,
+            "putExposure": 4066
+          },
+          "1000.0": {
+            "callExposure": 39799,
+            "putExposure": 5854
+          },
+          "1010.0": {
+            "callExposure": 3572
+          },
+          "1020.0": {
+            "callExposure": 7935
+          },
+          "1030.0": {
+            "callExposure": 3919
+          },
+          "1040.0": {
+            "callExposure": 5874,
+            "putExposure": 2569
+          },
+          "1050.0": {
+            "callExposure": 14051,
+            "putExposure": 153
+          },
+          "1070.0": {
+            "callExposure": 72508
+          },
+          "1090.0": {
+            "callExposure": 10184,
+            "putExposure": 42221
+          },
+          "1100.0": {
+            "callExposure": 49221
+          },
+          "1110.0": {
+            "callExposure": 44147
+          },
+          "1120.0": {
+            "callExposure": 29657
+          },
+          "1130.0": {
+            "callExposure": 24911
+          },
+          "1140.0": {
+            "callExposure": 89475
+          },
+          "1150.0": {
+            "callExposure": 50256
+          },
+          "1160.0": {
+            "callExposure": 8147
+          },
+          "1170.0": {
+            "callExposure": 7855
+          },
+          "1180.0": {
+            "callExposure": 21906
+          },
+          "1190.0": {
+            "callExposure": 7768
+          },
+          "1200.0": {
+            "callExposure": 114378,
+            "putExposure": 24101
+          },
+          "1210.0": {
+            "callExposure": 7128,
+            "putExposure": 0
+          },
+          "1220.0": {
+            "callExposure": 97210
+          },
+          "1230.0": {
+            "callExposure": 5520
+          },
+          "1250.0": {
+            "callExposure": 54881
+          },
+          "1260.0": {
+            "callExposure": 3775
+          },
+          "1270.0": {
+            "putExposure": 0
+          },
+          "1280.0": {
+            "callExposure": 85528,
+            "putExposure": 692
+          },
+          "1290.0": {
+            "callExposure": 2807,
+            "putExposure": 1394
+          },
+          "1300.0": {
+            "callExposure": 174980
+          },
+          "1320.0": {
+            "callExposure": 95570
+          },
+          "1340.0": {
+            "callExposure": 10999
+          },
+          "1350.0": {
+            "callExposure": 22416
+          },
+          "1360.0": {
+            "callExposure": 7767
+          },
+          "1380.0": {
+            "callExposure": 17112
+          },
+          "1390.0": {
+            "callExposure": 12040
+          },
+          "1400.0": {
+            "callExposure": 99628
+          },
+          "1410.0": {
+            "callExposure": 213187
+          },
+          "1430.0": {
+            "callExposure": 17225
+          },
+          "1450.0": {
+            "callExposure": 12307
+          },
+          "1500.0": {
+            "callExposure": 36589
+          },
+          "1510.0": {
+            "callExposure": 728
+          },
+          "1560.0": {
+            "callExposure": 1707,
+            "putExposure": 0
+          },
+          "1590.0": {
+            "callExposure": 7047
+          },
+          "1600.0": {
+            "callExposure": 75561
+          }
+        },
+        "2026-09-25": {
+          "420.0": {
+            "putExposure": -184
+          },
+          "500.0": {
+            "putExposure": -2106
+          },
+          "520.0": {
+            "putExposure": -189
+          },
+          "525.0": {
+            "putExposure": 0
+          },
+          "540.0": {
+            "callExposure": -87
+          },
+          "550.0": {
+            "putExposure": -4296
+          },
+          "560.0": {
+            "putExposure": -1523
+          },
+          "570.0": {
+            "putExposure": -528
+          },
+          "600.0": {
+            "putExposure": -10118
+          },
+          "610.0": {
+            "callExposure": -144,
+            "putExposure": -5672
+          },
+          "640.0": {
+            "putExposure": -1844
+          },
+          "645.0": {
+            "putExposure": -3789
+          },
+          "650.0": {
+            "putExposure": -4839
+          },
+          "660.0": {
+            "putExposure": -333
+          },
+          "665.0": {
+            "putExposure": -1381
+          },
+          "680.0": {
+            "callExposure": 0,
+            "putExposure": -2016
+          },
+          "700.0": {
+            "putExposure": -5308
+          },
+          "705.0": {
+            "putExposure": -1156
+          },
+          "720.0": {
+            "putExposure": -7931
+          },
+          "725.0": {
+            "putExposure": -1343
+          },
+          "730.0": {
+            "putExposure": -816
+          },
+          "745.0": {
+            "putExposure": 0
+          },
+          "750.0": {
+            "callExposure": -188,
+            "putExposure": -4587
+          },
+          "755.0": {
+            "putExposure": -374
+          },
+          "760.0": {
+            "putExposure": -1458
+          },
+          "765.0": {
+            "putExposure": -1643
+          },
+          "770.0": {
+            "callExposure": 0
+          },
+          "775.0": {
+            "putExposure": 0
+          },
+          "780.0": {
+            "callExposure": -189,
+            "putExposure": -4640
+          },
+          "790.0": {
+            "callExposure": 0,
+            "putExposure": -406
+          },
+          "795.0": {
+            "putExposure": -795
+          },
+          "800.0": {
+            "putExposure": -11018
+          },
+          "810.0": {
+            "putExposure": -691
+          },
+          "815.0": {
+            "putExposure": -1121
+          },
+          "820.0": {
+            "putExposure": 0
+          },
+          "825.0": {
+            "putExposure": -259
+          },
+          "830.0": {
+            "callExposure": -352,
+            "putExposure": -1381
+          },
+          "850.0": {
+            "callExposure": -1142
+          },
+          "860.0": {
+            "putExposure": -576
+          },
+          "875.0": {
+            "putExposure": -384
+          },
+          "880.0": {
+            "putExposure": -815
+          },
+          "885.0": {
+            "callExposure": -102,
+            "putExposure": 0
+          },
+          "890.0": {
+            "putExposure": -1258
+          },
+          "900.0": {
+            "callExposure": -3044,
+            "putExposure": -1079
+          },
+          "910.0": {
+            "callExposure": -70,
+            "putExposure": -61
+          },
+          "915.0": {
+            "callExposure": -68
+          },
+          "920.0": {
+            "callExposure": -140,
+            "putExposure": -1346
+          },
+          "930.0": {
+            "callExposure": -215,
+            "putExposure": -51
+          },
+          "940.0": {
+            "callExposure": -192,
+            "putExposure": 84
+          },
+          "945.0": {
+            "callExposure": -27,
+            "putExposure": 0
+          },
+          "950.0": {
+            "callExposure": 201,
+            "putExposure": -29
+          },
+          "955.0": {
+            "callExposure": 0,
+            "putExposure": 0
+          },
+          "960.0": {
+            "putExposure": 428
+          },
+          "970.0": {
+            "callExposure": 677
+          },
+          "980.0": {
+            "callExposure": 365,
+            "putExposure": 0
+          },
+          "995.0": {
+            "callExposure": 339
+          },
+          "1000.0": {
+            "callExposure": 2101,
+            "putExposure": 217
+          },
+          "1010.0": {
+            "callExposure": 416
+          },
+          "1035.0": {
+            "callExposure": 275
+          },
+          "1050.0": {
+            "callExposure": 7567
+          },
+          "1100.0": {
+            "callExposure": 14921
+          },
+          "1105.0": {
+            "callExposure": 7201
+          },
+          "1160.0": {
+            "callExposure": 0
+          },
+          "1250.0": {
+            "callExposure": 0
+          },
+          "1290.0": {
+            "callExposure": 0
+          },
+          "1300.0": {
+            "callExposure": 1085
+          },
+          "1360.0": {
+            "callExposure": 367
+          }
+        },
+        "2026-10-02": {
+          "450.0": {
+            "putExposure": 0
+          },
+          "520.0": {
+            "putExposure": 0
+          },
+          "550.0": {
+            "callExposure": -107
+          },
+          "590.0": {
+            "putExposure": -128
+          },
+          "620.0": {
+            "putExposure": -321
+          },
+          "680.0": {
+            "putExposure": 0
+          },
+          "700.0": {
+            "callExposure": 0,
+            "putExposure": -600
+          },
+          "740.0": {
+            "putExposure": -804
+          },
+          "750.0": {
+            "putExposure": -202
+          },
+          "800.0": {
+            "callExposure": -370
+          },
+          "810.0": {
+            "putExposure": 0
+          },
+          "815.0": {
+            "putExposure": 0
+          },
+          "840.0": {
+            "putExposure": -296
+          },
+          "875.0": {
+            "callExposure": 0
+          },
+          "880.0": {
+            "putExposure": -89
+          },
+          "940.0": {
+            "callExposure": 0
+          },
+          "945.0": {
+            "putExposure": 0
+          },
+          "950.0": {
+            "putExposure": 0
+          },
+          "955.0": {
+            "putExposure": 0
+          },
+          "960.0": {
+            "callExposure": 0,
+            "putExposure": 0
+          },
+          "980.0": {
+            "putExposure": 0
+          },
+          "990.0": {
+            "callExposure": 0
+          },
+          "1000.0": {
+            "callExposure": 0
+          },
+          "1025.0": {
+            "callExposure": 1029
+          },
+          "1030.0": {
+            "callExposure": 0
+          },
+          "1040.0": {
+            "callExposure": 0
+          },
+          "1050.0": {
+            "callExposure": 0
+          },
+          "1055.0": {
+            "callExposure": 0
+          },
+          "1080.0": {
+            "callExposure": 0
+          },
+          "1100.0": {
+            "callExposure": 439
+          },
+          "1120.0": {
+            "callExposure": 508
+          },
+          "1125.0": {
+            "callExposure": 524
+          },
+          "1130.0": {
+            "callExposure": 536
+          },
+          "1135.0": {
+            "callExposure": 0
+          },
+          "1145.0": {
+            "callExposure": 851
+          },
+          "1155.0": {
+            "callExposure": 580
+          },
+          "1165.0": {
+            "callExposure": 0
+          },
+          "1200.0": {
+            "callExposure": 1926
+          },
+          "1220.0": {
+            "callExposure": 2683
+          },
+          "1230.0": {
+            "callExposure": 684
+          },
+          "1240.0": {
+            "callExposure": 693
+          },
+          "1260.0": {
+            "callExposure": 708
+          },
+          "1280.0": {
+            "callExposure": 721
+          },
+          "1300.0": {
+            "callExposure": 0
+          },
+          "1370.0": {
+            "callExposure": 0
+          },
+          "1380.0": {
+            "callExposure": 0
+          },
+          "1390.0": {
+            "callExposure": 2553
+          },
+          "1400.0": {
+            "callExposure": 0,
+            "putExposure": 334
+          }
+        },
+        "2026-10-16": {
+          "380.0": {
+            "putExposure": -2396
+          },
+          "390.0": {
+            "putExposure": -5130
+          },
+          "400.0": {
+            "callExposure": -907,
+            "putExposure": -18466
+          },
+          "410.0": {
+            "putExposure": -9775
+          },
+          "420.0": {
+            "putExposure": -5224
+          },
+          "480.0": {
+            "putExposure": -29184
+          },
+          "490.0": {
+            "putExposure": -33414
+          },
+          "500.0": {
+            "putExposure": -37390
+          },
+          "520.0": {
+            "putExposure": -17803
+          },
+          "540.0": {
+            "putExposure": -44313
+          },
+          "560.0": {
+            "putExposure": -41582
+          },
+          "580.0": {
+            "putExposure": -87369
+          },
+          "600.0": {
+            "putExposure": -130618
+          },
+          "620.0": {
+            "putExposure": -14710
+          },
+          "640.0": {
+            "putExposure": -69067
+          },
+          "660.0": {
+            "putExposure": -104706
+          },
+          "680.0": {
+            "putExposure": -48080
+          },
+          "700.0": {
+            "callExposure": -18297,
+            "putExposure": -27389
+          },
+          "720.0": {
+            "putExposure": -51969
+          },
+          "740.0": {
+            "putExposure": -27513
+          },
+          "760.0": {
+            "putExposure": -71867
+          },
+          "780.0": {
+            "callExposure": -13054,
+            "putExposure": -31107
+          },
+          "800.0": {
+            "callExposure": -17895,
+            "putExposure": -38819
+          },
+          "820.0": {
+            "callExposure": -14282,
+            "putExposure": -11822
+          },
+          "840.0": {
+            "callExposure": -5687,
+            "putExposure": -25910
+          },
+          "860.0": {
+            "putExposure": -9333
+          },
+          "880.0": {
+            "callExposure": -9646,
+            "putExposure": -10035
+          },
+          "900.0": {
+            "callExposure": -10701,
+            "putExposure": -19145
+          },
+          "910.0": {
+            "callExposure": -2513,
+            "putExposure": -1753
+          },
+          "920.0": {
+            "callExposure": -629,
+            "putExposure": -699
+          },
+          "930.0": {
+            "callExposure": -1285,
+            "putExposure": -620
+          },
+          "940.0": {
+            "callExposure": 180
+          },
+          "950.0": {
+            "callExposure": 2339,
+            "putExposure": 639
+          },
+          "960.0": {
+            "callExposure": 5878,
+            "putExposure": 1113
+          },
+          "970.0": {
+            "callExposure": 9797
+          },
+          "980.0": {
+            "callExposure": 4390,
+            "putExposure": 816
+          },
+          "990.0": {
+            "callExposure": 3141,
+            "putExposure": 2113
+          },
+          "1000.0": {
+            "callExposure": 27268,
+            "putExposure": 2348
+          },
+          "1020.0": {
+            "putExposure": 1048
+          },
+          "1030.0": {
+            "putExposure": 1320
+          },
+          "1040.0": {
+            "callExposure": 4365
+          },
+          "1050.0": {
+            "callExposure": 4568,
+            "putExposure": 2353
+          },
+          "1060.0": {
+            "callExposure": 19923
+          },
+          "1070.0": {
+            "callExposure": 3195,
+            "putExposure": 2629
+          },
+          "1080.0": {
+            "callExposure": 3600
+          },
+          "1100.0": {
+            "callExposure": 37437
+          },
+          "1110.0": {
+            "callExposure": 9145
+          },
+          "1140.0": {
+            "callExposure": 5959
+          },
+          "1150.0": {
+            "callExposure": 14416
+          },
+          "1160.0": {
+            "callExposure": 10724
+          },
+          "1170.0": {
+            "callExposure": 2908
+          },
+          "1180.0": {
+            "callExposure": 14287
+          },
+          "1200.0": {
+            "callExposure": 19681
+          },
+          "1220.0": {
+            "callExposure": 7757
+          },
+          "1240.0": {
+            "callExposure": 2763
+          },
+          "1250.0": {
+            "callExposure": 11182
+          },
+          "1270.0": {
+            "callExposure": 2586
+          },
+          "1280.0": {
+            "callExposure": 711
+          },
+          "1290.0": {
+            "callExposure": 2526
+          },
+          "1300.0": {
+            "callExposure": 8804
+          },
+          "1310.0": {
+            "callExposure": 9955
+          },
+          "1320.0": {
+            "callExposure": 3722
+          },
+          "1350.0": {
+            "callExposure": 18747,
+            "putExposure": 1112
+          },
+          "1360.0": {
+            "putExposure": 732
+          },
+          "1380.0": {
+            "callExposure": 35014,
+            "putExposure": 729
+          },
+          "1390.0": {
+            "callExposure": 24100
+          },
+          "1400.0": {
+            "callExposure": 12716
+          },
+          "1450.0": {
+            "callExposure": 8684
+          },
+          "1500.0": {
+            "callExposure": 34003
+          },
+          "1510.0": {
+            "callExposure": 6225
+          },
+          "1560.0": {
+            "callExposure": 37610
+          },
+          "1580.0": {
+            "callExposure": 12545
+          },
+          "1590.0": {
+            "callExposure": 56637
+          },
+          "1600.0": {
+            "callExposure": 61392
+          }
+        },
+        "2026-11-20": {
+          "310.0": {
+            "putExposure": -1398
+          },
+          "360.0": {
+            "putExposure": -2651
+          },
+          "430.0": {
+            "putExposure": -4550
+          },
+          "470.0": {
+            "putExposure": -12714
+          },
+          "480.0": {
+            "putExposure": -7239
+          },
+          "500.0": {
+            "callExposure": -907,
+            "putExposure": -30925
+          },
+          "520.0": {
+            "putExposure": -87886
+          },
+          "540.0": {
+            "putExposure": -32697
+          },
+          "560.0": {
+            "putExposure": -56308
+          },
+          "580.0": {
+            "putExposure": -16424
+          },
+          "600.0": {
+            "callExposure": -943,
+            "putExposure": -25861
+          },
+          "620.0": {
+            "putExposure": -11381
+          },
+          "640.0": {
+            "putExposure": -17971
+          },
+          "660.0": {
+            "putExposure": -11132
+          },
+          "680.0": {
+            "putExposure": -11345
+          },
+          "700.0": {
+            "callExposure": -7097,
+            "putExposure": -41573
+          },
+          "720.0": {
+            "putExposure": -17273
+          },
+          "740.0": {
+            "putExposure": -49732
+          },
+          "760.0": {
+            "putExposure": -8412
+          },
+          "780.0": {
+            "callExposure": -1124,
+            "putExposure": -12314
+          },
+          "800.0": {
+            "callExposure": -8333,
+            "putExposure": -22153
+          },
+          "840.0": {
+            "callExposure": -2577
+          },
+          "860.0": {
+            "putExposure": -12052
+          },
+          "880.0": {
+            "callExposure": -1734,
+            "putExposure": -2014
+          },
+          "900.0": {
+            "callExposure": 115
+          },
+          "920.0": {
+            "callExposure": 421
+          },
+          "940.0": {
+            "callExposure": 2973,
+            "putExposure": 1130
+          },
+          "960.0": {
+            "callExposure": 2751,
+            "putExposure": 1292
+          },
+          "980.0": {
+            "callExposure": 3372,
+            "putExposure": 1127
+          },
+          "1000.0": {
+            "callExposure": 14992,
+            "putExposure": 489
+          },
+          "1020.0": {
+            "callExposure": 6162
+          },
+          "1040.0": {
+            "callExposure": 4910
+          },
+          "1060.0": {
+            "callExposure": 3130,
+            "putExposure": 164
+          },
+          "1100.0": {
+            "callExposure": 12696
+          },
+          "1120.0": {
+            "callExposure": 1840,
+            "putExposure": 0
+          },
+          "1140.0": {
+            "callExposure": 1626
+          },
+          "1180.0": {
+            "callExposure": 16971
+          },
+          "1200.0": {
+            "callExposure": 136795
+          },
+          "1340.0": {
+            "callExposure": 20607
+          },
+          "1400.0": {
+            "callExposure": 10340,
+            "putExposure": 0
+          },
+          "1440.0": {
+            "callExposure": 28454
+          },
+          "1460.0": {
+            "callExposure": 49426,
+            "putExposure": 5645
+          }
+        },
+        "2026-12-18": {
+          "310.0": {
+            "putExposure": -423
+          },
+          "350.0": {
+            "putExposure": -1529
+          },
+          "360.0": {
+            "callExposure": 0
+          },
+          "380.0": {
+            "putExposure": -856
+          },
+          "410.0": {
+            "putExposure": -31972
+          },
+          "430.0": {
+            "putExposure": -6290
+          },
+          "440.0": {
+            "putExposure": -28317
+          },
+          "450.0": {
+            "putExposure": -19946
+          },
+          "490.0": {
+            "putExposure": -9399
+          },
+          "500.0": {
+            "putExposure": -35647
+          },
+          "520.0": {
+            "putExposure": -9552
+          },
+          "540.0": {
+            "putExposure": -36648
+          },
+          "560.0": {
+            "putExposure": -98908
+          },
+          "580.0": {
+            "putExposure": -26010
+          },
+          "600.0": {
+            "putExposure": -640756
+          },
+          "640.0": {
+            "putExposure": -30266
+          },
+          "660.0": {
+            "putExposure": -11474
+          },
+          "680.0": {
+            "putExposure": -4768
+          },
+          "700.0": {
+            "putExposure": -32707
+          },
+          "720.0": {
+            "callExposure": -1004,
+            "putExposure": -9633
+          },
+          "740.0": {
+            "putExposure": -3496
+          },
+          "750.0": {
+            "callExposure": -14637,
+            "putExposure": -31734
+          },
+          "760.0": {
+            "callExposure": -1196,
+            "putExposure": -3543
+          },
+          "780.0": {
+            "putExposure": -17937
+          },
+          "790.0": {
+            "callExposure": -616,
+            "putExposure": -3919
+          },
+          "800.0": {
+            "callExposure": -13801,
+            "putExposure": -25940
+          },
+          "820.0": {
+            "callExposure": -832,
+            "putExposure": -2014
+          },
+          "830.0": {
+            "callExposure": -1509,
+            "putExposure": -1827
+          },
+          "840.0": {
+            "putExposure": -386
+          },
+          "850.0": {
+            "callExposure": -3838
+          },
+          "870.0": {
+            "callExposure": -745,
+            "putExposure": -453
+          },
+          "880.0": {
+            "putExposure": -139
+          },
+          "900.0": {
+            "callExposure": 8619,
+            "putExposure": 2604
+          },
+          "910.0": {
+            "callExposure": 886
+          },
+          "920.0": {
+            "callExposure": 6766
+          },
+          "940.0": {
+            "callExposure": 3149
+          },
+          "950.0": {
+            "callExposure": 6410
+          },
+          "970.0": {
+            "callExposure": 2361
+          },
+          "990.0": {
+            "callExposure": 2558
+          },
+          "1000.0": {
+            "callExposure": 42988,
+            "putExposure": 13814
+          },
+          "1010.0": {
+            "callExposure": 2311
+          },
+          "1020.0": {
+            "callExposure": 2668
+          },
+          "1040.0": {
+            "callExposure": 637
+          },
+          "1080.0": {
+            "callExposure": 2356
+          },
+          "1100.0": {
+            "callExposure": 5296
+          },
+          "1120.0": {
+            "callExposure": 4475
+          },
+          "1140.0": {
+            "callExposure": 2211
+          },
+          "1160.0": {
+            "callExposure": 10210
+          },
+          "1180.0": {
+            "callExposure": 3034
+          },
+          "1200.0": {
+            "callExposure": 25481
+          },
+          "1220.0": {
+            "callExposure": 63216
+          },
+          "1240.0": {
+            "callExposure": 3729
+          },
+          "1260.0": {
+            "callExposure": 214104
+          },
+          "1280.0": {
+            "callExposure": 60251
+          },
+          "1300.0": {
+            "callExposure": 160885
+          },
+          "1320.0": {
+            "callExposure": 6742
+          },
+          "1340.0": {
+            "callExposure": 73305
+          },
+          "1360.0": {
+            "callExposure": 11090
+          },
+          "1380.0": {
+            "callExposure": 8963
+          },
+          "1400.0": {
+            "callExposure": 102772
+          },
+          "1420.0": {
+            "callExposure": 5820
+          },
+          "1440.0": {
+            "callExposure": 4716
+          },
+          "1450.0": {
+            "callExposure": 27056
+          },
+          "1460.0": {
+            "callExposure": 2397
+          },
+          "1470.0": {
+            "callExposure": 28968
+          },
+          "1480.0": {
+            "callExposure": 9274
+          },
+          "1490.0": {
+            "callExposure": 72646
+          },
+          "1500.0": {
+            "callExposure": 162444
+          },
+          "1510.0": {
+            "callExposure": 25045
+          },
+          "1520.0": {
+            "callExposure": 30895
+          },
+          "1530.0": {
+            "callExposure": 10870
+          },
+          "1540.0": {
+            "callExposure": 9715
+          },
+          "1550.0": {
+            "callExposure": 11006
+          },
+          "1560.0": {
+            "callExposure": 21761
+          },
+          "1570.0": {
+            "callExposure": 27771
+          },
+          "1580.0": {
+            "callExposure": 25775
+          },
+          "1590.0": {
+            "callExposure": 267715
+          },
+          "1600.0": {
+            "callExposure": 202615
+          }
+        },
+        "2027-01-15": {
+          "150.0": {
+            "callExposure": -12807
+          },
+          "155.0": {
+            "callExposure": 0
+          },
+          "160.0": {
+            "putExposure": -7362
+          },
+          "190.0": {
+            "putExposure": -1594
+          },
+          "195.0": {
+            "putExposure": -475
+          },
+          "240.0": {
+            "callExposure": -4385
+          },
+          "250.0": {
+            "callExposure": -8703
+          },
+          "260.0": {
+            "putExposure": -8416
+          },
+          "280.0": {
+            "putExposure": -34122
+          },
+          "300.0": {
+            "putExposure": -21226
+          },
+          "310.0": {
+            "putExposure": -1928
+          },
+          "320.0": {
+            "putExposure": -11073
+          },
+          "330.0": {
+            "callExposure": -1376
+          },
+          "350.0": {
+            "putExposure": -15906
+          },
+          "400.0": {
+            "putExposure": -28281
+          },
+          "410.0": {
+            "putExposure": -18366
+          },
+          "440.0": {
+            "putExposure": -4719
+          },
+          "450.0": {
+            "putExposure": -43480
+          },
+          "500.0": {
+            "putExposure": -136716
+          },
+          "510.0": {
+            "callExposure": -1756
+          },
+          "540.0": {
+            "putExposure": -13412
+          },
+          "550.0": {
+            "putExposure": -52218
+          },
+          "560.0": {
+            "putExposure": -20729
+          },
+          "570.0": {
+            "callExposure": -5146,
+            "putExposure": -15060
+          },
+          "580.0": {
+            "putExposure": -13780
+          },
+          "590.0": {
+            "putExposure": -16667
+          },
+          "600.0": {
+            "callExposure": -32889,
+            "putExposure": -87722
+          },
+          "630.0": {
+            "putExposure": -27175
+          },
+          "640.0": {
+            "putExposure": -18978
+          },
+          "650.0": {
+            "callExposure": -8893,
+            "putExposure": -34928
+          },
+          "670.0": {
+            "putExposure": -12117
+          },
+          "690.0": {
+            "callExposure": -5589
+          },
+          "700.0": {
+            "callExposure": -36549,
+            "putExposure": -43544
+          },
+          "710.0": {
+            "putExposure": -8046
+          },
+          "750.0": {
+            "callExposure": -13347
+          },
+          "760.0": {
+            "putExposure": -5885
+          },
+          "780.0": {
+            "putExposure": -2598
+          },
+          "790.0": {
+            "putExposure": -2325
+          },
+          "800.0": {
+            "callExposure": -29588,
+            "putExposure": -58940
+          },
+          "810.0": {
+            "callExposure": -1019,
+            "putExposure": -3024
+          },
+          "850.0": {
+            "callExposure": -1595,
+            "putExposure": -5431
+          },
+          "880.0": {
+            "callExposure": 1148
+          },
+          "890.0": {
+            "callExposure": 17747
+          },
+          "900.0": {
+            "callExposure": 6598,
+            "putExposure": 2009
+          },
+          "920.0": {
+            "callExposure": 2294,
+            "putExposure": 1488
+          },
+          "930.0": {
+            "callExposure": 3239
+          },
+          "950.0": {
+            "callExposure": 8949
+          },
+          "960.0": {
+            "callExposure": 3747
+          },
+          "970.0": {
+            "callExposure": 3403
+          },
+          "980.0": {
+            "callExposure": 6003,
+            "putExposure": 1423
+          },
+          "990.0": {
+            "callExposure": 15394,
+            "putExposure": 1889
+          },
+          "1000.0": {
+            "callExposure": 77308,
+            "putExposure": 41451
+          },
+          "1020.0": {
+            "callExposure": 3544
+          },
+          "1030.0": {
+            "callExposure": 7955
+          },
+          "1050.0": {
+            "callExposure": 15002
+          },
+          "1070.0": {
+            "callExposure": 1700
+          },
+          "1080.0": {
+            "callExposure": 4984
+          },
+          "1090.0": {
+            "callExposure": 7486
+          },
+          "1100.0": {
+            "callExposure": 72667
+          },
+          "1110.0": {
+            "callExposure": 6625
+          },
+          "1120.0": {
+            "callExposure": 10582
+          },
+          "1130.0": {
+            "callExposure": 117386
+          },
+          "1140.0": {
+            "callExposure": 40369
+          },
+          "1150.0": {
+            "callExposure": 35035
+          },
+          "1160.0": {
+            "callExposure": 9436
+          },
+          "1170.0": {
+            "callExposure": 4341
+          },
+          "1180.0": {
+            "callExposure": 25991
+          },
+          "1190.0": {
+            "callExposure": 13672
+          },
+          "1200.0": {
+            "callExposure": 105653
+          },
+          "1210.0": {
+            "callExposure": 3048
+          },
+          "1220.0": {
+            "callExposure": 8254
+          },
+          "1230.0": {
+            "callExposure": 6247
+          },
+          "1240.0": {
+            "callExposure": 7026
+          },
+          "1250.0": {
+            "callExposure": 26308
+          },
+          "1270.0": {
+            "callExposure": 10521
+          },
+          "1280.0": {
+            "callExposure": 17642
+          },
+          "1290.0": {
+            "callExposure": 5437
+          },
+          "1300.0": {
+            "callExposure": 53818
+          },
+          "1310.0": {
+            "callExposure": 40613
+          },
+          "1320.0": {
+            "callExposure": 2130
+          },
+          "1330.0": {
+            "callExposure": 3230
+          },
+          "1340.0": {
+            "callExposure": 5836
+          },
+          "1350.0": {
+            "callExposure": 10670
+          },
+          "1360.0": {
+            "callExposure": 11944
+          },
+          "1370.0": {
+            "callExposure": 28524
+          },
+          "1380.0": {
+            "callExposure": 11070
+          },
+          "1390.0": {
+            "callExposure": 17709
+          },
+          "1400.0": {
+            "callExposure": 104182
+          },
+          "1410.0": {
+            "callExposure": 27306
+          },
+          "1420.0": {
+            "callExposure": 14600
+          },
+          "1430.0": {
+            "callExposure": 14318
+          },
+          "1450.0": {
+            "callExposure": 12905
+          },
+          "1460.0": {
+            "callExposure": 12168
+          },
+          "1480.0": {
+            "callExposure": 6103
+          },
+          "1490.0": {
+            "callExposure": 6188
+          },
+          "1500.0": {
+            "callExposure": 103404
+          },
+          "1510.0": {
+            "callExposure": 51245
+          },
+          "1520.0": {
+            "callExposure": 29386
+          },
+          "1530.0": {
+            "callExposure": 52097
+          },
+          "1540.0": {
+            "callExposure": 13618
+          },
+          "1550.0": {
+            "callExposure": 50803
+          },
+          "1560.0": {
+            "callExposure": 33045
+          },
+          "1570.0": {
+            "callExposure": 23695
+          },
+          "1580.0": {
+            "callExposure": 70635
+          },
+          "1590.0": {
+            "callExposure": 112632
+          },
+          "1600.0": {
+            "callExposure": 175396
+          }
+        },
+        "2027-02-19": {
+          "350.0": {
+            "putExposure": -6204
+          },
+          "380.0": {
+            "putExposure": -1039
+          },
+          "400.0": {
+            "putExposure": -4805
+          },
+          "500.0": {
+            "putExposure": -7517
+          },
+          "530.0": {
+            "putExposure": -1689
+          },
+          "540.0": {
+            "putExposure": -3217
+          },
+          "560.0": {
+            "putExposure": -7702
+          },
+          "580.0": {
+            "putExposure": -227
+          },
+          "680.0": {
+            "putExposure": -262
+          },
+          "690.0": {
+            "putExposure": -5624
+          },
+          "750.0": {
+            "putExposure": -1981
+          },
+          "780.0": {
+            "putExposure": -1114
+          },
+          "800.0": {
+            "putExposure": -864
+          },
+          "840.0": {
+            "putExposure": 21
+          },
+          "880.0": {
+            "putExposure": 89
+          },
+          "900.0": {
+            "callExposure": 486
+          },
+          "940.0": {
+            "putExposure": 2454
+          },
+          "950.0": {
+            "callExposure": 760,
+            "putExposure": 337
+          },
+          "960.0": {
+            "callExposure": 222,
+            "putExposure": 631
+          },
+          "970.0": {
+            "callExposure": 119
+          },
+          "980.0": {
+            "putExposure": 0
+          },
+          "1000.0": {
+            "callExposure": 599
+          },
+          "1050.0": {
+            "putExposure": 0
+          },
+          "1060.0": {
+            "callExposure": 2692
+          },
+          "1070.0": {
+            "callExposure": 0
+          },
+          "1080.0": {
+            "callExposure": 388
+          },
+          "1100.0": {
+            "callExposure": 3558
+          },
+          "1140.0": {
+            "callExposure": 46352
+          },
+          "1160.0": {
+            "callExposure": 755
+          },
+          "1180.0": {
+            "callExposure": 1322
+          },
+          "1200.0": {
+            "callExposure": 14144
+          },
+          "1220.0": {
+            "callExposure": 1450
+          },
+          "1240.0": {
+            "callExposure": 59063
+          },
+          "1260.0": {
+            "callExposure": 937
+          },
+          "1280.0": {
+            "putExposure": 302
+          },
+          "1300.0": {
+            "callExposure": 9805
+          }
+        },
+        "2027-03-19": {
+          "340.0": {
+            "putExposure": 0
+          },
+          "370.0": {
+            "callExposure": -95
+          },
+          "430.0": {
+            "putExposure": -6472
+          },
+          "440.0": {
+            "callExposure": -109
+          },
+          "450.0": {
+            "putExposure": -13213
+          },
+          "480.0": {
+            "putExposure": -2820
+          },
+          "490.0": {
+            "putExposure": -1325
+          },
+          "560.0": {
+            "putExposure": -6400
+          },
+          "580.0": {
+            "putExposure": -56177
+          },
+          "600.0": {
+            "putExposure": -25214
+          },
+          "640.0": {
+            "callExposure": -196
+          },
+          "680.0": {
+            "putExposure": -4757
+          },
+          "710.0": {
+            "putExposure": -442
+          },
+          "750.0": {
+            "putExposure": -3660
+          },
+          "760.0": {
+            "putExposure": -576
+          },
+          "770.0": {
+            "putExposure": -319
+          },
+          "790.0": {
+            "putExposure": -348
+          },
+          "800.0": {
+            "putExposure": 1000
+          },
+          "810.0": {
+            "putExposure": -51
+          },
+          "840.0": {
+            "putExposure": 441
+          },
+          "850.0": {
+            "callExposure": 809,
+            "putExposure": 2116
+          },
+          "860.0": {
+            "putExposure": 1678
+          },
+          "880.0": {
+            "putExposure": 2483
+          },
+          "890.0": {
+            "putExposure": 737
+          },
+          "900.0": {
+            "callExposure": 8717
+          },
+          "910.0": {
+            "callExposure": 1314
+          },
+          "920.0": {
+            "callExposure": 1274,
+            "putExposure": 6497
+          },
+          "930.0": {
+            "putExposure": 3510
+          },
+          "960.0": {
+            "callExposure": 787,
+            "putExposure": 1546
+          },
+          "980.0": {
+            "callExposure": 6958
+          },
+          "990.0": {
+            "callExposure": 2402
+          },
+          "1000.0": {
+            "callExposure": 0
+          },
+          "1010.0": {
+            "callExposure": 987
+          },
+          "1030.0": {
+            "putExposure": 1553
+          },
+          "1050.0": {
+            "callExposure": 2492
+          },
+          "1100.0": {
+            "callExposure": 4533
+          },
+          "1260.0": {
+            "callExposure": 2479
+          },
+          "1400.0": {
+            "callExposure": 53695
+          },
+          "1450.0": {
+            "callExposure": 255221
+          },
+          "1470.0": {
+            "callExposure": 12411
+          },
+          "1490.0": {
+            "callExposure": 41995
+          },
+          "1500.0": {
+            "callExposure": 59520
+          },
+          "1510.0": {
+            "callExposure": 1639
+          },
+          "1520.0": {
+            "callExposure": 9546
+          },
+          "1530.0": {
+            "callExposure": 8794
+          },
+          "1540.0": {
+            "callExposure": 18154
+          },
+          "1550.0": {
+            "callExposure": 5943
+          },
+          "1560.0": {
+            "callExposure": 24755
+          },
+          "1570.0": {
+            "callExposure": 8142
+          },
+          "1580.0": {
+            "callExposure": 22760
+          },
+          "1600.0": {
+            "callExposure": 57575
+          }
+        },
+        "2027-06-17": {
+          "310.0": {
+            "putExposure": -310
+          },
+          "320.0": {
+            "putExposure": 0
+          },
+          "330.0": {
+            "putExposure": -83
+          },
+          "390.0": {
+            "putExposure": -2321
+          },
+          "410.0": {
+            "putExposure": -1652
+          },
+          "420.0": {
+            "putExposure": -7039
+          },
+          "430.0": {
+            "putExposure": -2680
+          },
+          "440.0": {
+            "putExposure": -3028
+          },
+          "480.0": {
+            "putExposure": -1714
+          },
+          "520.0": {
+            "putExposure": -2638
+          },
+          "530.0": {
+            "putExposure": -245
+          },
+          "540.0": {
+            "putExposure": -3844
+          },
+          "550.0": {
+            "putExposure": -2277
+          },
+          "570.0": {
+            "putExposure": -22627
+          },
+          "590.0": {
+            "putExposure": -571
+          },
+          "630.0": {
+            "putExposure": -522
+          },
+          "650.0": {
+            "callExposure": -828
+          },
+          "660.0": {
+            "putExposure": -1385
+          },
+          "750.0": {
+            "putExposure": 24
+          },
+          "760.0": {
+            "putExposure": 54
+          },
+          "770.0": {
+            "putExposure": 12
+          },
+          "780.0": {
+            "putExposure": 55
+          },
+          "790.0": {
+            "putExposure": 314
+          },
+          "850.0": {
+            "putExposure": 673
+          },
+          "950.0": {
+            "callExposure": 2594
+          },
+          "1000.0": {
+            "callExposure": 0
+          },
+          "1010.0": {
+            "putExposure": 0
+          },
+          "1110.0": {
+            "callExposure": 213
+          },
+          "1170.0": {
+            "callExposure": 0
+          },
+          "1230.0": {
+            "callExposure": 13705,
+            "putExposure": 2178
+          },
+          "1260.0": {
+            "putExposure": 287
+          },
+          "1280.0": {
+            "callExposure": 0
+          },
+          "1300.0": {
+            "callExposure": 4501
+          }
+        },
+        "2027-07-16": {
+          "340.0": {
+            "putExposure": -6441
+          },
+          "400.0": {
+            "putExposure": -5448
+          },
+          "450.0": {
+            "callExposure": -2988,
+            "putExposure": -1744
+          },
+          "460.0": {
+            "putExposure": -6565
+          },
+          "470.0": {
+            "putExposure": -2066
+          },
+          "500.0": {
+            "putExposure": -12560
+          },
+          "540.0": {
+            "putExposure": -4168
+          },
+          "600.0": {
+            "callExposure": -1983,
+            "putExposure": -3434
+          },
+          "620.0": {
+            "putExposure": -2148
+          },
+          "640.0": {
+            "putExposure": -804
+          },
+          "680.0": {
+            "callExposure": -67
+          },
+          "700.0": {
+            "putExposure": -522
+          },
+          "720.0": {
+            "putExposure": 35
+          },
+          "780.0": {
+            "callExposure": 1479
+          },
+          "860.0": {
+            "callExposure": 3232
+          },
+          "880.0": {
+            "callExposure": 3147,
+            "putExposure": 924
+          },
+          "900.0": {
+            "callExposure": 6270
+          },
+          "950.0": {
+            "callExposure": 51699
+          },
+          "960.0": {
+            "callExposure": 1449
+          },
+          "1000.0": {
+            "callExposure": 8746
+          },
+          "1250.0": {
+            "callExposure": 8144
+          },
+          "1500.0": {
+            "callExposure": 8602
+          },
+          "1550.0": {
+            "callExposure": 2938
+          },
+          "1570.0": {
+            "callExposure": 4253
+          },
+          "1580.0": {
+            "callExposure": 13740
+          },
+          "1590.0": {
+            "callExposure": 13805
+          },
+          "1600.0": {
+            "callExposure": 248324
+          }
+        },
+        "2028-01-21": {
+          "85.0": {
+            "putExposure": -2095
+          },
+          "195.0": {
+            "putExposure": -640
+          },
+          "250.0": {
+            "callExposure": -2272
+          },
+          "320.0": {
+            "callExposure": -377
+          },
+          "330.0": {
+            "putExposure": -23196
+          },
+          "380.0": {
+            "putExposure": -5159
+          },
+          "390.0": {
+            "putExposure": -2235
+          },
+          "400.0": {
+            "callExposure": -12565,
+            "putExposure": -3043
+          },
+          "410.0": {
+            "putExposure": -1179
+          },
+          "420.0": {
+            "putExposure": -10159
+          },
+          "430.0": {
+            "putExposure": -647
+          },
+          "440.0": {
+            "putExposure": -4417
+          },
+          "450.0": {
+            "putExposure": -11504
+          },
+          "460.0": {
+            "putExposure": -3437
+          },
+          "470.0": {
+            "putExposure": -484
+          },
+          "480.0": {
+            "putExposure": -1756
+          },
+          "490.0": {
+            "putExposure": -383
+          },
+          "500.0": {
+            "putExposure": -4620
+          },
+          "510.0": {
+            "putExposure": 0
+          },
+          "520.0": {
+            "putExposure": -624
+          },
+          "540.0": {
+            "putExposure": -160
+          },
+          "550.0": {
+            "putExposure": -465
+          },
+          "560.0": {
+            "putExposure": -1031
+          },
+          "600.0": {
+            "putExposure": -359
+          },
+          "640.0": {
+            "putExposure": 233
+          },
+          "650.0": {
+            "putExposure": 1182
+          },
+          "660.0": {
+            "callExposure": 340,
+            "putExposure": 444
+          },
+          "680.0": {
+            "callExposure": 1531
+          },
+          "700.0": {
+            "callExposure": 1745
+          },
+          "730.0": {
+            "putExposure": 113
+          },
+          "740.0": {
+            "putExposure": 675
+          },
+          "750.0": {
+            "callExposure": 1648
+          },
+          "760.0": {
+            "callExposure": 2749,
+            "putExposure": 3101
+          },
+          "770.0": {
+            "putExposure": 6714
+          },
+          "780.0": {
+            "callExposure": 998,
+            "putExposure": 1206
+          },
+          "800.0": {
+            "callExposure": 5519,
+            "putExposure": 3675
+          },
+          "810.0": {
+            "putExposure": 1622
+          },
+          "840.0": {
+            "callExposure": 4857
+          },
+          "850.0": {
+            "callExposure": 18818
+          },
+          "870.0": {
+            "callExposure": 6794
+          },
+          "880.0": {
+            "putExposure": 0
+          },
+          "920.0": {
+            "callExposure": 7696
+          },
+          "950.0": {
+            "putExposure": 1434
+          },
+          "990.0": {
+            "callExposure": 2247,
+            "putExposure": 2227
+          },
+          "1000.0": {
+            "callExposure": 20243,
+            "putExposure": 1403
+          },
+          "1130.0": {
+            "callExposure": 952
+          },
+          "1140.0": {
+            "callExposure": 20121
+          },
+          "1200.0": {
+            "callExposure": 49690
+          },
+          "1300.0": {
+            "callExposure": 27514
+          },
+          "1350.0": {
+            "callExposure": 1652
+          },
+          "1430.0": {
+            "callExposure": 2898
+          },
+          "1440.0": {
+            "callExposure": 22604
+          },
+          "1500.0": {
+            "callExposure": 14287
+          },
+          "1600.0": {
+            "callExposure": 82580,
+            "putExposure": 20003
+          }
+        },
+        "2028-06-16": {
+          "350.0": {
+            "putExposure": -1266
+          },
+          "380.0": {
+            "putExposure": -1043
+          },
+          "400.0": {
+            "putExposure": -305
+          },
+          "410.0": {
+            "putExposure": -802
+          },
+          "450.0": {
+            "putExposure": -251
+          },
+          "460.0": {
+            "putExposure": -563
+          },
+          "470.0": {
+            "putExposure": 0
+          },
+          "480.0": {
+            "putExposure": -159
+          },
+          "490.0": {
+            "putExposure": -17
+          },
+          "580.0": {
+            "putExposure": 305
+          },
+          "600.0": {
+            "putExposure": 488
+          },
+          "620.0": {
+            "putExposure": 377
+          },
+          "740.0": {
+            "putExposure": 2202
+          },
+          "780.0": {
+            "callExposure": 1049,
+            "putExposure": 0
+          },
+          "900.0": {
+            "callExposure": 3123
+          },
+          "980.0": {
+            "putExposure": 0
+          },
+          "1000.0": {
+            "callExposure": 1947
+          },
+          "1110.0": {
+            "callExposure": 476
+          },
+          "1380.0": {
+            "callExposure": 211130
+          },
+          "1590.0": {
+            "callExposure": 5705
+          },
+          "1600.0": {
+            "callExposure": 15551
+          }
+        },
+        "2028-09-15": {
+          "400.0": {
+            "putExposure": -81
+          },
+          "410.0": {
+            "putExposure": -123
+          },
+          "430.0": {
+            "putExposure": -133
+          },
+          "500.0": {
+            "putExposure": 50
+          },
+          "510.0": {
+            "putExposure": 11
+          },
+          "520.0": {
+            "putExposure": 27
+          },
+          "540.0": {
+            "putExposure": 135
+          },
+          "560.0": {
+            "putExposure": 37
+          },
+          "570.0": {
+            "putExposure": 0
+          },
+          "580.0": {
+            "putExposure": 136
+          },
+          "620.0": {
+            "putExposure": 595
+          },
+          "630.0": {
+            "putExposure": 0
+          },
+          "640.0": {
+            "putExposure": 453
+          },
+          "800.0": {
+            "putExposure": 118
+          },
+          "920.0": {
+            "callExposure": 343
+          },
+          "1590.0": {
+            "callExposure": 2437
+          },
+          "1600.0": {
+            "callExposure": 0
+          }
+        },
+        "2028-12-15": {
+          "310.0": {
+            "putExposure": -1596
+          },
+          "320.0": {
+            "putExposure": -12180
+          },
+          "340.0": {
+            "putExposure": -173
+          },
+          "370.0": {
+            "putExposure": -275
+          },
+          "400.0": {
+            "putExposure": -447
+          },
+          "430.0": {
+            "putExposure": 2
+          },
+          "440.0": {
+            "putExposure": 75
+          },
+          "460.0": {
+            "callExposure": 3,
+            "putExposure": 224
+          },
+          "470.0": {
+            "putExposure": 164
+          },
+          "480.0": {
+            "putExposure": 816
+          },
+          "490.0": {
+            "putExposure": 649
+          },
+          "600.0": {
+            "callExposure": 746,
+            "putExposure": 3699
+          },
+          "610.0": {
+            "putExposure": 473
+          },
+          "620.0": {
+            "putExposure": 7173
+          },
+          "680.0": {
+            "putExposure": 5040
+          },
+          "700.0": {
+            "callExposure": 3270
+          },
+          "710.0": {
+            "callExposure": 381
+          },
+          "750.0": {
+            "callExposure": 4322
+          },
+          "790.0": {
+            "putExposure": 248
+          },
+          "800.0": {
+            "callExposure": 6345
+          },
+          "840.0": {
+            "callExposure": 842
+          },
+          "850.0": {
+            "callExposure": 4718,
+            "putExposure": 2926
+          },
+          "860.0": {
+            "callExposure": 3528
+          },
+          "910.0": {
+            "callExposure": 520
+          },
+          "960.0": {
+            "callExposure": 1923
+          },
+          "1030.0": {
+            "putExposure": 642
+          },
+          "1040.0": {
+            "callExposure": 2221
+          },
+          "1060.0": {
+            "putExposure": 443
+          },
+          "1200.0": {
+            "callExposure": 10238
+          },
+          "1420.0": {
+            "callExposure": 0
+          },
+          "1580.0": {
+            "callExposure": 5151
+          },
+          "1590.0": {
+            "callExposure": 6446
+          },
+          "1600.0": {
+            "callExposure": 41310
+          }
+        }
+      },
+      "stockPrice": 968.46
+    }
+  }
+}

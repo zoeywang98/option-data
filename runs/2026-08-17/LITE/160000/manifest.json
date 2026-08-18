@@ -1,0 +1,135 @@
+{
+  "contract_version": "1.0.0",
+  "run_id": "LITE_20260817_160000",
+  "symbol": "LITE",
+  "asset_type": "equity",
+  "timestamp": "2026-08-17T16:00:00-04:00",
+  "capture_started_at": "2026-08-18T00:37:44.136743-04:00",
+  "capture_completed_at": "2026-08-18T00:39:19.016175-04:00",
+  "timezone": "America/New_York",
+  "session": "regular",
+  "spot": 968.46,
+  "previous_close": 926.01,
+  "expirations": [
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-25",
+    "2026-10-02",
+    "2026-10-16",
+    "2026-11-20",
+    "2026-12-18",
+    "2027-01-15",
+    "2027-02-19",
+    "2027-03-19",
+    "2027-06-17",
+    "2027-07-16",
+    "2028-01-21",
+    "2028-06-16",
+    "2028-09-15",
+    "2028-12-15"
+  ],
+  "data_delay_seconds": 0,
+  "products": [
+    {
+      "symbol": "LITE",
+      "asset_type": "equity",
+      "contract_multiplier": 100
+    }
+  ],
+  "sources": [
+    "QuantData",
+    "MenthorQ"
+  ],
+  "source_definitions": [
+    {
+      "name": "QuantData",
+      "retrieved_at": "2026-08-18T04:39:10.118964+00:00",
+      "data_timestamp": "2026-08-17T16:00:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 0,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "gex_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "vanna_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "delta_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified"
+      },
+      "units": {
+        "exposure": "PER_ONE_DOLLAR_MOVE; exact dollar/contract scaling unverified",
+        "iv": "volatility percentage points",
+        "underlying": "USD per share",
+        "flow_premium": "USD"
+      },
+      "calculation": {
+        "snapshot_time": "2026-08-17T20:00:00Z",
+        "session_date": "2026-08-17",
+        "endpoints": [
+          "stock-price-over-time",
+          "term-structure",
+          "exposure-by-strike",
+          "order-flow/consolidated",
+          "dark-flow",
+          "dark-pool-levels"
+        ],
+        "flow_coverage": "latest sessionDate API page, 100 rows requested; rows after run timestamp excluded"
+      }
+    },
+    {
+      "name": "MenthorQ",
+      "retrieved_at": "2026-08-18T04:37:27.212Z",
+      "data_timestamp": "2026-08-17T16:00:00-04:00",
+      "feed_type": "realtime",
+      "delay_seconds": 0,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "status": "unknown; gateway fields preserved verbatim"
+      },
+      "units": {
+        "levels": "USD per share",
+        "net_gex": "vendor gateway units, exact scaling unverified",
+        "net_dex": "vendor gateway units, exact scaling unverified"
+      },
+      "calculation": {
+        "frequency": "eod",
+        "screenshot_frequency": "dashboard default view; numeric fields come from the declared frequency",
+        "eod_comparison_timestamp": "2026-08-17T16:00:00-04:00",
+        "artifacts": [
+          "source_data/menthorq.json",
+          "screenshots/menthorq_exposure.png",
+          "screenshots/menthorq_matrix.png"
+        ]
+      }
+    }
+  ],
+  "missing_files": [
+    "short_data.json",
+    "positions.json"
+  ],
+  "notes": "Partial authorized end-of-day capture for LITE at 16:00 ET. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
+  "data_coverage": {
+    "complete": false,
+    "available": {
+      "underlying_1m.csv": "390 LITE regular-session one-minute OHLC rows; no volume/bid/ask",
+      "iv_surface.csv": "1494 fixed-strike IV/delta points",
+      "dealer_exposure.csv": "QuantData GAMMA/VANNA/DELTA by strike and expiration",
+      "option_flow.csv": "100 latest consolidated QuantData flow rows at or before run time",
+      "market_regime.csv": "VIX at the common snapshot cutoff",
+      "levels.json": "MenthorQ eod HVL/resistance/support/1-day range",
+      "dark_pool.csv": "677 QuantData one-minute dark-flow rows plus raw price-level aggregates"
+    },
+    "missing_datasets": [
+      "complete option chain with NBBO/OI/full Greeks",
+      "cliff/CDF/PDF levels derived from a complete same-time chain",
+      "full-session option flow and 1-minute flow aggregation",
+      "ES/SPY/NQ/QQQ and full market-regime cross-asset fields",
+      "VolSignals numeric export/sign/unit definitions",
+      "VolSignals ticker coverage (LITE unavailable; subscription UI exposes SPX/VIX only)",
+      "OptionDepth 3D numeric export",
+      "short interest / borrow data"
+    ]
+  }
+}
