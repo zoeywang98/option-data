@@ -322,8 +322,10 @@ def main() -> int:
     parser.add_argument("run_dir", type=Path)
     parser.add_argument("--timestamp", required=True)
     parser.add_argument("--snapshot-time", required=True)
+    parser.add_argument("--quantdata-session-date")
     parser.add_argument("--symbol", default="SPX")
     parser.add_argument("--asset-type", choices=("index", "equity", "etf"), default="index")
+    parser.add_argument("--menthorq-frequency", choices=("intraday", "eod"), default="intraday")
     parser.add_argument("--previous-close", type=float, required=True)
     parser.add_argument("--menthorq-json", type=Path, required=True)
     parser.add_argument("--volsignals-gamma-charm", type=Path)
@@ -367,8 +369,12 @@ def main() -> int:
     })
     write_rows(run_dir / "market_regime.csv", [regime])
 
-    intraday_levels = menthorq_raw.get("gamma_levels_intraday") or {}
-    intraday_matrix = menthorq_raw.get("options_matrix_intraday") or {}
+    if args.menthorq_frequency == "eod":
+        intraday_levels = menthorq_raw.get("gamma_levels") or {}
+        intraday_matrix = menthorq_raw.get("options_matrix") or {}
+    else:
+        intraday_levels = menthorq_raw.get("gamma_levels_intraday") or {}
+        intraday_matrix = menthorq_raw.get("options_matrix_intraday") or {}
     levels = {
         "timestamp": run_at.isoformat(),
         "symbol": symbol,
@@ -435,6 +441,7 @@ def main() -> int:
         {},
     )
     mq_data_timestamp = vendor_timestamp(intraday_levels.get("timestamp")) or run_at.isoformat()
+    mq_delay = max(0, (run_at - datetime.fromisoformat(mq_data_timestamp)).total_seconds())
     definitions = [
         source_definition(
             "QuantData",
@@ -456,18 +463,23 @@ def main() -> int:
             },
             calculation={
                 "snapshot_time": args.snapshot_time,
+                "session_date": args.quantdata_session_date,
                 "endpoints": [
                     "stock-price-over-time", "term-structure", "exposure-by-strike",
                     "order-flow/consolidated", "dark-flow", "dark-pool-levels",
                 ],
-                "flow_coverage": "latest API page, 100 rows requested; rows after run timestamp excluded",
+                "flow_coverage": (
+                    "latest sessionDate API page, 100 rows requested; rows after run timestamp excluded"
+                    if args.quantdata_session_date else
+                    "latest snapshotTime API page, 100 rows requested; rows after run timestamp excluded"
+                ),
             },
         ),
         source_definition(
             "MenthorQ",
             menthorq_raw.get("retrieved_at", datetime.now(timezone.utc).isoformat()),
             mq_data_timestamp,
-            max(0, (run_at - datetime.fromisoformat(mq_data_timestamp)).total_seconds()),
+            mq_delay,
             perspective="unknown",
             sign_convention={"status": "unknown; gateway fields preserved verbatim"},
             units={
@@ -476,7 +488,8 @@ def main() -> int:
                 "net_dex": "vendor gateway units, exact scaling unverified",
             },
             calculation={
-                "frequency": "intraday",
+                "frequency": args.menthorq_frequency,
+                "screenshot_frequency": "dashboard default view; numeric fields come from the declared frequency",
                 "eod_comparison_timestamp": vendor_timestamp((menthorq_raw.get("gamma_levels") or {}).get("timestamp")),
                 "artifacts": ["source_data/menthorq.json", "screenshots/menthorq_exposure.png", "screenshots/menthorq_matrix.png"],
             },
@@ -499,7 +512,7 @@ def main() -> int:
             datetime.fromtimestamp(source.stat().st_mtime, tz=ET) for source in assets
         ).isoformat(),
         "capture_completed_at": datetime.now(ET).isoformat(),
-        "data_delay_seconds": 1500,
+        "data_delay_seconds": mq_delay,
         "sources": [item["name"] for item in definitions],
         "source_definitions": definitions,
         "missing_files": ["short_data.json", "positions.json"],
@@ -514,7 +527,7 @@ def main() -> int:
                     "VIX plus computed SPX front ATM IV and realized volatility"
                     if symbol == "SPX" else "VIX at the common snapshot cutoff"
                 ),
-                "levels.json": "MenthorQ intraday HVL/resistance/support/1-day range",
+                "levels.json": f"MenthorQ {args.menthorq_frequency} HVL/resistance/support/1-day range",
                 "dark_pool.csv": f"{len(dark_pool_rows)} QuantData one-minute dark-flow rows plus raw price-level aggregates",
             },
             "missing_datasets": [
@@ -528,7 +541,11 @@ def main() -> int:
                 "short interest / borrow data",
             ],
         },
-        "notes": f"Partial authorized intraday capture for {symbol} at {run_at.strftime('%H:%M')} ET. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
+        "notes": (
+            f"Partial authorized {'end-of-day' if args.menthorq_frequency == 'eod' else 'intraday'} "
+            f"capture for {symbol} at {run_at.strftime('%H:%M')} ET. Non-strict only; "
+            "header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data."
+        ),
     })
     write_json(manifest_path, manifest)
 
@@ -542,7 +559,7 @@ def main() -> int:
         write_json(run_dir / "events.json", events)
 
     write_json(run_dir / "state.json", {
-        "previous_regime": "partial_intraday",
+        "previous_regime": f"partial_{args.menthorq_frequency}",
         "previous_short_state": None,
         "previous_pivot": intraday_levels.get("hvl"),
         "previous_gamma_flip": None,
