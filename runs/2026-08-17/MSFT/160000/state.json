@@ -1,0 +1,17 @@
+{
+  "previous_regime": "partial_eod",
+  "previous_short_state": null,
+  "previous_pivot": 415,
+  "previous_gamma_flip": null,
+  "previous_call_wall": 500,
+  "previous_put_wall": 475,
+  "previous_iv_state": {
+    "front_atm_iv": 13.017654418945312,
+    "realized_vol": 14.155503687263183
+  },
+  "previous_flow_state": {
+    "coverage": "latest_100_consolidated_rows",
+    "rows": 100
+  },
+  "previous_invalidation": null
+}

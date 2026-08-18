@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-17T16:00:00-04:00",
+  "symbol": "MSFT",
+  "underlying_price": 480.62,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 500,
+  "put_wall": 475,
+  "hvl": 415,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 491.55,
+  "expected_move_lower": 469.15,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-17T16:00:00-04:00",
+    "retrieved_at": "2026-08-18T05:01:08.247Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 500,
+    "put_support_0dte": 490,
+    "matrix_totals": {
+      "net_gex": 318408522.95921636,
+      "abs_gex": 681883904.7411733,
+      "net_dex": 44189878418.473015,
+      "abs_dex": 64351905121.21428,
+      "net_oi": 1313777,
+      "abs_oi": 4192865
+    }
+  }
+}
