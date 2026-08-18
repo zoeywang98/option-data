@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-18T12:25:00-04:00",
+  "symbol": "MU",
+  "underlying_price": 941.23,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 1000,
+  "put_wall": 800,
+  "hvl": 960,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 1013.29,
+  "expected_move_lower": 927.15,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-18T12:15:00-04:00",
+    "retrieved_at": "2026-08-18T16:26:10.097Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 980,
+    "put_support_0dte": 950,
+    "matrix_totals": {
+      "net_gex": 25952382.226124156,
+      "abs_gex": 207738959.91278133,
+      "net_dex": 55111208244.542915,
+      "abs_dex": 96719465238.56126,
+      "net_oi": -191825,
+      "abs_oi": 3411841
+    }
+  }
+}
