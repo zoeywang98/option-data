@@ -1,0 +1,28 @@
+{
+  "timestamp": "2026-08-19T16:00:00-04:00",
+  "symbol": "CBRS",
+  "underlying_price": 215.75,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": null,
+  "put_wall": null,
+  "hvl": null,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": null,
+  "expected_move_lower": null,
+  "metadata": {
+    "source": "unavailable",
+    "data_timestamp": null,
+    "retrieved_at": "2026-08-19T21:16:58Z",
+    "reason": "MenthorQ does not expose CBRS in the authenticated gateway (HTTP 404); no levels were inferred or substituted.",
+    "attempted_sources": [
+      "authenticated dashboard gateway: HTTP 404 for /gamma-levels/CBRS/eod",
+      "UI fallback: Chrome CDP connection timed out",
+      "direct HTTPS fallback: credentials unavailable"
+    ]
+  }
+}
