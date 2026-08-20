@@ -1,0 +1,107 @@
+{
+  "contract_version": "1.0.0",
+  "run_id": "BE_20260819_160000",
+  "symbol": "BE",
+  "asset_type": "equity",
+  "timestamp": "2026-08-19T16:00:00-04:00",
+  "capture_started_at": "2026-08-20T05:28:50.905823+00:00",
+  "capture_completed_at": "2026-08-20T01:29:23.639134-04:00",
+  "timezone": "America/New_York",
+  "session": "regular",
+  "spot": 206.39,
+  "previous_close": 209.03,
+  "expirations": [
+    "2026-08-21",
+    "2026-08-28",
+    "2026-09-04",
+    "2026-09-11",
+    "2026-09-18",
+    "2026-09-25",
+    "2026-10-02",
+    "2026-10-16",
+    "2026-11-20",
+    "2026-12-18",
+    "2027-01-15",
+    "2027-02-19",
+    "2027-06-17",
+    "2028-01-21",
+    "2028-03-17",
+    "2028-06-16"
+  ],
+  "data_delay_seconds": 0,
+  "products": [
+    {
+      "symbol": "BE",
+      "asset_type": "equity",
+      "contract_multiplier": 100
+    }
+  ],
+  "sources": [
+    "QuantData"
+  ],
+  "source_definitions": [
+    {
+      "name": "QuantData",
+      "retrieved_at": "2026-08-20T05:28:50.905823+00:00",
+      "data_timestamp": "2026-08-19T16:00:00-04:00",
+      "feed_type": "historical",
+      "delay_seconds": 0,
+      "perspective": "unknown",
+      "contract_multiplier": 100,
+      "sign_convention": {
+        "gex_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "vanna_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified",
+        "delta_positive": "raw signed callExposure/putExposure; dealer/customer perspective unverified"
+      },
+      "units": {
+        "exposure": "PER_ONE_DOLLAR_MOVE; exact dollar/contract scaling unverified",
+        "iv": "volatility percentage points",
+        "underlying": "USD per share",
+        "flow_premium": "USD"
+      },
+      "calculation": {
+        "snapshot_time": "2026-08-19T20:00:00Z",
+        "session_date": "2026-08-19",
+        "endpoints": [
+          "stock-price-over-time",
+          "term-structure",
+          "exposure-by-strike",
+          "order-flow/consolidated",
+          "dark-flow",
+          "dark-pool-levels"
+        ],
+        "flow_coverage": "latest sessionDate API page, 100 rows requested; rows after run timestamp excluded"
+      }
+    }
+  ],
+  "missing_files": [
+    "positions.json",
+    "screenshots/menthorq_exposure.png",
+    "screenshots/menthorq_matrix.png",
+    "short_data.json",
+    "source_data/menthorq.json"
+  ],
+  "notes": "Partial authorized end-of-day QuantData capture for BE at 16:00 ET. MenthorQ authentication was unavailable, so levels and dashboard artifacts are explicitly unavailable and no substitute values were used. Non-strict only; header-only option_chain.csv and cliff_levels.csv are intentional and must not be treated as complete data.",
+  "data_coverage": {
+    "complete": false,
+    "available": {
+      "underlying_1m.csv": "390 BE regular-session one-minute OHLC rows; no volume/bid/ask",
+      "iv_surface.csv": "1105 fixed-strike IV/delta points",
+      "dealer_exposure.csv": "QuantData GAMMA/VANNA/DELTA by strike and expiration",
+      "option_flow.csv": "100 latest consolidated QuantData flow rows at or before run time",
+      "market_regime.csv": "VIX at the common snapshot cutoff",
+      "dark_pool.csv": "710 QuantData one-minute dark-flow rows plus raw price-level aggregates"
+    },
+    "missing_datasets": [
+      "complete option chain with NBBO/OI/full Greeks",
+      "cliff/CDF/PDF levels derived from a complete same-time chain",
+      "full-session option flow and 1-minute flow aggregation",
+      "ES/SPY/NQ/QQQ and full market-regime cross-asset fields",
+      "VolSignals numeric export/sign/unit definitions",
+      "VolSignals ticker coverage (BE unavailable; subscription UI exposes SPX/VIX only)",
+      "OptionDepth 3D numeric export",
+      "short interest / borrow data",
+      "MenthorQ EOD levels and dashboard artifacts (authentication unavailable; no substitute values used)"
+    ]
+  }
+}

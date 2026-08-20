@@ -1,0 +1,17 @@
+{
+  "previous_regime": "partial_eod_quantdata_only",
+  "previous_short_state": null,
+  "previous_pivot": null,
+  "previous_gamma_flip": null,
+  "previous_call_wall": null,
+  "previous_put_wall": null,
+  "previous_iv_state": {
+    "front_atm_iv": 95.367431640625,
+    "realized_vol": 35.86343838220551
+  },
+  "previous_flow_state": {
+    "coverage": "latest_100_consolidated_rows",
+    "rows": 100
+  },
+  "previous_invalidation": "MenthorQ level gates unavailable for BE"
+}

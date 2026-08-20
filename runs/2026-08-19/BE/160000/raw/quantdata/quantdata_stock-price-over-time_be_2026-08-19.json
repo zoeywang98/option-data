@@ -1,0 +1,2344 @@
+{
+  "data": {
+    "1787146200000": {
+      "openPrice": 212.55,
+      "highPrice": 212.55,
+      "lowPrice": 208.99,
+      "closePrice": 210.44
+    },
+    "1787146260000": {
+      "openPrice": 210.44,
+      "highPrice": 210.79,
+      "lowPrice": 209.47,
+      "closePrice": 210.57
+    },
+    "1787146320000": {
+      "openPrice": 210.57,
+      "highPrice": 211.74,
+      "lowPrice": 210.46,
+      "closePrice": 211.45
+    },
+    "1787146380000": {
+      "openPrice": 211.45,
+      "highPrice": 211.63,
+      "lowPrice": 208.66,
+      "closePrice": 208.66
+    },
+    "1787146440000": {
+      "openPrice": 208.66,
+      "highPrice": 208.91,
+      "lowPrice": 208.13,
+      "closePrice": 208.15
+    },
+    "1787146500000": {
+      "openPrice": 208.36,
+      "highPrice": 209.51,
+      "lowPrice": 207.9,
+      "closePrice": 209.51
+    },
+    "1787146560000": {
+      "openPrice": 209.51,
+      "highPrice": 209.51,
+      "lowPrice": 206.72,
+      "closePrice": 206.72
+    },
+    "1787146620000": {
+      "openPrice": 206.72,
+      "highPrice": 207.38,
+      "lowPrice": 206.03,
+      "closePrice": 206.35
+    },
+    "1787146680000": {
+      "openPrice": 206.35,
+      "highPrice": 206.99,
+      "lowPrice": 205.81,
+      "closePrice": 205.81
+    },
+    "1787146740000": {
+      "openPrice": 205.81,
+      "highPrice": 205.96,
+      "lowPrice": 204.12,
+      "closePrice": 204.12
+    },
+    "1787146800000": {
+      "openPrice": 204.12,
+      "highPrice": 205.41,
+      "lowPrice": 203.62,
+      "closePrice": 204.71
+    },
+    "1787146860000": {
+      "openPrice": 204.64,
+      "highPrice": 206.36,
+      "lowPrice": 204.64,
+      "closePrice": 206.36
+    },
+    "1787146920000": {
+      "openPrice": 206.36,
+      "highPrice": 206.59,
+      "lowPrice": 206.05,
+      "closePrice": 206.5
+    },
+    "1787146980000": {
+      "openPrice": 206.5,
+      "highPrice": 208.7,
+      "lowPrice": 206.5,
+      "closePrice": 208.7
+    },
+    "1787147040000": {
+      "openPrice": 208.7,
+      "highPrice": 208.84,
+      "lowPrice": 208.16,
+      "closePrice": 208.29
+    },
+    "1787147100000": {
+      "openPrice": 208.29,
+      "highPrice": 209.31,
+      "lowPrice": 207.84,
+      "closePrice": 208.13
+    },
+    "1787147160000": {
+      "openPrice": 207.93,
+      "highPrice": 208.6,
+      "lowPrice": 207.5,
+      "closePrice": 207.69
+    },
+    "1787147220000": {
+      "openPrice": 208.01,
+      "highPrice": 208.01,
+      "lowPrice": 207.15,
+      "closePrice": 207.15
+    },
+    "1787147280000": {
+      "openPrice": 207.37,
+      "highPrice": 207.37,
+      "lowPrice": 204.71,
+      "closePrice": 204.71
+    },
+    "1787147340000": {
+      "openPrice": 204.98,
+      "highPrice": 205.16,
+      "lowPrice": 203.89,
+      "closePrice": 203.89
+    },
+    "1787147400000": {
+      "openPrice": 204.07,
+      "highPrice": 204.51,
+      "lowPrice": 203.23,
+      "closePrice": 204.02
+    },
+    "1787147460000": {
+      "openPrice": 204.02,
+      "highPrice": 204.02,
+      "lowPrice": 202.23,
+      "closePrice": 202.32
+    },
+    "1787147520000": {
+      "openPrice": 202.32,
+      "highPrice": 203.19,
+      "lowPrice": 202.19,
+      "closePrice": 202.56
+    },
+    "1787147580000": {
+      "openPrice": 202.56,
+      "highPrice": 203.76,
+      "lowPrice": 202.56,
+      "closePrice": 203.76
+    },
+    "1787147640000": {
+      "openPrice": 203.76,
+      "highPrice": 204.07,
+      "lowPrice": 202.86,
+      "closePrice": 202.86
+    },
+    "1787147700000": {
+      "openPrice": 202.86,
+      "highPrice": 204.55,
+      "lowPrice": 202.6,
+      "closePrice": 204.22
+    },
+    "1787147760000": {
+      "openPrice": 204.26,
+      "highPrice": 205.0,
+      "lowPrice": 203.64,
+      "closePrice": 204.99
+    },
+    "1787147820000": {
+      "openPrice": 204.99,
+      "highPrice": 205.5,
+      "lowPrice": 204.3,
+      "closePrice": 204.48
+    },
+    "1787147880000": {
+      "openPrice": 204.28,
+      "highPrice": 204.92,
+      "lowPrice": 203.42,
+      "closePrice": 204.92
+    },
+    "1787147940000": {
+      "openPrice": 204.92,
+      "highPrice": 204.92,
+      "lowPrice": 203.68,
+      "closePrice": 203.83
+    },
+    "1787148000000": {
+      "openPrice": 203.83,
+      "highPrice": 203.97,
+      "lowPrice": 201.34,
+      "closePrice": 201.34
+    },
+    "1787148060000": {
+      "openPrice": 201.34,
+      "highPrice": 202.17,
+      "lowPrice": 201.34,
+      "closePrice": 201.62
+    },
+    "1787148120000": {
+      "openPrice": 201.78,
+      "highPrice": 202.1,
+      "lowPrice": 201.0,
+      "closePrice": 201.01
+    },
+    "1787148180000": {
+      "openPrice": 201.01,
+      "highPrice": 201.09,
+      "lowPrice": 200.62,
+      "closePrice": 200.76
+    },
+    "1787148240000": {
+      "openPrice": 200.76,
+      "highPrice": 202.07,
+      "lowPrice": 200.76,
+      "closePrice": 201.89
+    },
+    "1787148300000": {
+      "openPrice": 201.77,
+      "highPrice": 203.09,
+      "lowPrice": 201.77,
+      "closePrice": 202.77
+    },
+    "1787148360000": {
+      "openPrice": 203.08,
+      "highPrice": 203.14,
+      "lowPrice": 202.4,
+      "closePrice": 202.71
+    },
+    "1787148420000": {
+      "openPrice": 202.82,
+      "highPrice": 203.52,
+      "lowPrice": 202.4,
+      "closePrice": 203.52
+    },
+    "1787148480000": {
+      "openPrice": 203.45,
+      "highPrice": 203.46,
+      "lowPrice": 203.0,
+      "closePrice": 203.0
+    },
+    "1787148540000": {
+      "openPrice": 202.76,
+      "highPrice": 203.35,
+      "lowPrice": 202.76,
+      "closePrice": 203.07
+    },
+    "1787148600000": {
+      "openPrice": 203.07,
+      "highPrice": 203.07,
+      "lowPrice": 201.32,
+      "closePrice": 201.32
+    },
+    "1787148660000": {
+      "openPrice": 201.32,
+      "highPrice": 201.32,
+      "lowPrice": 200.08,
+      "closePrice": 200.34
+    },
+    "1787148720000": {
+      "openPrice": 200.34,
+      "highPrice": 201.13,
+      "lowPrice": 200.34,
+      "closePrice": 200.98
+    },
+    "1787148780000": {
+      "openPrice": 200.98,
+      "highPrice": 201.19,
+      "lowPrice": 200.12,
+      "closePrice": 200.4
+    },
+    "1787148840000": {
+      "openPrice": 200.47,
+      "highPrice": 200.84,
+      "lowPrice": 200.28,
+      "closePrice": 200.57
+    },
+    "1787148900000": {
+      "openPrice": 200.56,
+      "highPrice": 200.92,
+      "lowPrice": 200.47,
+      "closePrice": 200.87
+    },
+    "1787148960000": {
+      "openPrice": 200.87,
+      "highPrice": 202.42,
+      "lowPrice": 200.71,
+      "closePrice": 202.42
+    },
+    "1787149020000": {
+      "openPrice": 202.35,
+      "highPrice": 202.48,
+      "lowPrice": 201.13,
+      "closePrice": 201.21
+    },
+    "1787149080000": {
+      "openPrice": 201.4,
+      "highPrice": 201.43,
+      "lowPrice": 200.78,
+      "closePrice": 201.43
+    },
+    "1787149140000": {
+      "openPrice": 201.56,
+      "highPrice": 201.58,
+      "lowPrice": 200.52,
+      "closePrice": 200.66
+    },
+    "1787149200000": {
+      "openPrice": 200.52,
+      "highPrice": 203.06,
+      "lowPrice": 200.52,
+      "closePrice": 203.06
+    },
+    "1787149260000": {
+      "openPrice": 203.06,
+      "highPrice": 203.06,
+      "lowPrice": 201.59,
+      "closePrice": 202.1
+    },
+    "1787149320000": {
+      "openPrice": 202.1,
+      "highPrice": 202.92,
+      "lowPrice": 201.5,
+      "closePrice": 201.9
+    },
+    "1787149380000": {
+      "openPrice": 201.9,
+      "highPrice": 202.48,
+      "lowPrice": 201.74,
+      "closePrice": 202.02
+    },
+    "1787149440000": {
+      "openPrice": 202.11,
+      "highPrice": 202.28,
+      "lowPrice": 201.32,
+      "closePrice": 201.55
+    },
+    "1787149500000": {
+      "openPrice": 201.57,
+      "highPrice": 201.87,
+      "lowPrice": 200.85,
+      "closePrice": 201.19
+    },
+    "1787149560000": {
+      "openPrice": 201.19,
+      "highPrice": 201.7,
+      "lowPrice": 201.03,
+      "closePrice": 201.7
+    },
+    "1787149620000": {
+      "openPrice": 201.7,
+      "highPrice": 202.33,
+      "lowPrice": 201.7,
+      "closePrice": 202.04
+    },
+    "1787149680000": {
+      "openPrice": 202.04,
+      "highPrice": 202.31,
+      "lowPrice": 201.96,
+      "closePrice": 202.18
+    },
+    "1787149740000": {
+      "openPrice": 202.18,
+      "highPrice": 203.12,
+      "lowPrice": 202.18,
+      "closePrice": 202.51
+    },
+    "1787149800000": {
+      "openPrice": 202.67,
+      "highPrice": 203.99,
+      "lowPrice": 202.67,
+      "closePrice": 203.81
+    },
+    "1787149860000": {
+      "openPrice": 203.81,
+      "highPrice": 204.61,
+      "lowPrice": 203.39,
+      "closePrice": 204.61
+    },
+    "1787149920000": {
+      "openPrice": 204.34,
+      "highPrice": 204.67,
+      "lowPrice": 203.85,
+      "closePrice": 204.19
+    },
+    "1787149980000": {
+      "openPrice": 204.19,
+      "highPrice": 204.64,
+      "lowPrice": 204.14,
+      "closePrice": 204.62
+    },
+    "1787150040000": {
+      "openPrice": 204.62,
+      "highPrice": 204.62,
+      "lowPrice": 203.13,
+      "closePrice": 203.32
+    },
+    "1787150100000": {
+      "openPrice": 203.16,
+      "highPrice": 204.36,
+      "lowPrice": 203.0,
+      "closePrice": 204.36
+    },
+    "1787150160000": {
+      "openPrice": 204.36,
+      "highPrice": 204.41,
+      "lowPrice": 204.07,
+      "closePrice": 204.07
+    },
+    "1787150220000": {
+      "openPrice": 204.3,
+      "highPrice": 204.62,
+      "lowPrice": 204.3,
+      "closePrice": 204.53
+    },
+    "1787150280000": {
+      "openPrice": 204.58,
+      "highPrice": 204.91,
+      "lowPrice": 203.99,
+      "closePrice": 204.37
+    },
+    "1787150340000": {
+      "openPrice": 204.37,
+      "highPrice": 204.96,
+      "lowPrice": 204.37,
+      "closePrice": 204.96
+    },
+    "1787150400000": {
+      "openPrice": 204.96,
+      "highPrice": 205.68,
+      "lowPrice": 204.67,
+      "closePrice": 204.67
+    },
+    "1787150460000": {
+      "openPrice": 204.67,
+      "highPrice": 205.51,
+      "lowPrice": 204.67,
+      "closePrice": 204.9
+    },
+    "1787150520000": {
+      "openPrice": 204.9,
+      "highPrice": 205.15,
+      "lowPrice": 204.31,
+      "closePrice": 205.15
+    },
+    "1787150580000": {
+      "openPrice": 204.56,
+      "highPrice": 205.23,
+      "lowPrice": 204.56,
+      "closePrice": 204.91
+    },
+    "1787150640000": {
+      "openPrice": 205.01,
+      "highPrice": 205.19,
+      "lowPrice": 204.64,
+      "closePrice": 204.72
+    },
+    "1787150700000": {
+      "openPrice": 204.72,
+      "highPrice": 204.99,
+      "lowPrice": 203.98,
+      "closePrice": 203.98
+    },
+    "1787150760000": {
+      "openPrice": 203.85,
+      "highPrice": 204.04,
+      "lowPrice": 203.5,
+      "closePrice": 203.65
+    },
+    "1787150820000": {
+      "openPrice": 203.75,
+      "highPrice": 203.77,
+      "lowPrice": 203.07,
+      "closePrice": 203.37
+    },
+    "1787150880000": {
+      "openPrice": 203.37,
+      "highPrice": 203.56,
+      "lowPrice": 202.91,
+      "closePrice": 203.06
+    },
+    "1787150940000": {
+      "openPrice": 202.87,
+      "highPrice": 203.22,
+      "lowPrice": 202.84,
+      "closePrice": 203.05
+    },
+    "1787151000000": {
+      "openPrice": 204.36,
+      "highPrice": 204.36,
+      "lowPrice": 202.95,
+      "closePrice": 203.15
+    },
+    "1787151060000": {
+      "openPrice": 203.14,
+      "highPrice": 203.4,
+      "lowPrice": 202.8,
+      "closePrice": 203.22
+    },
+    "1787151120000": {
+      "openPrice": 203.49,
+      "highPrice": 203.49,
+      "lowPrice": 202.8,
+      "closePrice": 202.8
+    },
+    "1787151180000": {
+      "openPrice": 202.8,
+      "highPrice": 203.71,
+      "lowPrice": 202.8,
+      "closePrice": 203.71
+    },
+    "1787151240000": {
+      "openPrice": 203.86,
+      "highPrice": 203.86,
+      "lowPrice": 203.38,
+      "closePrice": 203.69
+    },
+    "1787151300000": {
+      "openPrice": 203.6,
+      "highPrice": 203.69,
+      "lowPrice": 203.46,
+      "closePrice": 203.5
+    },
+    "1787151360000": {
+      "openPrice": 203.62,
+      "highPrice": 203.91,
+      "lowPrice": 203.36,
+      "closePrice": 203.58
+    },
+    "1787151420000": {
+      "openPrice": 203.58,
+      "highPrice": 203.95,
+      "lowPrice": 203.2,
+      "closePrice": 203.36
+    },
+    "1787151480000": {
+      "openPrice": 203.36,
+      "highPrice": 203.36,
+      "lowPrice": 202.77,
+      "closePrice": 203.21
+    },
+    "1787151540000": {
+      "openPrice": 203.21,
+      "highPrice": 203.44,
+      "lowPrice": 202.5,
+      "closePrice": 202.63
+    },
+    "1787151600000": {
+      "openPrice": 202.63,
+      "highPrice": 202.84,
+      "lowPrice": 202.18,
+      "closePrice": 202.5
+    },
+    "1787151660000": {
+      "openPrice": 202.27,
+      "highPrice": 202.8,
+      "lowPrice": 201.71,
+      "closePrice": 201.71
+    },
+    "1787151720000": {
+      "openPrice": 201.71,
+      "highPrice": 202.31,
+      "lowPrice": 201.34,
+      "closePrice": 201.51
+    },
+    "1787151780000": {
+      "openPrice": 201.51,
+      "highPrice": 201.66,
+      "lowPrice": 201.13,
+      "closePrice": 201.22
+    },
+    "1787151840000": {
+      "openPrice": 201.22,
+      "highPrice": 201.52,
+      "lowPrice": 201.15,
+      "closePrice": 201.31
+    },
+    "1787151900000": {
+      "openPrice": 201.31,
+      "highPrice": 201.43,
+      "lowPrice": 201.03,
+      "closePrice": 201.18
+    },
+    "1787151960000": {
+      "openPrice": 201.52,
+      "highPrice": 201.68,
+      "lowPrice": 201.28,
+      "closePrice": 201.51
+    },
+    "1787152020000": {
+      "openPrice": 201.56,
+      "highPrice": 202.2,
+      "lowPrice": 201.56,
+      "closePrice": 202.2
+    },
+    "1787152080000": {
+      "openPrice": 202.2,
+      "highPrice": 202.2,
+      "lowPrice": 201.92,
+      "closePrice": 201.98
+    },
+    "1787152140000": {
+      "openPrice": 202.08,
+      "highPrice": 202.37,
+      "lowPrice": 201.64,
+      "closePrice": 201.64
+    },
+    "1787152200000": {
+      "openPrice": 201.89,
+      "highPrice": 201.9,
+      "lowPrice": 201.46,
+      "closePrice": 201.9
+    },
+    "1787152260000": {
+      "openPrice": 201.92,
+      "highPrice": 202.1,
+      "lowPrice": 201.6,
+      "closePrice": 201.84
+    },
+    "1787152320000": {
+      "openPrice": 201.84,
+      "highPrice": 202.84,
+      "lowPrice": 201.6,
+      "closePrice": 202.84
+    },
+    "1787152380000": {
+      "openPrice": 202.84,
+      "highPrice": 203.25,
+      "lowPrice": 202.82,
+      "closePrice": 203.02
+    },
+    "1787152440000": {
+      "openPrice": 203.02,
+      "highPrice": 203.25,
+      "lowPrice": 202.8,
+      "closePrice": 203.17
+    },
+    "1787152500000": {
+      "openPrice": 203.16,
+      "highPrice": 203.29,
+      "lowPrice": 202.62,
+      "closePrice": 202.8
+    },
+    "1787152560000": {
+      "openPrice": 202.81,
+      "highPrice": 203.37,
+      "lowPrice": 202.8,
+      "closePrice": 203.29
+    },
+    "1787152620000": {
+      "openPrice": 203.29,
+      "highPrice": 203.4,
+      "lowPrice": 202.9,
+      "closePrice": 202.9
+    },
+    "1787152680000": {
+      "openPrice": 202.9,
+      "highPrice": 202.92,
+      "lowPrice": 202.2,
+      "closePrice": 202.32
+    },
+    "1787152740000": {
+      "openPrice": 202.41,
+      "highPrice": 202.81,
+      "lowPrice": 202.32,
+      "closePrice": 202.7
+    },
+    "1787152800000": {
+      "openPrice": 202.6,
+      "highPrice": 202.88,
+      "lowPrice": 202.45,
+      "closePrice": 202.69
+    },
+    "1787152860000": {
+      "openPrice": 202.69,
+      "highPrice": 202.79,
+      "lowPrice": 202.38,
+      "closePrice": 202.57
+    },
+    "1787152920000": {
+      "openPrice": 202.57,
+      "highPrice": 202.77,
+      "lowPrice": 202.35,
+      "closePrice": 202.76
+    },
+    "1787152980000": {
+      "openPrice": 202.76,
+      "highPrice": 202.96,
+      "lowPrice": 202.76,
+      "closePrice": 202.83
+    },
+    "1787153040000": {
+      "openPrice": 202.83,
+      "highPrice": 202.88,
+      "lowPrice": 202.7,
+      "closePrice": 202.77
+    },
+    "1787153100000": {
+      "openPrice": 202.78,
+      "highPrice": 202.98,
+      "lowPrice": 202.35,
+      "closePrice": 202.98
+    },
+    "1787153160000": {
+      "openPrice": 202.75,
+      "highPrice": 202.8,
+      "lowPrice": 202.53,
+      "closePrice": 202.72
+    },
+    "1787153220000": {
+      "openPrice": 202.94,
+      "highPrice": 203.13,
+      "lowPrice": 202.78,
+      "closePrice": 203.12
+    },
+    "1787153280000": {
+      "openPrice": 203.12,
+      "highPrice": 203.44,
+      "lowPrice": 202.68,
+      "closePrice": 203.42
+    },
+    "1787153340000": {
+      "openPrice": 203.38,
+      "highPrice": 203.49,
+      "lowPrice": 203.21,
+      "closePrice": 203.42
+    },
+    "1787153400000": {
+      "openPrice": 203.42,
+      "highPrice": 203.49,
+      "lowPrice": 203.25,
+      "closePrice": 203.26
+    },
+    "1787153460000": {
+      "openPrice": 203.35,
+      "highPrice": 203.35,
+      "lowPrice": 203.0,
+      "closePrice": 203.28
+    },
+    "1787153520000": {
+      "openPrice": 203.15,
+      "highPrice": 203.27,
+      "lowPrice": 203.1,
+      "closePrice": 203.12
+    },
+    "1787153580000": {
+      "openPrice": 203.15,
+      "highPrice": 203.15,
+      "lowPrice": 202.9,
+      "closePrice": 202.91
+    },
+    "1787153640000": {
+      "openPrice": 202.91,
+      "highPrice": 202.94,
+      "lowPrice": 202.78,
+      "closePrice": 202.8
+    },
+    "1787153700000": {
+      "openPrice": 202.8,
+      "highPrice": 202.84,
+      "lowPrice": 202.73,
+      "closePrice": 202.75
+    },
+    "1787153760000": {
+      "openPrice": 202.76,
+      "highPrice": 203.0,
+      "lowPrice": 202.58,
+      "closePrice": 202.86
+    },
+    "1787153820000": {
+      "openPrice": 202.49,
+      "highPrice": 202.84,
+      "lowPrice": 202.49,
+      "closePrice": 202.7
+    },
+    "1787153880000": {
+      "openPrice": 202.67,
+      "highPrice": 202.76,
+      "lowPrice": 202.24,
+      "closePrice": 202.24
+    },
+    "1787153940000": {
+      "openPrice": 202.24,
+      "highPrice": 202.54,
+      "lowPrice": 202.18,
+      "closePrice": 202.2
+    },
+    "1787154000000": {
+      "openPrice": 202.22,
+      "highPrice": 202.22,
+      "lowPrice": 201.46,
+      "closePrice": 201.47
+    },
+    "1787154060000": {
+      "openPrice": 201.63,
+      "highPrice": 202.06,
+      "lowPrice": 201.51,
+      "closePrice": 201.69
+    },
+    "1787154120000": {
+      "openPrice": 201.69,
+      "highPrice": 201.95,
+      "lowPrice": 201.69,
+      "closePrice": 201.95
+    },
+    "1787154180000": {
+      "openPrice": 201.94,
+      "highPrice": 202.37,
+      "lowPrice": 201.94,
+      "closePrice": 202.37
+    },
+    "1787154240000": {
+      "openPrice": 202.51,
+      "highPrice": 203.12,
+      "lowPrice": 202.51,
+      "closePrice": 203.11
+    },
+    "1787154300000": {
+      "openPrice": 203.08,
+      "highPrice": 203.08,
+      "lowPrice": 202.78,
+      "closePrice": 202.83
+    },
+    "1787154360000": {
+      "openPrice": 202.81,
+      "highPrice": 203.13,
+      "lowPrice": 202.27,
+      "closePrice": 202.96
+    },
+    "1787154420000": {
+      "openPrice": 203.04,
+      "highPrice": 203.04,
+      "lowPrice": 202.55,
+      "closePrice": 202.98
+    },
+    "1787154480000": {
+      "openPrice": 202.98,
+      "highPrice": 203.34,
+      "lowPrice": 202.98,
+      "closePrice": 203.34
+    },
+    "1787154540000": {
+      "openPrice": 203.4,
+      "highPrice": 203.5,
+      "lowPrice": 202.84,
+      "closePrice": 202.94
+    },
+    "1787154600000": {
+      "openPrice": 202.94,
+      "highPrice": 203.42,
+      "lowPrice": 202.59,
+      "closePrice": 203.42
+    },
+    "1787154660000": {
+      "openPrice": 203.18,
+      "highPrice": 203.5,
+      "lowPrice": 202.64,
+      "closePrice": 203.28
+    },
+    "1787154720000": {
+      "openPrice": 203.28,
+      "highPrice": 203.62,
+      "lowPrice": 203.27,
+      "closePrice": 203.62
+    },
+    "1787154780000": {
+      "openPrice": 203.62,
+      "highPrice": 203.75,
+      "lowPrice": 203.31,
+      "closePrice": 203.31
+    },
+    "1787154840000": {
+      "openPrice": 203.03,
+      "highPrice": 203.08,
+      "lowPrice": 202.55,
+      "closePrice": 202.63
+    },
+    "1787154900000": {
+      "openPrice": 202.62,
+      "highPrice": 203.24,
+      "lowPrice": 202.62,
+      "closePrice": 203.17
+    },
+    "1787154960000": {
+      "openPrice": 203.17,
+      "highPrice": 203.43,
+      "lowPrice": 202.91,
+      "closePrice": 203.2
+    },
+    "1787155020000": {
+      "openPrice": 203.12,
+      "highPrice": 203.38,
+      "lowPrice": 203.1,
+      "closePrice": 203.18
+    },
+    "1787155080000": {
+      "openPrice": 203.16,
+      "highPrice": 203.45,
+      "lowPrice": 203.16,
+      "closePrice": 203.43
+    },
+    "1787155140000": {
+      "openPrice": 203.48,
+      "highPrice": 203.72,
+      "lowPrice": 203.2,
+      "closePrice": 203.64
+    },
+    "1787155200000": {
+      "openPrice": 203.56,
+      "highPrice": 203.56,
+      "lowPrice": 203.01,
+      "closePrice": 203.55
+    },
+    "1787155260000": {
+      "openPrice": 203.55,
+      "highPrice": 203.89,
+      "lowPrice": 203.46,
+      "closePrice": 203.89
+    },
+    "1787155320000": {
+      "openPrice": 203.89,
+      "highPrice": 204.25,
+      "lowPrice": 203.84,
+      "closePrice": 204.18
+    },
+    "1787155380000": {
+      "openPrice": 204.29,
+      "highPrice": 204.36,
+      "lowPrice": 203.99,
+      "closePrice": 203.99
+    },
+    "1787155440000": {
+      "openPrice": 203.99,
+      "highPrice": 203.99,
+      "lowPrice": 203.29,
+      "closePrice": 203.79
+    },
+    "1787155500000": {
+      "openPrice": 203.77,
+      "highPrice": 203.98,
+      "lowPrice": 203.62,
+      "closePrice": 203.87
+    },
+    "1787155560000": {
+      "openPrice": 203.95,
+      "highPrice": 204.24,
+      "lowPrice": 203.69,
+      "closePrice": 204.1
+    },
+    "1787155620000": {
+      "openPrice": 204.1,
+      "highPrice": 204.62,
+      "lowPrice": 203.83,
+      "closePrice": 203.83
+    },
+    "1787155680000": {
+      "openPrice": 203.83,
+      "highPrice": 204.64,
+      "lowPrice": 203.83,
+      "closePrice": 204.07
+    },
+    "1787155740000": {
+      "openPrice": 204.07,
+      "highPrice": 204.38,
+      "lowPrice": 204.07,
+      "closePrice": 204.24
+    },
+    "1787155800000": {
+      "openPrice": 204.24,
+      "highPrice": 204.45,
+      "lowPrice": 203.97,
+      "closePrice": 204.45
+    },
+    "1787155860000": {
+      "openPrice": 204.45,
+      "highPrice": 204.6,
+      "lowPrice": 204.27,
+      "closePrice": 204.6
+    },
+    "1787155920000": {
+      "openPrice": 204.6,
+      "highPrice": 204.67,
+      "lowPrice": 204.51,
+      "closePrice": 204.64
+    },
+    "1787155980000": {
+      "openPrice": 204.64,
+      "highPrice": 204.64,
+      "lowPrice": 204.01,
+      "closePrice": 204.2
+    },
+    "1787156040000": {
+      "openPrice": 204.22,
+      "highPrice": 204.26,
+      "lowPrice": 203.81,
+      "closePrice": 203.81
+    },
+    "1787156100000": {
+      "openPrice": 204.0,
+      "highPrice": 204.25,
+      "lowPrice": 203.61,
+      "closePrice": 204.0
+    },
+    "1787156160000": {
+      "openPrice": 204.25,
+      "highPrice": 204.25,
+      "lowPrice": 203.44,
+      "closePrice": 203.65
+    },
+    "1787156220000": {
+      "openPrice": 203.8,
+      "highPrice": 204.22,
+      "lowPrice": 203.79,
+      "closePrice": 204.22
+    },
+    "1787156280000": {
+      "openPrice": 204.17,
+      "highPrice": 204.3,
+      "lowPrice": 203.82,
+      "closePrice": 204.21
+    },
+    "1787156340000": {
+      "openPrice": 204.21,
+      "highPrice": 204.31,
+      "lowPrice": 203.89,
+      "closePrice": 204.18
+    },
+    "1787156400000": {
+      "openPrice": 204.1,
+      "highPrice": 204.43,
+      "lowPrice": 204.05,
+      "closePrice": 204.19
+    },
+    "1787156460000": {
+      "openPrice": 204.12,
+      "highPrice": 204.24,
+      "lowPrice": 203.37,
+      "closePrice": 203.59
+    },
+    "1787156520000": {
+      "openPrice": 203.59,
+      "highPrice": 203.84,
+      "lowPrice": 203.43,
+      "closePrice": 203.79
+    },
+    "1787156580000": {
+      "openPrice": 203.9,
+      "highPrice": 203.96,
+      "lowPrice": 203.52,
+      "closePrice": 203.83
+    },
+    "1787156640000": {
+      "openPrice": 203.67,
+      "highPrice": 203.99,
+      "lowPrice": 203.67,
+      "closePrice": 203.73
+    },
+    "1787156700000": {
+      "openPrice": 203.82,
+      "highPrice": 203.83,
+      "lowPrice": 203.51,
+      "closePrice": 203.76
+    },
+    "1787156760000": {
+      "openPrice": 203.76,
+      "highPrice": 203.88,
+      "lowPrice": 203.51,
+      "closePrice": 203.68
+    },
+    "1787156820000": {
+      "openPrice": 203.68,
+      "highPrice": 203.95,
+      "lowPrice": 203.6,
+      "closePrice": 203.6
+    },
+    "1787156880000": {
+      "openPrice": 203.78,
+      "highPrice": 203.78,
+      "lowPrice": 203.38,
+      "closePrice": 203.38
+    },
+    "1787156940000": {
+      "openPrice": 203.64,
+      "highPrice": 203.71,
+      "lowPrice": 203.4,
+      "closePrice": 203.7
+    },
+    "1787157000000": {
+      "openPrice": 203.61,
+      "highPrice": 203.69,
+      "lowPrice": 203.29,
+      "closePrice": 203.53
+    },
+    "1787157060000": {
+      "openPrice": 203.53,
+      "highPrice": 203.65,
+      "lowPrice": 203.5,
+      "closePrice": 203.5
+    },
+    "1787157120000": {
+      "openPrice": 203.7,
+      "highPrice": 203.78,
+      "lowPrice": 203.57,
+      "closePrice": 203.75
+    },
+    "1787157180000": {
+      "openPrice": 203.62,
+      "highPrice": 204.0,
+      "lowPrice": 203.47,
+      "closePrice": 203.9
+    },
+    "1787157240000": {
+      "openPrice": 203.85,
+      "highPrice": 204.07,
+      "lowPrice": 203.62,
+      "closePrice": 203.64
+    },
+    "1787157300000": {
+      "openPrice": 203.65,
+      "highPrice": 203.93,
+      "lowPrice": 203.52,
+      "closePrice": 203.54
+    },
+    "1787157360000": {
+      "openPrice": 203.44,
+      "highPrice": 203.73,
+      "lowPrice": 203.43,
+      "closePrice": 203.69
+    },
+    "1787157420000": {
+      "openPrice": 203.6,
+      "highPrice": 203.91,
+      "lowPrice": 203.53,
+      "closePrice": 203.91
+    },
+    "1787157480000": {
+      "openPrice": 203.9,
+      "highPrice": 204.33,
+      "lowPrice": 203.64,
+      "closePrice": 203.82
+    },
+    "1787157540000": {
+      "openPrice": 203.82,
+      "highPrice": 204.6,
+      "lowPrice": 203.82,
+      "closePrice": 204.6
+    },
+    "1787157600000": {
+      "openPrice": 204.48,
+      "highPrice": 204.53,
+      "lowPrice": 204.28,
+      "closePrice": 204.39
+    },
+    "1787157660000": {
+      "openPrice": 204.39,
+      "highPrice": 204.4,
+      "lowPrice": 204.16,
+      "closePrice": 204.37
+    },
+    "1787157720000": {
+      "openPrice": 204.37,
+      "highPrice": 204.48,
+      "lowPrice": 204.35,
+      "closePrice": 204.37
+    },
+    "1787157780000": {
+      "openPrice": 204.37,
+      "highPrice": 204.37,
+      "lowPrice": 204.27,
+      "closePrice": 204.27
+    },
+    "1787157840000": {
+      "openPrice": 204.17,
+      "highPrice": 204.34,
+      "lowPrice": 204.12,
+      "closePrice": 204.18
+    },
+    "1787157900000": {
+      "openPrice": 204.18,
+      "highPrice": 204.3,
+      "lowPrice": 203.89,
+      "closePrice": 203.89
+    },
+    "1787157960000": {
+      "openPrice": 203.86,
+      "highPrice": 204.28,
+      "lowPrice": 203.86,
+      "closePrice": 203.87
+    },
+    "1787158020000": {
+      "openPrice": 204.23,
+      "highPrice": 204.23,
+      "lowPrice": 203.8,
+      "closePrice": 203.83
+    },
+    "1787158080000": {
+      "openPrice": 203.87,
+      "highPrice": 203.89,
+      "lowPrice": 203.64,
+      "closePrice": 203.89
+    },
+    "1787158140000": {
+      "openPrice": 203.89,
+      "highPrice": 203.89,
+      "lowPrice": 203.6,
+      "closePrice": 203.6
+    },
+    "1787158200000": {
+      "openPrice": 203.57,
+      "highPrice": 203.63,
+      "lowPrice": 203.28,
+      "closePrice": 203.63
+    },
+    "1787158260000": {
+      "openPrice": 203.51,
+      "highPrice": 203.66,
+      "lowPrice": 203.45,
+      "closePrice": 203.59
+    },
+    "1787158320000": {
+      "openPrice": 203.53,
+      "highPrice": 203.86,
+      "lowPrice": 203.47,
+      "closePrice": 203.58
+    },
+    "1787158380000": {
+      "openPrice": 203.46,
+      "highPrice": 203.59,
+      "lowPrice": 203.22,
+      "closePrice": 203.22
+    },
+    "1787158440000": {
+      "openPrice": 203.22,
+      "highPrice": 203.68,
+      "lowPrice": 203.22,
+      "closePrice": 203.4
+    },
+    "1787158500000": {
+      "openPrice": 203.4,
+      "highPrice": 203.49,
+      "lowPrice": 203.2,
+      "closePrice": 203.22
+    },
+    "1787158560000": {
+      "openPrice": 203.22,
+      "highPrice": 203.51,
+      "lowPrice": 203.1,
+      "closePrice": 203.36
+    },
+    "1787158620000": {
+      "openPrice": 203.36,
+      "highPrice": 203.48,
+      "lowPrice": 203.27,
+      "closePrice": 203.27
+    },
+    "1787158680000": {
+      "openPrice": 203.27,
+      "highPrice": 203.58,
+      "lowPrice": 203.27,
+      "closePrice": 203.58
+    },
+    "1787158740000": {
+      "openPrice": 203.49,
+      "highPrice": 203.59,
+      "lowPrice": 203.48,
+      "closePrice": 203.52
+    },
+    "1787158800000": {
+      "openPrice": 203.45,
+      "highPrice": 203.51,
+      "lowPrice": 203.28,
+      "closePrice": 203.45
+    },
+    "1787158860000": {
+      "openPrice": 203.35,
+      "highPrice": 203.55,
+      "lowPrice": 203.22,
+      "closePrice": 203.44
+    },
+    "1787158920000": {
+      "openPrice": 203.44,
+      "highPrice": 203.56,
+      "lowPrice": 203.38,
+      "closePrice": 203.44
+    },
+    "1787158980000": {
+      "openPrice": 203.44,
+      "highPrice": 203.52,
+      "lowPrice": 203.21,
+      "closePrice": 203.42
+    },
+    "1787159040000": {
+      "openPrice": 203.38,
+      "highPrice": 203.56,
+      "lowPrice": 203.03,
+      "closePrice": 203.03
+    },
+    "1787159100000": {
+      "openPrice": 203.14,
+      "highPrice": 203.5,
+      "lowPrice": 203.14,
+      "closePrice": 203.27
+    },
+    "1787159160000": {
+      "openPrice": 203.49,
+      "highPrice": 203.51,
+      "lowPrice": 203.32,
+      "closePrice": 203.41
+    },
+    "1787159220000": {
+      "openPrice": 203.41,
+      "highPrice": 203.41,
+      "lowPrice": 203.07,
+      "closePrice": 203.07
+    },
+    "1787159280000": {
+      "openPrice": 203.07,
+      "highPrice": 203.18,
+      "lowPrice": 202.89,
+      "closePrice": 202.89
+    },
+    "1787159340000": {
+      "openPrice": 202.8,
+      "highPrice": 203.11,
+      "lowPrice": 202.69,
+      "closePrice": 202.86
+    },
+    "1787159400000": {
+      "openPrice": 202.83,
+      "highPrice": 203.19,
+      "lowPrice": 202.81,
+      "closePrice": 203.09
+    },
+    "1787159460000": {
+      "openPrice": 203.1,
+      "highPrice": 203.17,
+      "lowPrice": 202.89,
+      "closePrice": 202.99
+    },
+    "1787159520000": {
+      "openPrice": 202.93,
+      "highPrice": 203.16,
+      "lowPrice": 202.88,
+      "closePrice": 202.88
+    },
+    "1787159580000": {
+      "openPrice": 202.92,
+      "highPrice": 203.33,
+      "lowPrice": 202.92,
+      "closePrice": 203.14
+    },
+    "1787159640000": {
+      "openPrice": 202.97,
+      "highPrice": 203.22,
+      "lowPrice": 202.84,
+      "closePrice": 202.91
+    },
+    "1787159700000": {
+      "openPrice": 202.91,
+      "highPrice": 203.01,
+      "lowPrice": 202.81,
+      "closePrice": 203.0
+    },
+    "1787159760000": {
+      "openPrice": 203.0,
+      "highPrice": 203.19,
+      "lowPrice": 202.98,
+      "closePrice": 203.19
+    },
+    "1787159820000": {
+      "openPrice": 203.19,
+      "highPrice": 203.19,
+      "lowPrice": 203.02,
+      "closePrice": 203.13
+    },
+    "1787159880000": {
+      "openPrice": 203.13,
+      "highPrice": 203.13,
+      "lowPrice": 202.71,
+      "closePrice": 202.87
+    },
+    "1787159940000": {
+      "openPrice": 202.84,
+      "highPrice": 202.99,
+      "lowPrice": 202.75,
+      "closePrice": 202.8
+    },
+    "1787160000000": {
+      "openPrice": 202.8,
+      "highPrice": 202.8,
+      "lowPrice": 202.35,
+      "closePrice": 202.35
+    },
+    "1787160060000": {
+      "openPrice": 202.49,
+      "highPrice": 202.84,
+      "lowPrice": 202.23,
+      "closePrice": 202.38
+    },
+    "1787160120000": {
+      "openPrice": 202.4,
+      "highPrice": 202.41,
+      "lowPrice": 202.28,
+      "closePrice": 202.34
+    },
+    "1787160180000": {
+      "openPrice": 202.21,
+      "highPrice": 202.66,
+      "lowPrice": 202.21,
+      "closePrice": 202.5
+    },
+    "1787160240000": {
+      "openPrice": 202.51,
+      "highPrice": 202.58,
+      "lowPrice": 202.17,
+      "closePrice": 202.17
+    },
+    "1787160300000": {
+      "openPrice": 202.22,
+      "highPrice": 202.3,
+      "lowPrice": 202.09,
+      "closePrice": 202.13
+    },
+    "1787160360000": {
+      "openPrice": 202.04,
+      "highPrice": 202.39,
+      "lowPrice": 202.04,
+      "closePrice": 202.33
+    },
+    "1787160420000": {
+      "openPrice": 202.34,
+      "highPrice": 202.42,
+      "lowPrice": 202.15,
+      "closePrice": 202.24
+    },
+    "1787160480000": {
+      "openPrice": 202.34,
+      "highPrice": 202.5,
+      "lowPrice": 202.31,
+      "closePrice": 202.42
+    },
+    "1787160540000": {
+      "openPrice": 202.51,
+      "highPrice": 202.57,
+      "lowPrice": 202.3,
+      "closePrice": 202.41
+    },
+    "1787160600000": {
+      "openPrice": 202.41,
+      "highPrice": 202.66,
+      "lowPrice": 202.35,
+      "closePrice": 202.48
+    },
+    "1787160660000": {
+      "openPrice": 202.29,
+      "highPrice": 202.64,
+      "lowPrice": 202.29,
+      "closePrice": 202.61
+    },
+    "1787160720000": {
+      "openPrice": 202.61,
+      "highPrice": 202.61,
+      "lowPrice": 202.18,
+      "closePrice": 202.31
+    },
+    "1787160780000": {
+      "openPrice": 202.25,
+      "highPrice": 202.6,
+      "lowPrice": 202.19,
+      "closePrice": 202.55
+    },
+    "1787160840000": {
+      "openPrice": 202.55,
+      "highPrice": 202.56,
+      "lowPrice": 202.23,
+      "closePrice": 202.23
+    },
+    "1787160900000": {
+      "openPrice": 202.32,
+      "highPrice": 202.41,
+      "lowPrice": 202.09,
+      "closePrice": 202.41
+    },
+    "1787160960000": {
+      "openPrice": 202.42,
+      "highPrice": 202.42,
+      "lowPrice": 202.34,
+      "closePrice": 202.42
+    },
+    "1787161020000": {
+      "openPrice": 202.42,
+      "highPrice": 202.5,
+      "lowPrice": 201.79,
+      "closePrice": 201.88
+    },
+    "1787161080000": {
+      "openPrice": 201.7,
+      "highPrice": 201.84,
+      "lowPrice": 201.6,
+      "closePrice": 201.75
+    },
+    "1787161140000": {
+      "openPrice": 201.78,
+      "highPrice": 201.78,
+      "lowPrice": 201.55,
+      "closePrice": 201.71
+    },
+    "1787161200000": {
+      "openPrice": 201.71,
+      "highPrice": 201.9,
+      "lowPrice": 201.5,
+      "closePrice": 201.71
+    },
+    "1787161260000": {
+      "openPrice": 201.71,
+      "highPrice": 202.06,
+      "lowPrice": 201.71,
+      "closePrice": 202.06
+    },
+    "1787161320000": {
+      "openPrice": 202.06,
+      "highPrice": 202.34,
+      "lowPrice": 201.92,
+      "closePrice": 202.13
+    },
+    "1787161380000": {
+      "openPrice": 202.13,
+      "highPrice": 202.69,
+      "lowPrice": 202.13,
+      "closePrice": 202.69
+    },
+    "1787161440000": {
+      "openPrice": 202.9,
+      "highPrice": 202.96,
+      "lowPrice": 202.75,
+      "closePrice": 202.84
+    },
+    "1787161500000": {
+      "openPrice": 202.63,
+      "highPrice": 202.9,
+      "lowPrice": 202.44,
+      "closePrice": 202.69
+    },
+    "1787161560000": {
+      "openPrice": 202.69,
+      "highPrice": 202.75,
+      "lowPrice": 202.6,
+      "closePrice": 202.62
+    },
+    "1787161620000": {
+      "openPrice": 202.51,
+      "highPrice": 202.7,
+      "lowPrice": 202.46,
+      "closePrice": 202.48
+    },
+    "1787161680000": {
+      "openPrice": 202.6,
+      "highPrice": 202.6,
+      "lowPrice": 202.37,
+      "closePrice": 202.48
+    },
+    "1787161740000": {
+      "openPrice": 202.52,
+      "highPrice": 202.52,
+      "lowPrice": 202.26,
+      "closePrice": 202.47
+    },
+    "1787161800000": {
+      "openPrice": 202.33,
+      "highPrice": 202.35,
+      "lowPrice": 202.08,
+      "closePrice": 202.35
+    },
+    "1787161860000": {
+      "openPrice": 202.33,
+      "highPrice": 202.51,
+      "lowPrice": 202.25,
+      "closePrice": 202.51
+    },
+    "1787161920000": {
+      "openPrice": 202.48,
+      "highPrice": 202.5,
+      "lowPrice": 202.41,
+      "closePrice": 202.41
+    },
+    "1787161980000": {
+      "openPrice": 202.41,
+      "highPrice": 202.65,
+      "lowPrice": 202.3,
+      "closePrice": 202.53
+    },
+    "1787162040000": {
+      "openPrice": 202.76,
+      "highPrice": 202.81,
+      "lowPrice": 202.55,
+      "closePrice": 202.74
+    },
+    "1787162100000": {
+      "openPrice": 202.75,
+      "highPrice": 202.83,
+      "lowPrice": 202.55,
+      "closePrice": 202.72
+    },
+    "1787162160000": {
+      "openPrice": 202.67,
+      "highPrice": 202.76,
+      "lowPrice": 202.49,
+      "closePrice": 202.49
+    },
+    "1787162220000": {
+      "openPrice": 202.49,
+      "highPrice": 202.54,
+      "lowPrice": 202.35,
+      "closePrice": 202.46
+    },
+    "1787162280000": {
+      "openPrice": 202.42,
+      "highPrice": 202.6,
+      "lowPrice": 202.24,
+      "closePrice": 202.55
+    },
+    "1787162340000": {
+      "openPrice": 202.46,
+      "highPrice": 202.49,
+      "lowPrice": 202.19,
+      "closePrice": 202.36
+    },
+    "1787162400000": {
+      "openPrice": 202.39,
+      "highPrice": 202.5,
+      "lowPrice": 202.31,
+      "closePrice": 202.36
+    },
+    "1787162460000": {
+      "openPrice": 202.43,
+      "highPrice": 202.5,
+      "lowPrice": 202.2,
+      "closePrice": 202.35
+    },
+    "1787162520000": {
+      "openPrice": 202.49,
+      "highPrice": 203.12,
+      "lowPrice": 202.49,
+      "closePrice": 203.03
+    },
+    "1787162580000": {
+      "openPrice": 203.0,
+      "highPrice": 203.21,
+      "lowPrice": 202.96,
+      "closePrice": 203.08
+    },
+    "1787162640000": {
+      "openPrice": 203.08,
+      "highPrice": 203.08,
+      "lowPrice": 202.95,
+      "closePrice": 203.02
+    },
+    "1787162700000": {
+      "openPrice": 202.7,
+      "highPrice": 203.09,
+      "lowPrice": 202.7,
+      "closePrice": 203.01
+    },
+    "1787162760000": {
+      "openPrice": 202.98,
+      "highPrice": 203.0,
+      "lowPrice": 202.49,
+      "closePrice": 202.49
+    },
+    "1787162820000": {
+      "openPrice": 202.37,
+      "highPrice": 202.37,
+      "lowPrice": 202.07,
+      "closePrice": 202.1
+    },
+    "1787162880000": {
+      "openPrice": 202.13,
+      "highPrice": 202.14,
+      "lowPrice": 201.91,
+      "closePrice": 201.95
+    },
+    "1787162940000": {
+      "openPrice": 201.93,
+      "highPrice": 201.99,
+      "lowPrice": 201.83,
+      "closePrice": 201.94
+    },
+    "1787163000000": {
+      "openPrice": 201.88,
+      "highPrice": 201.89,
+      "lowPrice": 201.52,
+      "closePrice": 201.52
+    },
+    "1787163060000": {
+      "openPrice": 201.5,
+      "highPrice": 201.66,
+      "lowPrice": 201.34,
+      "closePrice": 201.58
+    },
+    "1787163120000": {
+      "openPrice": 201.69,
+      "highPrice": 201.84,
+      "lowPrice": 201.69,
+      "closePrice": 201.84
+    },
+    "1787163180000": {
+      "openPrice": 201.94,
+      "highPrice": 202.05,
+      "lowPrice": 201.64,
+      "closePrice": 201.64
+    },
+    "1787163240000": {
+      "openPrice": 201.64,
+      "highPrice": 202.13,
+      "lowPrice": 201.64,
+      "closePrice": 202.05
+    },
+    "1787163300000": {
+      "openPrice": 202.05,
+      "highPrice": 202.57,
+      "lowPrice": 202.02,
+      "closePrice": 202.54
+    },
+    "1787163360000": {
+      "openPrice": 201.94,
+      "highPrice": 202.43,
+      "lowPrice": 201.94,
+      "closePrice": 202.36
+    },
+    "1787163420000": {
+      "openPrice": 202.36,
+      "highPrice": 202.54,
+      "lowPrice": 202.31,
+      "closePrice": 202.49
+    },
+    "1787163480000": {
+      "openPrice": 202.3,
+      "highPrice": 202.78,
+      "lowPrice": 202.3,
+      "closePrice": 202.76
+    },
+    "1787163540000": {
+      "openPrice": 202.78,
+      "highPrice": 202.86,
+      "lowPrice": 202.71,
+      "closePrice": 202.8
+    },
+    "1787163600000": {
+      "openPrice": 202.85,
+      "highPrice": 202.87,
+      "lowPrice": 202.71,
+      "closePrice": 202.74
+    },
+    "1787163660000": {
+      "openPrice": 202.74,
+      "highPrice": 202.95,
+      "lowPrice": 202.74,
+      "closePrice": 202.85
+    },
+    "1787163720000": {
+      "openPrice": 202.82,
+      "highPrice": 202.82,
+      "lowPrice": 202.4,
+      "closePrice": 202.4
+    },
+    "1787163780000": {
+      "openPrice": 202.5,
+      "highPrice": 202.66,
+      "lowPrice": 202.37,
+      "closePrice": 202.4
+    },
+    "1787163840000": {
+      "openPrice": 202.34,
+      "highPrice": 202.82,
+      "lowPrice": 202.34,
+      "closePrice": 202.63
+    },
+    "1787163900000": {
+      "openPrice": 202.63,
+      "highPrice": 202.66,
+      "lowPrice": 202.48,
+      "closePrice": 202.5
+    },
+    "1787163960000": {
+      "openPrice": 202.51,
+      "highPrice": 202.61,
+      "lowPrice": 202.39,
+      "closePrice": 202.39
+    },
+    "1787164020000": {
+      "openPrice": 202.49,
+      "highPrice": 202.55,
+      "lowPrice": 202.33,
+      "closePrice": 202.49
+    },
+    "1787164080000": {
+      "openPrice": 202.49,
+      "highPrice": 202.58,
+      "lowPrice": 202.46,
+      "closePrice": 202.58
+    },
+    "1787164140000": {
+      "openPrice": 202.28,
+      "highPrice": 202.57,
+      "lowPrice": 202.28,
+      "closePrice": 202.46
+    },
+    "1787164200000": {
+      "openPrice": 202.55,
+      "highPrice": 202.87,
+      "lowPrice": 202.5,
+      "closePrice": 202.84
+    },
+    "1787164260000": {
+      "openPrice": 202.84,
+      "highPrice": 202.98,
+      "lowPrice": 202.56,
+      "closePrice": 202.62
+    },
+    "1787164320000": {
+      "openPrice": 202.64,
+      "highPrice": 202.81,
+      "lowPrice": 202.56,
+      "closePrice": 202.63
+    },
+    "1787164380000": {
+      "openPrice": 202.7,
+      "highPrice": 202.8,
+      "lowPrice": 202.59,
+      "closePrice": 202.6
+    },
+    "1787164440000": {
+      "openPrice": 202.6,
+      "highPrice": 202.97,
+      "lowPrice": 202.6,
+      "closePrice": 202.97
+    },
+    "1787164500000": {
+      "openPrice": 202.97,
+      "highPrice": 202.97,
+      "lowPrice": 202.73,
+      "closePrice": 202.84
+    },
+    "1787164560000": {
+      "openPrice": 202.71,
+      "highPrice": 202.75,
+      "lowPrice": 202.47,
+      "closePrice": 202.47
+    },
+    "1787164620000": {
+      "openPrice": 202.36,
+      "highPrice": 202.36,
+      "lowPrice": 201.64,
+      "closePrice": 201.64
+    },
+    "1787164680000": {
+      "openPrice": 201.64,
+      "highPrice": 201.74,
+      "lowPrice": 201.29,
+      "closePrice": 201.34
+    },
+    "1787164740000": {
+      "openPrice": 201.15,
+      "highPrice": 201.25,
+      "lowPrice": 201.09,
+      "closePrice": 201.18
+    },
+    "1787164800000": {
+      "openPrice": 201.19,
+      "highPrice": 202.05,
+      "lowPrice": 201.19,
+      "closePrice": 201.45
+    },
+    "1787164860000": {
+      "openPrice": 201.45,
+      "highPrice": 201.75,
+      "lowPrice": 201.4,
+      "closePrice": 201.75
+    },
+    "1787164920000": {
+      "openPrice": 201.56,
+      "highPrice": 201.63,
+      "lowPrice": 201.46,
+      "closePrice": 201.63
+    },
+    "1787164980000": {
+      "openPrice": 201.73,
+      "highPrice": 202.59,
+      "lowPrice": 201.7,
+      "closePrice": 202.59
+    },
+    "1787165040000": {
+      "openPrice": 202.56,
+      "highPrice": 202.56,
+      "lowPrice": 201.76,
+      "closePrice": 202.28
+    },
+    "1787165100000": {
+      "openPrice": 202.2,
+      "highPrice": 202.24,
+      "lowPrice": 201.74,
+      "closePrice": 202.09
+    },
+    "1787165160000": {
+      "openPrice": 202.08,
+      "highPrice": 202.25,
+      "lowPrice": 201.99,
+      "closePrice": 202.25
+    },
+    "1787165220000": {
+      "openPrice": 202.06,
+      "highPrice": 202.18,
+      "lowPrice": 201.67,
+      "closePrice": 201.87
+    },
+    "1787165280000": {
+      "openPrice": 202.05,
+      "highPrice": 202.26,
+      "lowPrice": 201.97,
+      "closePrice": 202.1
+    },
+    "1787165340000": {
+      "openPrice": 202.17,
+      "highPrice": 202.22,
+      "lowPrice": 202.0,
+      "closePrice": 202.0
+    },
+    "1787165400000": {
+      "openPrice": 201.93,
+      "highPrice": 202.1,
+      "lowPrice": 201.88,
+      "closePrice": 202.02
+    },
+    "1787165460000": {
+      "openPrice": 201.89,
+      "highPrice": 202.06,
+      "lowPrice": 201.88,
+      "closePrice": 202.05
+    },
+    "1787165520000": {
+      "openPrice": 202.07,
+      "highPrice": 202.13,
+      "lowPrice": 201.96,
+      "closePrice": 202.03
+    },
+    "1787165580000": {
+      "openPrice": 202.03,
+      "highPrice": 202.07,
+      "lowPrice": 201.93,
+      "closePrice": 202.01
+    },
+    "1787165640000": {
+      "openPrice": 202.02,
+      "highPrice": 202.14,
+      "lowPrice": 201.95,
+      "closePrice": 202.14
+    },
+    "1787165700000": {
+      "openPrice": 202.08,
+      "highPrice": 202.23,
+      "lowPrice": 202.02,
+      "closePrice": 202.23
+    },
+    "1787165760000": {
+      "openPrice": 202.09,
+      "highPrice": 202.3,
+      "lowPrice": 201.45,
+      "closePrice": 201.45
+    },
+    "1787165820000": {
+      "openPrice": 201.38,
+      "highPrice": 201.89,
+      "lowPrice": 200.86,
+      "closePrice": 200.9
+    },
+    "1787165880000": {
+      "openPrice": 200.83,
+      "highPrice": 201.61,
+      "lowPrice": 200.64,
+      "closePrice": 201.51
+    },
+    "1787165940000": {
+      "openPrice": 201.61,
+      "highPrice": 201.76,
+      "lowPrice": 201.51,
+      "closePrice": 201.76
+    },
+    "1787166000000": {
+      "openPrice": 201.68,
+      "highPrice": 202.23,
+      "lowPrice": 201.52,
+      "closePrice": 202.23
+    },
+    "1787166060000": {
+      "openPrice": 202.23,
+      "highPrice": 202.29,
+      "lowPrice": 202.19,
+      "closePrice": 202.19
+    },
+    "1787166120000": {
+      "openPrice": 202.17,
+      "highPrice": 202.35,
+      "lowPrice": 202.17,
+      "closePrice": 202.33
+    },
+    "1787166180000": {
+      "openPrice": 202.16,
+      "highPrice": 202.16,
+      "lowPrice": 202.03,
+      "closePrice": 202.07
+    },
+    "1787166240000": {
+      "openPrice": 202.06,
+      "highPrice": 202.11,
+      "lowPrice": 202.0,
+      "closePrice": 202.11
+    },
+    "1787166300000": {
+      "openPrice": 202.11,
+      "highPrice": 202.11,
+      "lowPrice": 201.71,
+      "closePrice": 202.11
+    },
+    "1787166360000": {
+      "openPrice": 202.09,
+      "highPrice": 202.3,
+      "lowPrice": 202.09,
+      "closePrice": 202.19
+    },
+    "1787166420000": {
+      "openPrice": 202.19,
+      "highPrice": 202.32,
+      "lowPrice": 202.19,
+      "closePrice": 202.26
+    },
+    "1787166480000": {
+      "openPrice": 202.27,
+      "highPrice": 202.27,
+      "lowPrice": 201.94,
+      "closePrice": 202.23
+    },
+    "1787166540000": {
+      "openPrice": 202.23,
+      "highPrice": 202.28,
+      "lowPrice": 202.1,
+      "closePrice": 202.16
+    },
+    "1787166600000": {
+      "openPrice": 202.2,
+      "highPrice": 202.2,
+      "lowPrice": 202.05,
+      "closePrice": 202.18
+    },
+    "1787166660000": {
+      "openPrice": 202.06,
+      "highPrice": 202.06,
+      "lowPrice": 201.74,
+      "closePrice": 201.74
+    },
+    "1787166720000": {
+      "openPrice": 201.91,
+      "highPrice": 202.14,
+      "lowPrice": 201.84,
+      "closePrice": 201.91
+    },
+    "1787166780000": {
+      "openPrice": 201.75,
+      "highPrice": 201.97,
+      "lowPrice": 201.68,
+      "closePrice": 201.82
+    },
+    "1787166840000": {
+      "openPrice": 201.82,
+      "highPrice": 201.82,
+      "lowPrice": 201.64,
+      "closePrice": 201.67
+    },
+    "1787166900000": {
+      "openPrice": 201.66,
+      "highPrice": 201.9,
+      "lowPrice": 201.66,
+      "closePrice": 201.86
+    },
+    "1787166960000": {
+      "openPrice": 201.93,
+      "highPrice": 201.97,
+      "lowPrice": 201.45,
+      "closePrice": 201.63
+    },
+    "1787167020000": {
+      "openPrice": 201.51,
+      "highPrice": 201.85,
+      "lowPrice": 201.51,
+      "closePrice": 201.74
+    },
+    "1787167080000": {
+      "openPrice": 201.74,
+      "highPrice": 202.28,
+      "lowPrice": 201.74,
+      "closePrice": 202.22
+    },
+    "1787167140000": {
+      "openPrice": 202.22,
+      "highPrice": 202.22,
+      "lowPrice": 202.08,
+      "closePrice": 202.13
+    },
+    "1787167200000": {
+      "openPrice": 202.11,
+      "highPrice": 202.87,
+      "lowPrice": 202.03,
+      "closePrice": 202.87
+    },
+    "1787167260000": {
+      "openPrice": 202.87,
+      "highPrice": 203.24,
+      "lowPrice": 202.68,
+      "closePrice": 202.68
+    },
+    "1787167320000": {
+      "openPrice": 202.61,
+      "highPrice": 202.76,
+      "lowPrice": 202.45,
+      "closePrice": 202.45
+    },
+    "1787167380000": {
+      "openPrice": 202.56,
+      "highPrice": 203.41,
+      "lowPrice": 202.47,
+      "closePrice": 203.37
+    },
+    "1787167440000": {
+      "openPrice": 203.5,
+      "highPrice": 203.94,
+      "lowPrice": 203.48,
+      "closePrice": 203.83
+    },
+    "1787167500000": {
+      "openPrice": 203.76,
+      "highPrice": 203.91,
+      "lowPrice": 203.72,
+      "closePrice": 203.91
+    },
+    "1787167560000": {
+      "openPrice": 203.84,
+      "highPrice": 204.28,
+      "lowPrice": 203.84,
+      "closePrice": 204.23
+    },
+    "1787167620000": {
+      "openPrice": 204.25,
+      "highPrice": 204.25,
+      "lowPrice": 203.94,
+      "closePrice": 203.94
+    },
+    "1787167680000": {
+      "openPrice": 203.87,
+      "highPrice": 204.23,
+      "lowPrice": 203.87,
+      "closePrice": 204.2
+    },
+    "1787167740000": {
+      "openPrice": 204.2,
+      "highPrice": 204.2,
+      "lowPrice": 203.51,
+      "closePrice": 203.52
+    },
+    "1787167800000": {
+      "openPrice": 203.52,
+      "highPrice": 204.27,
+      "lowPrice": 203.52,
+      "closePrice": 204.08
+    },
+    "1787167860000": {
+      "openPrice": 204.33,
+      "highPrice": 204.44,
+      "lowPrice": 204.05,
+      "closePrice": 204.1
+    },
+    "1787167920000": {
+      "openPrice": 204.1,
+      "highPrice": 204.4,
+      "lowPrice": 204.0,
+      "closePrice": 204.32
+    },
+    "1787167980000": {
+      "openPrice": 204.32,
+      "highPrice": 204.32,
+      "lowPrice": 204.14,
+      "closePrice": 204.26
+    },
+    "1787168040000": {
+      "openPrice": 204.21,
+      "highPrice": 204.28,
+      "lowPrice": 204.1,
+      "closePrice": 204.22
+    },
+    "1787168100000": {
+      "openPrice": 204.28,
+      "highPrice": 204.29,
+      "lowPrice": 204.0,
+      "closePrice": 204.1
+    },
+    "1787168160000": {
+      "openPrice": 203.89,
+      "highPrice": 204.15,
+      "lowPrice": 203.89,
+      "closePrice": 204.15
+    },
+    "1787168220000": {
+      "openPrice": 204.11,
+      "highPrice": 204.55,
+      "lowPrice": 204.05,
+      "closePrice": 204.55
+    },
+    "1787168280000": {
+      "openPrice": 204.55,
+      "highPrice": 204.86,
+      "lowPrice": 204.54,
+      "closePrice": 204.82
+    },
+    "1787168340000": {
+      "openPrice": 204.82,
+      "highPrice": 205.06,
+      "lowPrice": 204.68,
+      "closePrice": 204.91
+    },
+    "1787168400000": {
+      "openPrice": 204.81,
+      "highPrice": 205.07,
+      "lowPrice": 204.71,
+      "closePrice": 205.0
+    },
+    "1787168460000": {
+      "openPrice": 205.06,
+      "highPrice": 205.11,
+      "lowPrice": 204.76,
+      "closePrice": 204.9
+    },
+    "1787168520000": {
+      "openPrice": 204.9,
+      "highPrice": 205.08,
+      "lowPrice": 204.55,
+      "closePrice": 205.08
+    },
+    "1787168580000": {
+      "openPrice": 205.08,
+      "highPrice": 205.25,
+      "lowPrice": 204.95,
+      "closePrice": 204.95
+    },
+    "1787168640000": {
+      "openPrice": 204.93,
+      "highPrice": 205.09,
+      "lowPrice": 204.73,
+      "closePrice": 204.96
+    },
+    "1787168700000": {
+      "openPrice": 204.89,
+      "highPrice": 204.89,
+      "lowPrice": 204.44,
+      "closePrice": 204.8
+    },
+    "1787168760000": {
+      "openPrice": 204.79,
+      "highPrice": 205.03,
+      "lowPrice": 204.74,
+      "closePrice": 205.03
+    },
+    "1787168820000": {
+      "openPrice": 205.08,
+      "highPrice": 205.09,
+      "lowPrice": 204.81,
+      "closePrice": 204.81
+    },
+    "1787168880000": {
+      "openPrice": 204.9,
+      "highPrice": 204.91,
+      "lowPrice": 204.75,
+      "closePrice": 204.75
+    },
+    "1787168940000": {
+      "openPrice": 204.72,
+      "highPrice": 204.84,
+      "lowPrice": 204.61,
+      "closePrice": 204.69
+    },
+    "1787169000000": {
+      "openPrice": 204.69,
+      "highPrice": 205.08,
+      "lowPrice": 204.69,
+      "closePrice": 204.76
+    },
+    "1787169060000": {
+      "openPrice": 204.8,
+      "highPrice": 205.06,
+      "lowPrice": 204.79,
+      "closePrice": 204.84
+    },
+    "1787169120000": {
+      "openPrice": 204.77,
+      "highPrice": 205.0,
+      "lowPrice": 204.71,
+      "closePrice": 204.95
+    },
+    "1787169180000": {
+      "openPrice": 204.95,
+      "highPrice": 205.0,
+      "lowPrice": 204.83,
+      "closePrice": 204.97
+    },
+    "1787169240000": {
+      "openPrice": 205.05,
+      "highPrice": 205.23,
+      "lowPrice": 204.93,
+      "closePrice": 204.93
+    },
+    "1787169300000": {
+      "openPrice": 205.07,
+      "highPrice": 205.07,
+      "lowPrice": 204.8,
+      "closePrice": 204.93
+    },
+    "1787169360000": {
+      "openPrice": 204.95,
+      "highPrice": 205.46,
+      "lowPrice": 204.85,
+      "closePrice": 205.13
+    },
+    "1787169420000": {
+      "openPrice": 205.02,
+      "highPrice": 205.33,
+      "lowPrice": 205.01,
+      "closePrice": 205.25
+    },
+    "1787169480000": {
+      "openPrice": 205.27,
+      "highPrice": 206.25,
+      "lowPrice": 205.03,
+      "closePrice": 206.25
+    },
+    "1787169540000": {
+      "openPrice": 206.25,
+      "highPrice": 206.39,
+      "lowPrice": 205.95,
+      "closePrice": 206.39
+    }
+  }
+}
