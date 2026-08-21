@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-08-21T12:47:00-04:00",
+  "symbol": "HOOD",
+  "underlying_price": 108.08,
+  "gamma_flip": null,
+  "zero_gamma": null,
+  "call_wall": 110,
+  "put_wall": 85,
+  "hvl": 93,
+  "volatility_trigger": null,
+  "blind_spots": [],
+  "positive_gamma_zones": [],
+  "negative_gamma_zones": [],
+  "liquidity_vacuums": [],
+  "expected_move_upper": 106.64,
+  "expected_move_lower": 98.72,
+  "metadata": {
+    "source": "MenthorQ gateway API",
+    "data_timestamp": "2026-08-21T12:15:00-04:00",
+    "retrieved_at": "2026-08-21T16:48:38.628Z",
+    "field_mapping": {
+      "call_wall": "call_resistance",
+      "put_wall": "put_support",
+      "hvl": "hvl (not relabeled as gamma_flip)",
+      "expected_move_upper": "max_1d",
+      "expected_move_lower": "min_1d"
+    },
+    "call_resistance_0dte": 110,
+    "put_support_0dte": 91,
+    "matrix_totals": {
+      "net_gex": 86817974.91548227,
+      "abs_gex": 161952413.18490744,
+      "net_dex": 5004138145.341811,
+      "abs_dex": 6971539977.257819,
+      "net_oi": 353623,
+      "abs_oi": 1833173
+    }
+  }
+}
